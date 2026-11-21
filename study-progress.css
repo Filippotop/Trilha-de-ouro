@@ -1,0 +1,23 @@
+
+/* Study Progress 3.1: preserva a composição e o tema selecionado. */
+.brand-icon img{max-width:100%;height:auto;object-fit:contain}
+.hub-backup-pill{border:1px solid var(--hub-border,#F0D9E2);background:var(--hub-surface,#fff);color:var(--hub-accent,#B5456B);border-radius:999px;font:700 11px/1.2 'Plus Jakarta Sans',system-ui,sans-serif;padding:8px 11px;white-space:nowrap;cursor:pointer}
+.hub-backup-pill:hover{background:var(--hub-subtle,#F9EDF2)}
+.hub-topic-pick{display:grid;grid-template-columns:minmax(0,1fr) minmax(180px,240px);gap:12px;align-items:center;border:1px solid #e9bfd0;background:linear-gradient(110deg,#fff9fb,#f9edf2);border-radius:14px;padding:16px;margin:15px 0 18px}
+.hub-topic-pick label{font:700 14px 'Plus Jakarta Sans',system-ui,sans-serif;color:#4b2736}.hub-topic-pick p{font-size:11.5px;line-height:1.5;color:#715764;margin:6px 0 0}
+.hub-topic-pick select,.hub-evolution-choice select{width:100%;max-width:100%;border:1px solid #e8becf;border-radius:10px;background:#fff;color:#412432;font:650 12px 'Plus Jakarta Sans',system-ui,sans-serif;padding:11px 8px;min-width:0}
+.hub-evolution{margin-top:17px;padding:22px;min-width:0}.hub-evolution-top{display:flex;justify-content:space-between;gap:18px;align-items:center}.hub-evolution-top h2{margin:5px 0;font:700 clamp(20px,2.4vw,26px) 'Plus Jakarta Sans',sans-serif}.hub-evolution-top p{color:#6e525e;font-size:12px}.hub-evolution-choice{display:grid;gap:6px;min-width:min(250px,100%);color:#6e525e;font-size:11px;font-weight:700}
+.hub-evolution-summary{display:flex;gap:10px;flex-wrap:wrap;margin:16px 0}.hub-evo-mini{font:650 11px 'Plus Jakarta Sans',sans-serif;padding:8px 10px;border-radius:9px;background:#F9EDF2;border:1px solid #F0D9E2;color:#5b3d4d}.hub-evolution-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,265px),1fr));gap:11px;align-items:start}
+.hub-evo-card{border:1px solid #f0d9e2;border-radius:14px;padding:15px;background:#fff;min-width:0}.hub-evo-card[data-status=attention]{background:#fff9f0;border-color:#F5D5A3}.hub-evo-card[data-status=risk]{background:#fff4f6;border-color:#F5B5C1}
+.hub-evo-head{display:flex;justify-content:space-between;align-items:start;gap:8px}.hub-evo-card h3{font:700 13px/1.4 'Plus Jakarta Sans',sans-serif;color:#2A1A21;overflow-wrap:anywhere;margin:0}.hub-evo-label{font:700 10px 'Plus Jakarta Sans',sans-serif;color:#76495e;border-radius:999px;background:#F9EDF2;padding:5px 7px;white-space:nowrap}.hub-evo-stats{display:flex;gap:7px;flex-wrap:wrap;margin:11px 0;font:700 11px 'JetBrains Mono',monospace;color:#603e50}.hub-evo-stats span{background:#fff;border:1px solid #efdbe4;border-radius:7px;padding:5px 6px}
+.hub-evo-card p{font:500 12px/1.6 'Plus Jakarta Sans',sans-serif;color:#604c56;margin:7px 0;overflow-wrap:anywhere}.hub-evo-card .hub-evo-next{font-weight:700;color:#5b2b44}.hub-evo-card button{margin-top:10px;border:1px solid #e6b6cb;border-radius:9px;background:#fff;color:#a53868;padding:8px 9px;font-size:11px;font-weight:700;cursor:pointer;min-height:34px}
+.hub-saves-section .hub-action{width:100%;justify-content:center}.hub-saves-section input{max-width:100%;font-size:12px}.hub-backup-note{font-size:11px;color:#6E525E}
+[data-hub-palette=plum] .hub-topic-pick,[data-theme=dark] .hub-topic-pick{background:#30262f;border-color:#65515d}
+[data-hub-palette=plum] .hub-topic-pick label,[data-theme=dark] .hub-topic-pick label,[data-hub-palette=plum] .hub-evo-card h3,[data-theme=dark] .hub-evo-card h3{color:#fff0f6}
+[data-hub-palette=plum] .hub-topic-pick p,[data-theme=dark] .hub-topic-pick p{color:#d0bbc7}
+[data-hub-palette=plum] .hub-evo-card,[data-theme=dark] .hub-evo-card{background:#342932;border-color:#69525f}
+[data-hub-palette=plum] .hub-evo-card p,[data-theme=dark] .hub-evo-card p{color:#e5d0da}
+[data-hub-palette=plum] .hub-evolution-top p,[data-theme=dark] .hub-evolution-top p{color:#d0bbc7}
+[data-hub-palette=plum] .hub-evo-mini,[data-theme=dark] .hub-evo-mini{background:#3a303b;color:#f6dbea;border-color:#6d4f61}
+@media(max-width:650px){.hub-topic-pick{grid-template-columns:minmax(0,1fr)}.hub-evolution-top{align-items:stretch;flex-direction:column}.hub-evolution{padding:15px}.hub-evolution-choice{min-width:0;width:100%}.hub-backup-pill{padding:7px 9px;font-size:10px}}
+@media(max-width:390px){.hub-backup-pill{max-width:110px;white-space:normal;text-align:center}}

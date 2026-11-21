@@ -1,0 +1,1309 @@
+{
+  "schema": 1,
+  "version": "2.2.0",
+  "published": "2026-11-21",
+  "edition": "Trilha de Ouro | Bubble Kawaii Médico Refinado",
+  "notes": "Conteúdo didático original. Condutas, critérios e posologias clínicas devem ser conferidos nas fontes oficiais vigentes. Progresso individual permanece local no navegador.",
+  "syllabus": [
+    {
+      "id": "sc-A1",
+      "code": "A1",
+      "title": "Hipertensão arterial na infância e adolescência",
+      "status": "Sem registro local",
+      "evidence": "",
+      "scope": "Aferição adequada, classificação, avaliação e conduta.",
+      "group": "P2 • Saúde da Criança II"
+    },
+    {
+      "id": "sc-A2",
+      "code": "A2",
+      "title": "Reações alérgicas em pediatria",
+      "status": "Sem registro local",
+      "evidence": "",
+      "scope": "Urticária, anafilaxia e atendimento inicial.",
+      "group": "P2 • Saúde da Criança II"
+    },
+    {
+      "id": "sc-A3",
+      "code": "A3",
+      "title": "Febre reumática",
+      "status": "Sem registro local",
+      "evidence": "",
+      "scope": "Critérios de Jones, cardite, prevenção e profilaxia secundária.",
+      "group": "P2 • Saúde da Criança II"
+    },
+    {
+      "id": "sc-A4",
+      "code": "A4",
+      "title": "Meningite",
+      "status": "Sem registro local",
+      "evidence": "",
+      "scope": "Quadro clínico, gravidade, investigação, líquor e tratamento inicial.",
+      "group": "P2 • Saúde da Criança II"
+    },
+    {
+      "id": "sc-A5",
+      "code": "A5",
+      "title": "PALS 2025 e emergências pediátricas",
+      "status": "Sem registro local",
+      "evidence": "",
+      "scope": "Avaliação sistematizada, ventilação, suporte básico e emergência.",
+      "group": "P2 • Saúde da Criança II"
+    },
+    {
+      "id": "sc-A6",
+      "code": "A6",
+      "title": "Dispositivos respiratórios na emergência pediátrica",
+      "status": "Sem registro local",
+      "evidence": "",
+      "scope": "Oxigenoterapia, interfaces, bolsa-válvula-máscara e vias aéreas.",
+      "group": "P2 • Saúde da Criança II"
+    },
+    {
+      "id": "sc-A7",
+      "code": "A7",
+      "title": "Manejo de crises convulsivas em pediatria",
+      "status": "Sem registro local",
+      "evidence": "",
+      "scope": "Crise aguda, estado de mal e sequência de estabilização.",
+      "group": "P2 • Saúde da Criança II"
+    },
+    {
+      "id": "sc-A8",
+      "code": "A8",
+      "title": "Cetoacidose diabética",
+      "status": "Sem registro local",
+      "evidence": "",
+      "scope": "Diagnóstico, hidratação, eletrólitos, insulina e complicações.",
+      "group": "P2 • Saúde da Criança II"
+    },
+    {
+      "id": "sc-A9",
+      "code": "A9",
+      "title": "Abordagem do choque pediátrico",
+      "status": "Sem registro local",
+      "evidence": "",
+      "scope": "Hipoperfusão, classificação, estabilização e reavaliação.",
+      "group": "P2 • Saúde da Criança II"
+    },
+    {
+      "id": "sc-A10",
+      "code": "A10",
+      "title": "Parada cardiorrespiratória em pediatria",
+      "status": "Sem registro local",
+      "evidence": "",
+      "scope": "Reconhecimento, RCP, ritmos, desfibrilação e medicamentos.",
+      "group": "P2 • Saúde da Criança II"
+    },
+    {
+      "id": "sm-A1",
+      "code": "A1",
+      "title": "Trabalho de parto prematuro e bolsa rota",
+      "status": "Sem registro local",
+      "evidence": "",
+      "scope": "Diagnóstico, idade gestacional, conduta, infecção e prematuridade.",
+      "group": "P2 • Saúde da Mulher II"
+    },
+    {
+      "id": "sm-A2",
+      "code": "A2",
+      "title": "Síndromes hipertensivas gestacionais",
+      "status": "Sem registro local",
+      "evidence": "",
+      "scope": "Hipertensão na gestação, pré-eclâmpsia, eclâmpsia e HELLP.",
+      "group": "P2 • Saúde da Mulher II"
+    },
+    {
+      "id": "sm-A3",
+      "code": "A3",
+      "title": "Diabetes mellitus da gestante",
+      "status": "Sem registro local",
+      "evidence": "",
+      "scope": "Rastreamento, diagnóstico, metas e manejo da diabetes gestacional.",
+      "group": "P2 • Saúde da Mulher II"
+    },
+    {
+      "id": "sm-A4",
+      "code": "A4",
+      "title": "Sífilis na gestação",
+      "status": "Sem registro local",
+      "evidence": "",
+      "scope": "Sorologias, estágios, tratamento, parceiro e seguimento.",
+      "group": "P2 • Saúde da Mulher II"
+    },
+    {
+      "id": "sm-A5",
+      "code": "A5",
+      "title": "Gestação gemelar",
+      "status": "Sem registro local",
+      "evidence": "",
+      "scope": "Corionicidade, complicações e acompanhamento.",
+      "group": "P2 • Saúde da Mulher II"
+    },
+    {
+      "id": "sm-A6",
+      "code": "A6",
+      "title": "Infecções gestacionais",
+      "status": "Sem registro local",
+      "evidence": "",
+      "scope": "Citomegalovírus, toxoplasmose, rubéola e estreptococo do grupo B.",
+      "group": "P2 • Saúde da Mulher II"
+    },
+    {
+      "id": "oc-E1",
+      "code": "E1",
+      "title": "Choque hemodinâmico pediátrico",
+      "status": "Sem registro local",
+      "evidence": "",
+      "scope": "Reconhecimento, abordagem inicial e reavaliação.",
+      "group": "OSCE • Saúde da Criança II"
+    },
+    {
+      "id": "oc-E2",
+      "code": "E2",
+      "title": "Episódio convulsivo pediátrico",
+      "status": "Sem registro local",
+      "evidence": "",
+      "scope": "Estabilização, crise e medidas prioritárias.",
+      "group": "OSCE • Saúde da Criança II"
+    },
+    {
+      "id": "oc-E3",
+      "code": "E3",
+      "title": "Icterícia neonatal",
+      "status": "Sem registro local",
+      "evidence": "",
+      "scope": "Avaliação neonatal e indicação de conduta.",
+      "group": "OSCE • Saúde da Criança II"
+    },
+    {
+      "id": "oc-E4",
+      "code": "E4",
+      "title": "Suporte básico de vida em pediatria",
+      "status": "Sem registro local",
+      "evidence": "",
+      "scope": "RCP, sequência de atendimento e comunicação.",
+      "group": "OSCE • Saúde da Criança II"
+    },
+    {
+      "id": "oc-E5",
+      "code": "E5",
+      "title": "Cetoacidose diabética pediátrica",
+      "status": "Sem registro local",
+      "evidence": "",
+      "scope": "Reconhecimento e manejo inicial seguro.",
+      "group": "OSCE • Saúde da Criança II"
+    },
+    {
+      "id": "om-E1",
+      "code": "E1",
+      "title": "Pré-natal",
+      "status": "Sem registro local",
+      "evidence": "",
+      "scope": "Anamnese, exames, rastreio e orientações.",
+      "group": "OSCE • Saúde da Mulher II"
+    },
+    {
+      "id": "om-E2",
+      "code": "E2",
+      "title": "Pré-eclâmpsia",
+      "status": "Sem registro local",
+      "evidence": "",
+      "scope": "Reconhecimento, gravidade e conduta inicial.",
+      "group": "OSCE • Saúde da Mulher II"
+    },
+    {
+      "id": "om-E3",
+      "code": "E3",
+      "title": "Diabetes mellitus gestacional",
+      "status": "Sem registro local",
+      "evidence": "",
+      "scope": "Rastreio, interpretação e tratamento inicial.",
+      "group": "OSCE • Saúde da Mulher II"
+    },
+    {
+      "id": "om-E4",
+      "code": "E4",
+      "title": "Prematuridade",
+      "status": "Sem registro local",
+      "evidence": "",
+      "scope": "TPP, bolsa rota e abordagem contextualizada.",
+      "group": "OSCE • Saúde da Mulher II"
+    },
+    {
+      "id": "om-E5",
+      "code": "E5",
+      "title": "Sífilis e toxoplasmose na gestação",
+      "status": "Sem registro local",
+      "evidence": "",
+      "scope": "Diagnóstico, sorologias e condutas.",
+      "group": "OSCE • Saúde da Mulher II"
+    }
+  ],
+  "modules": [
+    {
+      "id": "sc-A1",
+      "problem": "Hipertensão arterial na criança: quando a pressão aferida muda a avaliação?",
+      "concept": "A pressão arterial pediátrica precisa de medida válida: tamanho adequado do manguito, técnica, repouso e posição. Crianças pequenas usam interpretação dependente de idade, sexo e estatura; em adolescentes, há pontos de corte específicos definidos em diretrizes. Uma leitura isolada, sobretudo automática e em situação de ansiedade, não basta para confirmar hipertensão. Sempre confirmar o método e contextualizar os percentis.",
+      "pathway": [
+        "Medida inadequada ou reatividade pode simular hipertensão: primeiro se valida a aferição.",
+        "Persistência da elevação em medidas corretas aumenta probabilidade de hipertensão verdadeira.",
+        "Busca de causa distingue doença renal/renovascular, endocrinopatia, doença cardiovascular e hipertensão primária.",
+        "A pesquisa de lesão de órgão-alvo e sintomas define urgência e seguimento."
+      ],
+      "investigation": "Organize idade e estatura, aferições repetidas, comparação com tabelas pediátricas e sinais de alarme. Investigue história familiar, doença renal, medicações e sinais de causas secundárias. Avaliação laboratorial, renal e cardíaca depende do contexto, persistência e gravidade.",
+      "approach": "Na questão, valide técnica e classificação antes de escolher conduta. Grave elevação com sintomas neurológicos, cardíacos ou renais não deve ser tratada como achado ambulatorial banal. Em paciente estável, a confirmação e o seguimento planejado evitam rotular hipertensão por medida única.",
+      "table": [
+        {
+          "comparison": "Manguito inadequado × manguito válido",
+          "distinction": "Manguito pequeno pode superestimar PA",
+          "decision": "Repetir com tamanho correto antes de classificar."
+        },
+        {
+          "comparison": "PA isolada × PA persistentemente elevada",
+          "distinction": "Uma medida não confirma diagnóstico crônico",
+          "decision": "Organizar confirmação e seguimento."
+        },
+        {
+          "comparison": "Crise sintomática × assintomática",
+          "distinction": "Sinais de disfunção aguda de órgão-alvo são decisivos",
+          "decision": "Priorizar avaliação urgente quando presentes."
+        }
+      ],
+      "pitfalls": [
+        "Não usar automaticamente os pontos de corte de adultos para todas as crianças.",
+        "Não reduzir hipertensão secundária a “paciente obeso”.",
+        "Não equiparar PA alta isolada à emergência hipertensiva."
+      ],
+      "recall": "MEMORIZAR: MEDIR CORRETAMENTE → CLASSIFICAR PELA IDADE → IDENTIFICAR GRAVIDADE → INVESTIGAR CAUSA → REAVALIAR.",
+      "flags": "",
+      "source": "Apostila de Ouro SDCII Aulas 1–3 (edição consolidada em biblioteca); programa oficial P2; síntese autoral sem transcrição de slides.",
+      "title": "Hipertensão arterial na infância e adolescência",
+      "group": "P2 • Saúde da Criança II",
+      "code": "A1",
+      "status": "Sem registro local",
+      "evidence": ""
+    },
+    {
+      "id": "sc-A2",
+      "problem": "Reação alérgica: urticária isolada ou anafilaxia sistêmica?",
+      "concept": "Urticária é uma resposta cutânea com pápulas pruriginosas transitórias e pode acompanhar angioedema. Anafilaxia é uma reação sistêmica potencialmente fatal em que envolvimento respiratório, circulatório ou de múltiplos sistemas altera a conduta. A ausência de manifestações cutâneas não exclui anafilaxia.",
+      "pathway": [
+        "Exposição a um gatilho ativa mediadores inflamatórios e alterações vasculares.",
+        "Vasodilatação e aumento de permeabilidade causam rubor, edema e, em casos graves, hipotensão.",
+        "Broncoconstrição e edema de via aérea podem comprometer ventilação; sintomas gastrointestinais podem integrar o quadro.",
+        "Tratamento tardio da anafilaxia aumenta risco; anti-histamínico não substitui adrenalina."
+      ],
+      "investigation": "Identifique início, exposição, sistemas acometidos, progressão e sinais respiratórios/circulatórios. Examine via aérea, ventilação, perfusão e estado mental. Diferencie urticária simples de quadro multissistêmico ou instabilidade.",
+      "approach": "Em anafilaxia, a adrenalina intramuscular é tratamento de primeira linha, associada à abordagem ABCDE e acionamento de suporte. A via e a dose devem ser conferidas pelo protocolo pediátrico aplicável. Anti-histamínicos podem aliviar prurido, mas não corrigem choque nem obstrução de via aérea.",
+      "table": [
+        {
+          "comparison": "Urticária isolada",
+          "distinction": "Pele acometida sem disfunção sistêmica",
+          "decision": "Monitorar e tratar segundo gravidade."
+        },
+        {
+          "comparison": "Anafilaxia",
+          "distinction": "Ameaça respiratória/circulatória ou padrão sistêmico compatível",
+          "decision": "Adrenalina IM imediata e suporte."
+        },
+        {
+          "comparison": "Angioedema de via aérea",
+          "distinction": "Edema em local crítico mesmo sem hipotensão",
+          "decision": "Avaliar rapidamente patência e suporte avançado."
+        }
+      ],
+      "pitfalls": [
+        "Não esperar hipotensão para reconhecer toda anafilaxia.",
+        "Não tratar adrenalina como “último recurso” após anti-histamínicos.",
+        "Não tomar ausência de rash como exclusão de reação grave."
+      ],
+      "recall": "MEMORIZAR: SISTEMA RESPIRATÓRIO OU PERFUSÃO AMEAÇADOS + GATILHO COMPATÍVEL = PENSAR EM ANAFILAXIA.",
+      "flags": "",
+      "source": "Apostila de Ouro SDCII Aulas 1–3; material de P2; síntese original para revisão.",
+      "title": "Reações alérgicas em pediatria",
+      "group": "P2 • Saúde da Criança II",
+      "code": "A2",
+      "status": "Sem registro local",
+      "evidence": ""
+    },
+    {
+      "id": "sc-A3",
+      "problem": "Febre reumática: por que uma faringite pode gerar cardite e artrite?",
+      "concept": "Febre reumática aguda é complicação imunomediada não supurativa após faringite pelo estreptococo beta-hemolítico do grupo A em pessoa suscetível. O mimetismo molecular participa da inflamação em coração, articulações e sistema nervoso. Os critérios de Jones são estrutura diagnóstica, mas precisam ser interpretados com evidência de infecção estreptocócica antecedente e classificação epidemiológica aplicável.",
+      "pathway": [
+        "Infecção faríngea estreptocócica antecede resposta imune em indivíduo suscetível.",
+        "Reatividade cruzada pode produzir cardite valvar, artrite e manifestações neurológicas tardias.",
+        "Infecções recorrentes podem agravar lesão valvar crônica.",
+        "Profilaxia secundária procura reduzir a recorrência e o dano acumulado."
+      ],
+      "investigation": "Na suspeita, procure critérios maiores/menores, sinais de cardite clínica ou subclínica, evidência de estreptococo recente e diagnósticos diferenciais. Coreia pode surgir mais tardiamente e merecer interpretação específica. Ecocardiografia ajuda a identificar comprometimento cardíaco quando indicada.",
+      "approach": "A decisão depende da avaliação de Jones ajustada ao contexto, da exclusão de outras causas e da avaliação do coração. Tratar evento agudo e planejar prevenção de recorrências conforme recomendações médicas e risco valvar. Não confundir erradicação do estreptococo com resolução imediata da inflamação autoimune.",
+      "table": [
+        {
+          "comparison": "Febre reumática × artrite séptica",
+          "distinction": "Mecanismo imunológico tardio × infecção invasiva da articulação",
+          "decision": "Não trocar a investigação de quadro séptico por critérios imunológicos."
+        },
+        {
+          "comparison": "Cardite × sopro inocente",
+          "distinction": "Pode haver regurgitação patológica e alterações ao ecocardiograma",
+          "decision": "Buscar confirmação adequada em suspeita."
+        },
+        {
+          "comparison": "Profilaxia primária × secundária",
+          "distinction": "Primeira trata faringite; segunda previne recidiva após FRA",
+          "decision": "Não confundir finalidade e duração."
+        }
+      ],
+      "pitfalls": [
+        "Critérios de Jones não são uma simples contagem independente do cenário clínico.",
+        "Coreia pode ocorrer quando não há todos os achados da apresentação aguda clássica.",
+        "Não equiparar febre reumática a infecção ativa de articulação/coração."
+      ],
+      "recall": "MEMORIZAR: FARINGITE ESTREPTOCÓCICA → RESPOSTA IMUNE CRUZADA → INFLAMAÇÃO → RISCO VALVAR → PREVENÇÃO DE RECIDIVA.",
+      "flags": "",
+      "source": "Apostila de Ouro SDCII Aulas 1–6, Aula 3, edição auditada da usuária; síntese original.",
+      "title": "Febre reumática",
+      "group": "P2 • Saúde da Criança II",
+      "code": "A3",
+      "status": "Sem registro local",
+      "evidence": ""
+    },
+    {
+      "id": "sc-A4",
+      "problem": "Meningite: quando a hipótese exige ação antes de resultado do líquor?",
+      "concept": "Meningite é inflamação das meninges e pode decorrer de agentes bacterianos, virais e outras etiologias. Na suspeita de doença bacteriana grave, a prioridade é estabilização e tratamento oportuno. Quadro de febre, cefaleia, rigidez nucal e alteração do estado mental pode estar incompleto, sobretudo em lactentes.",
+      "pathway": [
+        "Agente invade circulação ou estruturas próximas e alcança o sistema nervoso central.",
+        "Inflamação meníngea aumenta permeabilidade vascular e pode alterar pressão intracraniana.",
+        "Comprometimento cerebral e sistêmico pode evoluir com convulsões, choque ou alteração de consciência.",
+        "Atraso no tratamento de casos bacterianos graves piora prognóstico."
+      ],
+      "investigation": "Usar idade, sinais neurológicos, avaliação hemodinâmica e possíveis focos. Hemoculturas e líquor são valiosos quando obtenção é segura e não atrasa medidas urgentes. Há situações em que punção lombar deve ser adiada por instabilidade, sinais de hipertensão intracraniana ou outras contraindicações; não confundir “pedir líquor” com “punção imediata em qualquer paciente”.",
+      "approach": "Avaliar ABCDE, isolamento apropriado conforme suspeita, antibiótico empírico quando indicado e monitorização. A escolha de antimicrobiano e adjuvantes depende de faixa etária, epidemiologia e protocolo local, não de um esquema único para toda pediatria.",
+      "table": [
+        {
+          "comparison": "Meningite × meningococcemia",
+          "distinction": "Pode haver acometimento meníngeo ou sepse invasiva sem quadro meníngeo clássico",
+          "decision": "Não esperar rigidez de nuca para reconhecer choque e petéquias."
+        },
+        {
+          "comparison": "Líquor bacteriano × viral",
+          "distinction": "Padrões de células, glicose e proteínas diferem, com exceções",
+          "decision": "Interpretar conjunto e contexto, não marcador isolado."
+        },
+        {
+          "comparison": "Punção segura × instável",
+          "distinction": "Instabilidade ou contraindicação muda sequência",
+          "decision": "Estabilizar e tratar sem atrasar por exame."
+        }
+      ],
+      "pitfalls": [
+        "Não assumir que toda criança com meningite terá rigidez de nuca.",
+        "Não atrasar conduta em paciente grave aguardando TC ou líquor sem indicação.",
+        "Não usar composição de líquor isoladamente para descartar quadro clínico muito suspeito."
+      ],
+      "recall": "MEMORIZAR: SUSPEITA CLÍNICA + GRAVIDADE → ESTABILIZAR → TRATAR QUANDO INDICADO → INVESTIGAR COM SEGURANÇA.",
+      "flags": "",
+      "source": "Apostila de Ouro SDCII Aulas 3–6, Aula 4; programa P2. Condutas específicas dependem da versão de diretriz adotada.",
+      "title": "Meningite",
+      "group": "P2 • Saúde da Criança II",
+      "code": "A4",
+      "status": "Sem registro local",
+      "evidence": ""
+    },
+    {
+      "id": "sc-A5",
+      "problem": "PALS: como detectar deterioração antes da parada cardiorrespiratória?",
+      "concept": "PALS organiza o reconhecimento e manejo de emergências pediátricas. O Triângulo de Avaliação Pediátrica (aparência, trabalho respiratório e circulação à pele) identifica gravidade em segundos, mas não substitui avaliação ABCDE. Em crianças, falência respiratória e choque podem anteceder PCR, tornando reconhecimento precoce e reavaliação essenciais.",
+      "pathway": [
+        "Aparência alterada pode indicar disfunção de perfusão cerebral ou oxigenação, mas não define causa isoladamente.",
+        "Trabalho respiratório aumentado pode preceder fadiga: redução dos movimentos e silêncio ventilatório em criança exausta não são melhora.",
+        "Pressão arterial pode permanecer normal durante choque compensado por vasoconstrição e taquicardia.",
+        "Hipoventilação gera retenção de CO₂; saturação isolada não garante ventilação adequada."
+      ],
+      "investigation": "A primeira impressão é TAP; depois ABCDE e SAMPLE direcionada. Cheque oxigenação, ventilação, perfusão, frequência, pulsos, enchimento capilar, consciência e glicemia quando pertinente. Integre sinais sem tratar um achado normal como exclusão universal de gravidade.",
+      "approach": "Intervir sobre ameaça imediata de via aérea, ventilação ou circulação; solicitar recursos e monitorização; reavaliar a resposta. Em ritmos ou intervenções avançadas, seguir algoritmo oficial de PALS e equipe treinada. Evitar confundir PALS completo com apenas a etapa de avaliação inicial.",
+      "table": [
+        {
+          "comparison": "TAP × ABCDE",
+          "distinction": "TAP triagem rápida; ABCDE avaliação estruturada",
+          "decision": "Não declarar que um substitui o outro."
+        },
+        {
+          "comparison": "Oxigenação × ventilação",
+          "distinction": "SpO₂ sinaliza oxigenação; CO₂ indica ventilação",
+          "decision": "Uma SpO₂ normal não exclui hipoventilação."
+        },
+        {
+          "comparison": "Choque compensado × hipotensivo",
+          "distinction": "Pressão pode manter-se no início; queda é tardia",
+          "decision": "Valorizar perfusão e consciência, não PA isolada."
+        }
+      ],
+      "pitfalls": [
+        "Via aérea patente não significa que ventilação e trocas gasosas estejam adequadas.",
+        "Estridor geralmente aponta obstrução de via aérea alta; sibilância sugere doença de vias inferiores.",
+        "Gasping não equivale a respiração efetiva."
+      ],
+      "recall": "MEMORIZAR: TAP → ABCDE → IDENTIFICAR AMEAÇA → INTERVIR → REAVALIAR. PRESSÃO NORMAL NÃO EXCLUI CHOQUE.",
+      "flags": "",
+      "source": "Apostila de Ouro SDCII Aulas 3–6, Aula 5, com separação entre material da professora e PALS AHA 2025; síntese original.",
+      "title": "PALS 2025 e emergências pediátricas",
+      "group": "P2 • Saúde da Criança II",
+      "code": "A5",
+      "status": "Sem registro local",
+      "evidence": ""
+    },
+    {
+      "id": "sc-A6",
+      "problem": "Dispositivos respiratórios: qual problema cada interface de suporte resolve?",
+      "concept": "Na emergência respiratória, diferencie necessidade de oxigênio suplementar, assistência ventilatória e proteção/controle de via aérea. Cânula nasal, máscaras, dispositivos de alto fluxo, bolsa-válvula-máscara, ventilação não invasiva e via aérea avançada não são equivalentes: cada um atua em aspecto distinto da oxigenação ou ventilação.",
+      "pathway": [
+        "Hipoxemia exige melhorar oferta/transferência de O₂, mas causa subjacente deve ser reconhecida.",
+        "Hipoventilação é falha de ventilação alveolar e pode requerer pressão positiva, independentemente da saturação.",
+        "Obstrução de via aérea e perda de proteção reflexa alteram indicação de manejo avançado.",
+        "Dispositivo inadequado pode atrasar correção de causa e aumentar trabalho respiratório."
+      ],
+      "investigation": "Avalie consciência, patência, esforço respiratório, sinais de fadiga, SpO₂, sinais de retenção de CO₂ e resposta às medidas. Lembre que cada interface exige vedação, posicionamento e monitorização específicos.",
+      "approach": "Primeiro resolva problema fisiológico: necessidade de O₂, suporte ventilatório, proteção da via aérea ou reversão de obstrução. Ajustes, fluxos e indicações por idade e peso devem seguir o material do serviço e checagem da equipe.",
+      "table": [
+        {
+          "comparison": "Cânula/máscara simples",
+          "distinction": "Fornecem O₂, mas não garantem ventilação",
+          "decision": "Não escolher como único recurso em apneia."
+        },
+        {
+          "comparison": "Bolsa-válvula-máscara",
+          "distinction": "Permite ventilação assistida com técnica e vedação",
+          "decision": "Priorizar quando ventilação espontânea é inadequada."
+        },
+        {
+          "comparison": "Via aérea avançada",
+          "distinction": "Controle/segurança em cenários selecionados",
+          "decision": "Não confundir indicação com SpO₂ baixa isolada."
+        }
+      ],
+      "pitfalls": [
+        "Não usar SpO₂ como única variável em criança exausta.",
+        "Não presumir que máscara com reservatório ventila sozinha.",
+        "Não equiparar oxigenação a eliminação de CO₂."
+      ],
+      "recall": "MEMORIZAR: O₂ PARA OXIGENAÇÃO; PRESSÃO POSITIVA PARA FALHA VENTILATÓRIA; VIA AÉREA AVANÇADA QUANDO INDICADA.",
+      "flags": "",
+      "source": "Apostila de Ouro SDCII Aulas 3–6, Aula 6; revisão conceitual, sem dados operacionais de dispositivos dependentes de fabricante.",
+      "title": "Dispositivos respiratórios na emergência pediátrica",
+      "group": "P2 • Saúde da Criança II",
+      "code": "A6",
+      "status": "Sem registro local",
+      "evidence": ""
+    },
+    {
+      "id": "sc-A7",
+      "problem": "Crise convulsiva: o que separa uma crise autolimitada de uma emergência?",
+      "concept": "Uma crise convulsiva exige abordagem de segurança e estabilização. Crise prolongada, crises repetidas sem retorno ao basal e comprometimento respiratório/circulatório elevam gravidade. O conceito operacional de estado de mal convulsivo torna o tempo de atividade clínica relevante para decidir tratamento, mas dose e sequência específicas são protocoladas.",
+      "pathway": [
+        "Descarga neuronal anormal provoca manifestações motoras, sensoriais e/ou comportamentais.",
+        "Atividade prolongada eleva demanda metabólica e pode comprometer ventilação.",
+        "Febre, distúrbios metabólicos, infecção e epilepsia são contextos distintos a investigar.",
+        "Após a crise, alteração de consciência pode refletir período pós-ictal, medicamentos ou lesão persistente."
+      ],
+      "investigation": "Examine via aérea, ventilação, glicemia e sinais de trauma ou infecção; registre início e duração. História de episódios prévios, focalidade e retorno à linha de base orientam investigação e decisão de exames.",
+      "approach": "Proteja o paciente contra lesão, não restrinja movimentos de forma lesiva nem introduza objetos na boca. Se a crise persistir segundo limiar operacional, aplicar protocolo emergencial com equipe e monitorização. Reavaliar continuamente.",
+      "table": [
+        {
+          "comparison": "Crise febril simples × complexa",
+          "distinction": "Características de duração, focalidade e recorrência diferem",
+          "decision": "Não classificar pelo fato isolado de ter febre."
+        },
+        {
+          "comparison": "Pós-ictal × alteração progressiva",
+          "distinction": "Recuperação esperada × deterioração persistente",
+          "decision": "Reavaliar, não atribuir tudo à crise."
+        },
+        {
+          "comparison": "Convulsão × síncope com movimentos",
+          "distinction": "História e recuperação ajudam a distinguir",
+          "decision": "Evitar rótulo automático de epilepsia."
+        }
+      ],
+      "pitfalls": [
+        "Não confundir tranquilização familiar com retardar suporte em crise prolongada.",
+        "Não usar anticonvulsivante sem monitorar via aérea e ventilação.",
+        "Não assumir que toda convulsão febril decorre de doença benigna."
+      ],
+      "recall": "MEMORIZAR: SEGURANÇA → ABCDE → GLICEMIA → TEMPO/FOCALIDADE → TRATAMENTO PROTOCOLADO → REAVALIAÇÃO.",
+      "flags": "",
+      "source": "Programa P2/OSCE 2026; revisão conceitual original. Confirmar critérios e condutas nos slides e nas referências adotadas.",
+      "title": "Manejo de crises convulsivas em pediatria",
+      "group": "P2 • Saúde da Criança II",
+      "code": "A7",
+      "status": "Sem registro local",
+      "evidence": ""
+    },
+    {
+      "id": "sc-A8",
+      "problem": "Cetoacidose diabética pediátrica: qual mecanismo conecta hiperglicemia, cetose e acidose?",
+      "concept": "Na cetoacidose diabética (CAD), deficiência efetiva de insulina associada a excesso de hormônios contrarreguladores produz hiperglicemia, lipólise e cetogênese. O resultado combina desidratação por diurese osmótica, acidose metabólica e distúrbios eletrolíticos. Glicemia isolada não define CAD: a presença de cetose e acidose é central.",
+      "pathway": [
+        "Deficiência de insulina reduz uso de glicose e favorece produção hepática de glicose.",
+        "Lipólise e produção de corpos cetônicos causam acidose metabólica com compensação respiratória.",
+        "Glicosúria causa diurese osmótica e perdas hídricas/eletrolíticas.",
+        "Potássio sérico pode estar normal ou alto apesar de déficit corporal total; tratamento modifica rapidamente a distribuição."
+      ],
+      "investigation": "Interpretar glicemia, corpos cetônicos, gasometria/bicarbonato, eletrólitos, função renal e estado de hidratação/perfusão. Procurar fator precipitante e sinais neurológicos. Respiração de Kussmaul é resposta compensatória à acidose, não prova de doença pulmonar primária.",
+      "approach": "O manejo envolve fluidoterapia monitorada, reposição de eletrólitos conforme níveis e diurese, insulina sob protocolo pediátrico e vigilância neurológica. Evitar condutas precipitadas ou extrapolar doses adultas; confirmar recomendações atuais e critérios do serviço.",
+      "table": [
+        {
+          "comparison": "Hiperglicemia simples × CAD",
+          "distinction": "CAD exige cetose e acidose metabólica",
+          "decision": "Não afirmar CAD por glicemia elevada isolada."
+        },
+        {
+          "comparison": "Potássio sérico × reserva corporal",
+          "distinction": "Valor circulante pode mascarar depleção total",
+          "decision": "Monitorar seriado durante tratamento."
+        },
+        {
+          "comparison": "Respiração de Kussmaul × crise asmática",
+          "distinction": "Hiperventilação compensatória por acidose",
+          "decision": "Interpretar gasometria e contexto."
+        }
+      ],
+      "pitfalls": [
+        "Não iniciar manejo sem avaliar potássio e risco de alterações durante tratamento.",
+        "Não normalizar quadro neurológico progressivo como “apenas cansaço”.",
+        "Não confundir glicemia normal durante tratamento com resolução de cetose/acidose."
+      ],
+      "recall": "MEMORIZAR: POUCA INSULINA → HIPERGLICEMIA + CETONAS → ACIDOSE + DIURESE OSMÓTICA → DÉFICIT HIDROELETROLÍTICO.",
+      "flags": "",
+      "source": "Programa P2/OSCE 2026; revisão conceitual original. Confirmar critérios e condutas nos slides e nas referências adotadas.",
+      "title": "Cetoacidose diabética",
+      "group": "P2 • Saúde da Criança II",
+      "code": "A8",
+      "status": "Sem registro local",
+      "evidence": ""
+    },
+    {
+      "id": "sc-A9",
+      "problem": "Choque pediátrico: como reconhecer hipoperfusão antes da hipotensão?",
+      "concept": "Choque é inadequação entre entrega e demanda tecidual de oxigênio, com sinais clínicos de hipoperfusão. A pressão pode ser preservada no choque compensado; choque descompensado costuma apresentar hipotensão tardia em pediatria. A classificação etiológica (hipovolêmico, distributivo, cardiogênico e obstrutivo) muda a resposta terapêutica.",
+      "pathway": [
+        "Redução de volume, bomba inadequada, alteração distributiva ou obstrução diminuem perfusão efetiva.",
+        "Respostas simpáticas compensam com taquicardia, vasoconstrição e redistribuição de fluxo.",
+        "A progressão causa alteração de consciência, oligúria, alterações de pulsos e perfusão; hipotensão é sinal tardio preocupante.",
+        "Solução depende do mecanismo: fluidos podem ajudar alguns cenários, mas prejudicar outros."
+      ],
+      "investigation": "Examine consciência, frequência, pulsos centrais/periféricos, temperatura de extremidades, enchimento capilar, diurese e pressão contextualizada. Reavalie após cada intervenção; lactato pode ajudar no contexto, mas não substitui clínica.",
+      "approach": "ABC, acesso, monitorização, investigação da causa e intervenções proporcionais ao tipo de choque. Em possível causa cardiogênica, obstrutiva ou sobrecarga, volume indiscriminado pode ser inadequado. Siga protocolos e equipe.",
+      "table": [
+        {
+          "comparison": "Choque compensado × descompensado",
+          "distinction": "PA mantida × hipotensão tardia",
+          "decision": "Não esperar cair PA para agir."
+        },
+        {
+          "comparison": "Hipovolêmico × cardiogênico",
+          "distinction": "Déficit de volume × falha de bomba",
+          "decision": "A resposta a fluidos não é universal."
+        },
+        {
+          "comparison": "Séptico × anafilático",
+          "distinction": "Ambos distributivos, mas gatilho e tratamento diferem",
+          "decision": "Identificar mecanismo e terapêutica específica."
+        }
+      ],
+      "pitfalls": [
+        "Perfusão normal de um único sítio não exclui quadro sistêmico.",
+        "Taquicardia isolada não define choque.",
+        "Não aplicar bolus indiscriminado a toda criança com instabilidade."
+      ],
+      "recall": "MEMORIZAR: PERFUSÃO > PA ISOLADA. RECONHECER TIPO DE CHOQUE ANTES DE REPETIR INTERVENÇÕES.",
+      "flags": "",
+      "source": "Programa P2/OSCE 2026; revisão conceitual original. Confirmar critérios e condutas nos slides e nas referências adotadas.",
+      "title": "Abordagem do choque pediátrico",
+      "group": "P2 • Saúde da Criança II",
+      "code": "A9",
+      "status": "Sem registro local",
+      "evidence": ""
+    },
+    {
+      "id": "sc-A10",
+      "problem": "PCR pediátrica: o que muda entre ritmo chocável e não chocável?",
+      "concept": "Parada cardiorrespiratória é ausência de circulação efetiva e exige RCP imediata, reconhecimento de ritmo e tratamento coordenado. Em crianças, hipóxia e choque frequentemente antecedem a parada. Ritmos chocáveis e não chocáveis demandam algoritmos diferentes; monitorização do ritmo e desfibrilador devem ser utilizados pela equipe conforme treinamento.",
+      "pathway": [
+        "Insuficiência respiratória/circulatória pode progredir até cessação de perfusão efetiva.",
+        "Compressões de alta qualidade mantêm fluxo mínimo para cérebro e coração.",
+        "Ritmos desfibriláveis dependem de interrupção elétrica apropriada além de RCP.",
+        "Ritmos não chocáveis exigem RCP, busca de causas reversíveis e terapêutica específica do algoritmo."
+      ],
+      "investigation": "Em paciente sem resposta e sem respiração normal, acione ajuda imediatamente; profissional treinado segue avaliação rápida de pulso e algoritmo de SBV/PALS correspondente. Reavalie ritmo em intervalos e procure causas reversíveis.",
+      "approach": "Executar RCP de alta qualidade, ventilação adequada, desfibrilação quando indicada e tratamento avançado segundo as recomendações vigentes. Doses e energia precisam ser confirmadas em tabela oficial e peso/idade, não inventadas aqui.",
+      "table": [
+        {
+          "comparison": "PCR × RCP",
+          "distinction": "PCR é condição; RCP são manobras de ressuscitação",
+          "decision": "Não inverter termos."
+        },
+        {
+          "comparison": "Chocável × não chocável",
+          "distinction": "FV/TV sem pulso × assistolia/AESP",
+          "decision": "A desfibrilação não é feita em assistolia/AESP."
+        },
+        {
+          "comparison": "Gasping × respiração normal",
+          "distinction": "Gasping não é ventilação efetiva",
+          "decision": "Tratar como sinal de possível PCR."
+        }
+      ],
+      "pitfalls": [
+        "Atraso nas compressões diminui chance de sucesso.",
+        "Choque elétrico não é intervenção universal para qualquer ritmo.",
+        "Não usar presença de movimentos agônicos como prova de circulação normal."
+      ],
+      "recall": "MEMORIZAR: RECONHECER PCR → CHAMAR AJUDA → RCP DE QUALIDADE → RITMO → INTERVENÇÃO ESPECÍFICA → CAUSAS REVERSÍVEIS.",
+      "flags": "",
+      "source": "Programa P2/OSCE 2026; revisão conceitual original. Confirmar critérios e condutas nos slides e nas referências adotadas.",
+      "title": "Parada cardiorrespiratória em pediatria",
+      "group": "P2 • Saúde da Criança II",
+      "code": "A10",
+      "status": "Sem registro local",
+      "evidence": ""
+    },
+    {
+      "id": "sm-A1",
+      "problem": "TPP e bolsa rota: por que idade gestacional e infecção mudam toda decisão?",
+      "concept": "Trabalho de parto prematuro (TPP) reúne dinâmica uterina e alteração cervical antes do termo. Rotura prematura de membranas (RPM) é perda de integridade das membranas antes do início do trabalho de parto; quando ocorre antes de 37 semanas, a idade gestacional define riscos maternos e fetais. Conduta não pode ser escolhida apenas pela presença de contrações ou relato de perda líquida.",
+      "pathway": [
+        "Ativação inflamatória, distensão e outros fatores podem desencadear trabalho de parto antecipado.",
+        "Membranas rotas elevam risco de infecção ascendente e perda de líquido, além de prematuridade.",
+        "Idade gestacional modifica benefício de medidas para maturidade fetal e riscos do prolongamento gestacional.",
+        "Corioamnionite/sinais infecciosos mudam estratégia e podem contraindicar manejo expectante."
+      ],
+      "investigation": "Caracterizar idade gestacional, contrações, dilatação/modificação cervical, líquido, sangramento, temperatura e sinais fetais. Exames para confirmar rotura devem evitar procedimentos que aumentem infecção quando desnecessários.",
+      "approach": "Planejar conduta por IG, condição materna/fetal, presença de infecção, gravidade e recursos neonatais. Tocólise, corticoterapia e neuroproteção têm indicações condicionadas ao contexto e às recomendações locais; não aplicar automaticamente em qualquer gestante.",
+      "table": [
+        {
+          "comparison": "TPP × contrações isoladas",
+          "distinction": "Mudança cervical importa para diagnóstico",
+          "decision": "Não dar TPP por contração sem contexto."
+        },
+        {
+          "comparison": "RPM × incontinência/fluor",
+          "distinction": "Fonte do líquido deve ser verificada",
+          "decision": "Confirmar rotura adequadamente."
+        },
+        {
+          "comparison": "Expectante × interrupção",
+          "distinction": "Infecção/sofrimento e IG alteram risco-benefício",
+          "decision": "Não prolongar gestação em contexto inseguro."
+        }
+      ],
+      "pitfalls": [
+        "Evitar toque vaginal digital desnecessário em suspeita de RPM.",
+        "Não considerar a mesma conduta para todas as idades gestacionais.",
+        "Não ignorar febre, dor uterina ou alteração da vitalidade fetal."
+      ],
+      "recall": "MEMORIZAR: IG + INTEGRIDADE DE MEMBRANAS + MODIFICAÇÃO CERVICAL + INFECÇÃO + VITALIDADE FETAL = DECISÃO.",
+      "flags": "",
+      "source": "Programa P2/OSCE 2026; revisão conceitual original. Confirmar critérios e condutas nos slides e nas referências adotadas.",
+      "title": "Trabalho de parto prematuro e bolsa rota",
+      "group": "P2 • Saúde da Mulher II",
+      "code": "A1",
+      "status": "Sem registro local",
+      "evidence": ""
+    },
+    {
+      "id": "sm-A2",
+      "problem": "Síndromes hipertensivas da gestação: hipertensão crônica, gestacional ou pré-eclâmpsia?",
+      "concept": "Hipertensão crônica, hipertensão gestacional e pré-eclâmpsia são diagnósticos distintos. Pré-eclâmpsia é síndrome de disfunção placentária/endotelial com hipertensão após metade da gestação e critérios de lesão orgânica ou proteinúria, conforme recomendações. Pode haver gravidade mesmo sem proteinúria em cenários com disfunção orgânica.",
+      "pathway": [
+        "Desenvolvimento placentário anormal em parte dos casos favorece desequilíbrio angiogênico e lesão endotelial.",
+        "Disfunção endotelial altera resistência vascular, perfusão e permeabilidade.",
+        "Comprometimento cerebral, renal, hepático, hematológico ou respiratório marca gravidade.",
+        "Eclâmpsia é manifestação convulsiva relacionada à síndrome; HELLP envolve hemólise, enzimas hepáticas elevadas e plaquetopenia."
+      ],
+      "investigation": "Caracterizar idade gestacional e existência de hipertensão antes da gravidez ou antes de 20 semanas. Medir PA corretamente e buscar cefaleia persistente, alterações visuais, dor epigástrica/hipocôndrio direito, sintomas respiratórios, sinais laboratoriais e condições fetais.",
+      "approach": "Avaliar gravidade, estabilizar e planejar acompanhamento/interrupção segundo idade gestacional e condição materno-fetal. Sulfato de magnésio para prevenção/tratamento de convulsões e anti-hipertensivos são usados em indicações específicas; doses e protocolos devem ser conferidos.",
+      "table": [
+        {
+          "comparison": "Hipertensão gestacional × pré-eclâmpsia",
+          "distinction": "A segunda inclui critérios de lesão/síndrome, não apenas PA",
+          "decision": "Pesquisar sinais e exames de comprometimento."
+        },
+        {
+          "comparison": "Pré-eclâmpsia × eclâmpsia",
+          "distinction": "Eclâmpsia implica convulsões relacionadas à síndrome",
+          "decision": "Emergência com estabilização imediata."
+        },
+        {
+          "comparison": "Crônica × de início gestacional",
+          "distinction": "Momento de surgimento e persistência ajudam",
+          "decision": "Não classificar só por uma PA durante o pré-natal."
+        }
+      ],
+      "pitfalls": [
+        "Proteinúria ausente não exclui toda pré-eclâmpsia.",
+        "Edema inespecífico não confirma pré-eclâmpsia.",
+        "Não retardar avaliação de sintoma neurológico de gravidade."
+      ],
+      "recall": "MEMORIZAR: HIPERTENSÃO NA GESTAÇÃO → LOCALIZAR NO TEMPO → BUSCAR LESÃO ORGÂNICA → GRAVIDADE → CONDUTA MATERNO-FETAL.",
+      "flags": "",
+      "source": "Programa P2/OSCE 2026; revisão conceitual original. Confirmar critérios e condutas nos slides e nas referências adotadas.",
+      "title": "Síndromes hipertensivas gestacionais",
+      "group": "P2 • Saúde da Mulher II",
+      "code": "A2",
+      "status": "Sem registro local",
+      "evidence": ""
+    },
+    {
+      "id": "sm-A3",
+      "problem": "Diabetes gestacional: o que o rastreio identifica e por que o controle importa?",
+      "concept": "Diabetes mellitus gestacional (DMG) é intolerância à glicose identificada durante a gravidez que não preenche necessariamente critérios de diabetes manifesto prévio. A gestação aumenta resistência insulínica, especialmente com avanço placentário, e a incapacidade compensatória da secreção de insulina produz hiperglicemia.",
+      "pathway": [
+        "Hormônios placentários favorecem resistência periférica à insulina.",
+        "Quando a secreção pancreática não compensa, aumenta glicose materna.",
+        "Glicose atravessa placenta e pode provocar hiperinsulinemia fetal com efeitos de crescimento e adaptação neonatal.",
+        "Controle glicêmico reduz risco, mas não elimina todos os fatores obstétricos."
+      ],
+      "investigation": "Distinguir diabetes prévio, hiperglicemia detectada no início da gestação e rastreio em período apropriado. Interpretar exames e limiares segundo o protocolo nacional/local indicado, sem misturar diretrizes com critérios divergentes.",
+      "approach": "Associar orientação nutricional individual, atividade adequada, automonitorização e terapia medicamentosa quando indicada. Avaliar crescimento fetal e fatores obstétricos. Metas glicêmicas e indicação de insulina devem seguir as fontes adotadas.",
+      "table": [
+        {
+          "comparison": "DMG × diabetes prévio",
+          "distinction": "Momento e critérios diagnósticos diferem",
+          "decision": "Não tratar todo diagnóstico como DMG de novo."
+        },
+        {
+          "comparison": "Rastreio × diagnóstico",
+          "distinction": "Exame e limiares variam por protocolo",
+          "decision": "Usar o referencial oficial da disciplina."
+        },
+        {
+          "comparison": "Controle materno × repercussão fetal",
+          "distinction": "Hiperglicemia afeta unidade materno-fetal",
+          "decision": "Vigilância vai além da glicemia isolada."
+        }
+      ],
+      "pitfalls": [
+        "Não assumir que glicemia de jejum normal isolada exclui DMG em todo cenário.",
+        "Não inferir necessidade de medicamento sem perfil glicêmico/contexto.",
+        "Não confundir macrosomia com diagnóstico de diabetes."
+      ],
+      "recall": "MEMORIZAR: RESISTÊNCIA PLACENTÁRIA À INSULINA → HIPERGLICEMIA MATERNA → REPERCUSSÕES FETAIS → RASTREIO E CONTROLE.",
+      "flags": "",
+      "source": "Programa P2/OSCE 2026; revisão conceitual original. Confirmar critérios e condutas nos slides e nas referências adotadas.",
+      "title": "Diabetes mellitus da gestante",
+      "group": "P2 • Saúde da Mulher II",
+      "code": "A3",
+      "status": "Sem registro local",
+      "evidence": ""
+    },
+    {
+      "id": "sm-A4",
+      "problem": "Sífilis na gestação: por que diagnóstico e tratamento oportunos mudam o risco fetal?",
+      "concept": "A sífilis é infecção sistêmica por Treponema pallidum com transmissão vertical possível durante a gestação. Os testes treponêmicos e não treponêmicos têm funções diferentes; resultados exigem interpretação de histórico terapêutico, títulos, estágio e epidemiologia. O tratamento da gestante deve ser adequado ao estágio para prevenir sífilis congênita.",
+      "pathway": [
+        "Infecção materna pode alcançar placenta e feto, inclusive sem sintomas marcantes.",
+        "Treponêmicos sinalizam exposição e frequentemente permanecem reagentes após tratamento.",
+        "Não treponêmicos fornecem títulos úteis para atividade e seguimento, mas dependem de contexto.",
+        "Tratamento correto e tempestivo da gestante é central para reduzir transmissão."
+      ],
+      "investigation": "Levantar pré-natal, exames anteriores, estágio, tratamento documentado, intervalos, parceiros e novos riscos. Confrontar testes e títulos seriados sem concluir reinfecção automaticamente por um único título.",
+      "approach": "Penicilina é referência para tratamento da sífilis na gestação conforme estágio e protocolo oficial. Avaliar parceiro, vigilância fetal e seguimento sorológico. Esquemas e prazos exatos precisam ser confirmados no documento vigente.",
+      "table": [
+        {
+          "comparison": "Treponêmico × não treponêmico",
+          "distinction": "Exposição persistente × titulação acompanhável",
+          "decision": "Não considerar “cura” por treponêmico ainda positivo."
+        },
+        {
+          "comparison": "Infecção nova × cicatriz sorológica",
+          "distinction": "História e evolução dos títulos são decisivas",
+          "decision": "Evitar inferência por resultado isolado."
+        },
+        {
+          "comparison": "Tratamento materno × prevenção fetal",
+          "distinction": "Tempo e esquema adequados importam",
+          "decision": "Confirmar adequação antes de avaliar risco congênito."
+        }
+      ],
+      "pitfalls": [
+        "Não ignorar tratamento prévio documentado.",
+        "Não esquecer rastreio em períodos recomendados do pré-natal.",
+        "Não afirmar erradicação fetal só porque mãe recebeu qualquer antibiótico."
+      ],
+      "recall": "MEMORIZAR: TESTE + ESTÁGIO + HISTÓRIA TERAPÊUTICA → PENICILINA ADEQUADA → SEGUIMENTO DE TÍTULOS E PARCEIRO.",
+      "flags": "",
+      "source": "Programa P2/OSCE 2026; revisão conceitual original. Confirmar critérios e condutas nos slides e nas referências adotadas.",
+      "title": "Sífilis na gestação",
+      "group": "P2 • Saúde da Mulher II",
+      "code": "A4",
+      "status": "Sem registro local",
+      "evidence": ""
+    },
+    {
+      "id": "sm-A5",
+      "problem": "Gestação gemelar: a corionicidade é mais importante que contar fetos?",
+      "concept": "Em gestações múltiplas, corionicidade (número de placentas/córions) e amnionicidade (bolsas amnióticas) influenciam riscos e vigilância. Gêmeos monocoriônicos compartilham circulação placentária e podem desenvolver complicações específicas, como síndrome da transfusão feto-fetal, não esperadas da mesma forma na dicorionicidade.",
+      "pathway": [
+        "Divisão embrionária e/ou fecundação múltipla determinam configuração placentária.",
+        "Conexões vasculares em placenta compartilhada permitem desequilíbrios transfusionais.",
+        "Prematuridade, crescimento discordante e complicações obstétricas são mais frequentes em gestação múltipla.",
+        "A cronologia de diagnóstico da corionicidade modifica a precisão da classificação."
+      ],
+      "investigation": "Avaliação ultrassonográfica inicial de membranas, placenta e sinais de corionicidade deve ser registrada. No seguimento, acompanhar crescimento, líquido, Doppler e sinais de complicações específicas conforme tipo de gestação.",
+      "approach": "Encaminhar e monitorar de acordo com corionicidade, gravidade e recursos de medicina fetal. Não igualar periodicidade e critérios de vigilância entre mono e dicoriônica.",
+      "table": [
+        {
+          "comparison": "Dicoriônica × monocoriônica",
+          "distinction": "Placentas separadas × circulação compartilhada",
+          "decision": "Monocoriônica demanda rastreio de complicações vasculares próprias."
+        },
+        {
+          "comparison": "Monocoriônica diamniótica × monoamniótica",
+          "distinction": "Compartilha placenta; número de bolsas difere",
+          "decision": "Riscos e vigilância mudam."
+        },
+        {
+          "comparison": "Discordância de peso × STFF",
+          "distinction": "Crescimento desigual não equivale automaticamente a síndrome transfusional",
+          "decision": "Avaliar líquido, bexigas e Doppler contextualizados."
+        }
+      ],
+      "pitfalls": [
+        "Não usar sexos iguais para provar monocorionicidade.",
+        "Não presumir que “dois sacos” na imagem tardia resolve classificação sem avaliar placenta.",
+        "Não interpretar todo crescimento discordante como transfusão feto-fetal."
+      ],
+      "recall": "MEMORIZAR: CORIONICIDADE → COMPLICAÇÕES POSSÍVEIS → FREQUÊNCIA DE VIGILÂNCIA → CONDUTA OBSTÉTRICA.",
+      "flags": "",
+      "source": "Programa P2/OSCE 2026; revisão conceitual original. Confirmar critérios e condutas nos slides e nas referências adotadas.",
+      "title": "Gestação gemelar",
+      "group": "P2 • Saúde da Mulher II",
+      "code": "A5",
+      "status": "Sem registro local",
+      "evidence": ""
+    },
+    {
+      "id": "sm-A6",
+      "problem": "Infecções gestacionais: por que agente, período e sorologia alteram a conduta?",
+      "concept": "Citomegalovírus (CMV), toxoplasmose, rubéola e colonização por estreptococo do grupo B (EGB) representam problemas diferentes. Algumas infecções são congênitas transplacentárias; EGB se relaciona especialmente a colonização materna e risco de infecção neonatal periparto. A leitura sorológica varia entre agentes, períodos e métodos.",
+      "pathway": [
+        "Infecções maternas específicas podem atravessar placenta, causando repercussões fetais que variam com agente e momento da gestação.",
+        "IgM não demonstra por si só infecção materna recente; avidez e testes confirmatórios podem mudar interpretação.",
+        "Ultrassonografia e testes fetais podem ajudar quando indicados, mas achado normal não garante ausência de infecção.",
+        "Colonização por EGB depende de estratégia de rastreio/profilaxia intraparto, diferente de tratamento de toxoplasmose/CMV."
+      ],
+      "investigation": "Para cada agente, identifique via de transmissão, momento gestacional, sorologia prévia e interpretação da avidez/testes aplicáveis. Diferencie rastreio materno de diagnóstico fetal e de avaliação neonatal.",
+      "approach": "Conduta depende de diretriz e contexto clínico. Rubéola exige prevenção vacinal antes da gestação quando cabível; EGB envolve profilaxia intraparto em indicações; sífilis e toxoplasmose possuem abordagens próprias. Evite extrapolar uma conduta para todos os agentes.",
+      "table": [
+        {
+          "comparison": "CMV × toxoplasmose",
+          "distinction": "Agentes diferentes; testes e tratamento não intercambiáveis",
+          "decision": "Individualizar confirmação e seguimento."
+        },
+        {
+          "comparison": "IgM positiva × infecção aguda confirmada",
+          "distinction": "Falsos positivos/persistência podem ocorrer",
+          "decision": "Interpretar com IgG, avidez e exames confirmatórios."
+        },
+        {
+          "comparison": "EGB × infecção transplacentária",
+          "distinction": "Colonização associada ao parto × infecção congênita clássica",
+          "decision": "Aplicar profilaxia/rastreio conforme objetivo."
+        }
+      ],
+      "pitfalls": [
+        "Não atribuir idade de infecção a IgM isolada.",
+        "Não prescrever conduta sem idade gestacional e sorologia anterior.",
+        "Não confundir colonização por EGB com toxoplasmose aguda."
+      ],
+      "recall": "MEMORIZAR: AGENTE + VIA + MOMENTO + SOROLOGIA/AVIDEZ → DECISÃO ESPECÍFICA.",
+      "flags": "",
+      "source": "Programa P2/OSCE 2026; revisão conceitual original. Confirmar critérios e condutas nos slides e nas referências adotadas.",
+      "title": "Infecções gestacionais",
+      "group": "P2 • Saúde da Mulher II",
+      "code": "A6",
+      "status": "Sem registro local",
+      "evidence": ""
+    },
+    {
+      "id": "oc-E1",
+      "problem": "Estação OSCE: reconhecer e tratar choque pediátrico sob observação.",
+      "concept": "O avaliador observa raciocínio, verbalização e segurança, não apenas a resposta final. O treino deve começar com segurança, pedido de ajuda quando necessário e abordagem ABCDE. Em choque, perfusão e estado mental frequentemente mudam antes da pressão arterial.",
+      "pathway": [
+        "Identificar hipoperfusão pelo conjunto de sinais.",
+        "Verbalizar suspeita e classificação causal provisória.",
+        "Descrever intervenção inicial compatível com hipótese, com monitorização.",
+        "Reavaliar pulsos, capilar, consciência e resposta e ajustar conduta."
+      ],
+      "investigation": "Em um cenário simulado, registrar dados fornecidos, não inventar sinais. Solicite monitorização e exames pertinentes. Informações ausentes são perguntas ao avaliador, não fatos presumidos.",
+      "approach": "Roteiro sugerido: apresentação → primeira impressão → ABCDE → reconhecer choque → pedir ajuda → conduta causal → reavaliação → comunicação. Não é checklist institucional oficial.",
+      "table": [
+        {
+          "comparison": "PA normal × choque compensado",
+          "distinction": "PA normal não exclui perfusão inadequada",
+          "decision": "Verbalizar sinais periféricos e de consciência."
+        },
+        {
+          "comparison": "Volume × falha de bomba",
+          "distinction": "Etiologia muda segurança da expansão",
+          "decision": "Justificar intervenção pelo mecanismo."
+        }
+      ],
+      "pitfalls": [
+        "Não decorar uma lista sem reavaliar.",
+        "Não inventar respostas do paciente/avaliador."
+      ],
+      "recall": "MEMORIZAR: PERCEBER → NOMEAR → INTERVIR → REAVALIAR.",
+      "flags": "",
+      "source": "Tema oficial OSCE SDCII; roteiro didático original, NÃO checklist oficial da instituição.",
+      "title": "Choque hemodinâmico pediátrico",
+      "group": "OSCE • Saúde da Criança II",
+      "code": "E1",
+      "status": "Sem registro local",
+      "evidence": ""
+    },
+    {
+      "id": "oc-E2",
+      "problem": "Estação OSCE: convulsão pediátrica, abordagem segura sem atrasos.",
+      "concept": "Os primeiros atos devem proteger paciente e identificar ameaça respiratória. O avaliador pode exigir diferenciação de crise em andamento, pós-ictal e estado de mal convulsivo. Informações sobre tempo e medicação prévia precisam ser pedidas.",
+      "pathway": [
+        "Confirmar segurança ambiental e pedir ajuda conforme gravidade.",
+        "ABCDE, oxigenação/ventilação e glicemia quando pertinente.",
+        "Registrar início, duração, focalidade e retorno ao basal.",
+        "Aplicar protocolo quando crise persistente e reavaliar consciência/ventilação."
+      ],
+      "investigation": "Peça dados vitais, glicemia, febre, antecedentes, exposição e descrição do episódio. Não assumir etiologia só pelo movimento.",
+      "approach": "Roteiro sugerido: apresentação → estabilização → tempo da crise → medicação conforme protocolo quando indicada → investigação de causa → reavaliação e explicação.",
+      "table": [
+        {
+          "comparison": "Crise ativa × pós-ictal",
+          "distinction": "Medidas imediatas e vigilância são distintas",
+          "decision": "Verbalizar o estágio antes da conduta."
+        },
+        {
+          "comparison": "Crise breve × persistente",
+          "distinction": "Duração importa para escalonamento",
+          "decision": "Não atrasar atendimento de crise prolongada."
+        }
+      ],
+      "pitfalls": [
+        "Não conter movimentos de forma lesiva.",
+        "Não introduzir objetos na boca.",
+        "Não esquecer avaliação de ventilação após medicação."
+      ],
+      "recall": "MEMORIZAR: SEGURANÇA + ABCDE + TEMPO + GLICEMIA + TRATAMENTO PROTOCOLADO.",
+      "flags": "",
+      "source": "Tema oficial OSCE SDCII; sequência de treino original, não checklist oficial.",
+      "title": "Episódio convulsivo pediátrico",
+      "group": "OSCE • Saúde da Criança II",
+      "code": "E2",
+      "status": "Sem registro local",
+      "evidence": ""
+    },
+    {
+      "id": "oc-E3",
+      "problem": "Estação OSCE: icterícia neonatal, quais dados mudam a decisão?",
+      "concept": "Icterícia neonatal decorre do metabolismo da bilirrubina e precisa ser interpretada por idade em horas, idade gestacional, fatores de neurotoxicidade e bilirrubina sérica. Não classificar gravidade apenas por inspeção visual nem por valor absoluto desconectado da idade.",
+      "pathway": [
+        "Produção de bilirrubina do RN é relativamente elevada e conjugação hepática ainda amadurece.",
+        "Hemólise, prematuridade e dificuldade alimentar podem elevar risco.",
+        "Bilirrubina não conjugada em níveis perigosos ameaça sistema nervoso; bilirrubina conjugada elevada sugere problemas diferentes.",
+        "Fototerapia e outras intervenções dependem de curvas e fatores de risco válidos."
+      ],
+      "investigation": "Pedir idade em horas, IG, grupo sanguíneo/risco hemolítico, evolução, alimentação, peso, coloração de fezes/urina e bilirrubina quantificada quando indicado.",
+      "approach": "Roteiro sugerido: identificar RN e fatores de risco → avaliar exame e bilirrubina por nomograma adequado → decisão de seguimento ou tratamento → orientar família. Não substituir curvas atuais por números inventados.",
+      "table": [
+        {
+          "comparison": "Fisiológica × patológica",
+          "distinction": "Início, velocidade, bilirrubina e risco diferenciam",
+          "decision": "Não decidir apenas “amarelo leve”."
+        },
+        {
+          "comparison": "Indireta × direta",
+          "distinction": "Mecanismos e investigação diferentes",
+          "decision": "Colestase exige atenção própria."
+        }
+      ],
+      "pitfalls": [
+        "Icterícia muito precoce merece avaliação.",
+        "Não usar nomograma sem considerar idade em horas e IG."
+      ],
+      "recall": "MEMORIZAR: IDADE EM HORAS + IG + FATORES DE RISCO + BILIRRUBINA → NOMOGRAMA → CONDUTA.",
+      "flags": "",
+      "source": "Tema oficial OSCE SDCII; revisão original. Limiares específicos devem ser conferidos em nomogramas atuais.",
+      "title": "Icterícia neonatal",
+      "group": "OSCE • Saúde da Criança II",
+      "code": "E3",
+      "status": "Sem registro local",
+      "evidence": ""
+    },
+    {
+      "id": "oc-E4",
+      "problem": "Estação OSCE: suporte básico de vida pediátrico.",
+      "concept": "SBV é ação organizada diante de ausência de resposta e de respiração normal, com atendimento apropriado à idade. Compressões, ventilação e acionamento de emergência dependem de equipe e treinamento. O avaliador observa segurança, reconhecimento e execução correta, não simples recitação.",
+      "pathway": [
+        "Reconhecer parada provável e ativar resposta de emergência.",
+        "Iniciar RCP de qualidade em sequência adequada ao cenário de um ou dois socorristas.",
+        "Integrar ventilações quando indicadas e uso oportuno de DEA/desfibrilador.",
+        "Alternar e reavaliar conforme protocolo e feedback."
+      ],
+      "investigation": "Avalie o cenário antes de iniciar. Verbalize idade da vítima e número de socorristas; técnicas mudam conforme faixa etária e contexto.",
+      "approach": "Roteiro sugerido: segurança → resposta → respiração/pulso conforme nível de treinamento → chamar ajuda → compressões/ventilação → desfibrilador quando indicado → reavaliação.",
+      "table": [
+        {
+          "comparison": "Gasping × respiração normal",
+          "distinction": "Gasping não é ventilação eficaz",
+          "decision": "Não atrasar RCP."
+        },
+        {
+          "comparison": "PCR × manobras de RCP",
+          "distinction": "Diagnóstico e ação não são sinônimos",
+          "decision": "Usar termos corretos."
+        }
+      ],
+      "pitfalls": [
+        "Não inventar números de compressões ou energia sem consultar protocolo vigente.",
+        "Não interromper compressões sem necessidade."
+      ],
+      "recall": "MEMORIZAR: RECONHECER → ACIONAR → RCP DE QUALIDADE → DEA QUANDO INDICADO.",
+      "flags": "",
+      "source": "Tema oficial OSCE SDCII; roteiro original de treino, não checklist oficial.",
+      "title": "Suporte básico de vida em pediatria",
+      "group": "OSCE • Saúde da Criança II",
+      "code": "E4",
+      "status": "Sem registro local",
+      "evidence": ""
+    },
+    {
+      "id": "oc-E5",
+      "problem": "Estação OSCE: abordagem inicial da CAD pediátrica.",
+      "concept": "Na estação, demonstrar reconhecimento de hiperglicemia com cetose e acidose, quantificação da desidratação e monitorização de potássio e estado neurológico. A intervenção precisa ser contextualizada em pediatria.",
+      "pathway": [
+        "Insulina insuficiente gera hiperglicemia/cetonas.",
+        "Diurese osmótica leva a desidratação e perdas de eletrólitos.",
+        "Acidose provoca ventilação compensatória.",
+        "Correções exigem monitorização seriada e atenção a complicações neurológicas."
+      ],
+      "investigation": "Solicite gasometria, glicemia, cetonas, eletrólitos, estado de hidratação e consciência. Interprete valores fornecidos, sem supor normalidade do potássio total.",
+      "approach": "Roteiro sugerido: ABCDE → reconhecer CAD → avaliar gravidade/desidratação → iniciar tratamento protocolado e monitorar → explicar plano e critérios de reavaliação.",
+      "table": [
+        {
+          "comparison": "Hiperglicemia × CAD",
+          "distinction": "CAD inclui acidose/cetose",
+          "decision": "Confirmar tríade diagnóstica."
+        },
+        {
+          "comparison": "K sérico × reserva corporal",
+          "distinction": "Reserva total pode estar baixa",
+          "decision": "Monitorar durante intervenção."
+        }
+      ],
+      "pitfalls": [
+        "Não extrapolar esquema de adulto.",
+        "Não ignorar piora neurológica."
+      ],
+      "recall": "MEMORIZAR: GLICOSE + CETONAS + ACIDOSE + POTÁSSIO + CONSCIÊNCIA.",
+      "flags": "",
+      "source": "Tema oficial OSCE SDCII; roteiro original, não checklist institucional.",
+      "title": "Cetoacidose diabética pediátrica",
+      "group": "OSCE • Saúde da Criança II",
+      "code": "E5",
+      "status": "Sem registro local",
+      "evidence": ""
+    },
+    {
+      "id": "om-E1",
+      "problem": "Estação OSCE: consulta de pré-natal com raciocínio longitudinal.",
+      "concept": "Pré-natal organiza prevenção, identificação de risco e acompanhamento materno-fetal. O cenário exige anamnese obstétrica, idade gestacional estimada com fonte, avaliação clínica, exames e orientações ajustadas ao momento gestacional.",
+      "pathway": [
+        "Datação gestacional sustenta interpretação dos exames e do crescimento fetal.",
+        "Rastreamentos visam identificar agravos antes de complicações materno-fetais.",
+        "Fatores de risco modificam frequência de vigilância e encaminhamento.",
+        "Comunicação e registro fazem parte da segurança assistencial."
+      ],
+      "investigation": "Perguntar DUM, USG disponível, antecedentes, gestações anteriores, comorbidades, uso de medicamentos, vacinação, sintomas de alarme e resultados existentes. Não inventar altura uterina ou FCF.",
+      "approach": "Roteiro sugerido: acolhimento objetivo → IG e DPP contextualizadas → risco obstétrico → exame → exames pendentes → conduta e sinais de alarme → registro. Usar protocolos oficiais da instituição.",
+      "table": [
+        {
+          "comparison": "Risco habitual × alto risco",
+          "distinction": "História, doença e complicações diferem",
+          "decision": "Encaminhar quando necessário."
+        },
+        {
+          "comparison": "DUM × USG de datação",
+          "distinction": "Precisão depende de situação e trimestre",
+          "decision": "Explicar método usado."
+        }
+      ],
+      "pitfalls": [
+        "Não preencher prontuário com exames inexistentes.",
+        "Não reduzir pré-natal à solicitação de exames."
+      ],
+      "recall": "MEMORIZAR: DATAR → CLASSIFICAR RISCO → AVALIAR → RASTREAR → ORIENTAR.",
+      "flags": "",
+      "source": "Tema oficial OSCE SDMII; modelo de estudo original, não checklist oficial.",
+      "title": "Pré-natal",
+      "group": "OSCE • Saúde da Mulher II",
+      "code": "E1",
+      "status": "Sem registro local",
+      "evidence": ""
+    },
+    {
+      "id": "om-E2",
+      "problem": "Estação OSCE: reconhecer pré-eclâmpsia e agir com prioridade.",
+      "concept": "Suspeita de pré-eclâmpsia deve incorporar PA, momento gestacional e sinais de lesão orgânica. Em estação de emergência, o foco é reconhecer gravidade, pedir ajuda, proteger a mãe e considerar vitalidade fetal.",
+      "pathway": [
+        "Disfunção placentária/endotelial favorece vasoconstrição e lesão orgânica.",
+        "Sintomas neurológicos, respiratórios ou hepáticos e alterações laboratoriais podem marcar gravidade.",
+        "Convulsão em contexto compatível sugere eclâmpsia até avaliação adequada.",
+        "Tempo da gestação e condição materno-fetal determinam decisões definitivas."
+      ],
+      "investigation": "Pedir PA repetida quando necessário, sintomas, plaquetas, função renal/hepática, avaliação fetal e outros dados. Não usar proteinúria como único critério.",
+      "approach": "Roteiro sugerido: reconhecer emergência → ABCDE → medidas e monitorização protocoladas → avaliação de gravidade → plano obstétrico, discutindo equipe e indicação de interrupção.",
+      "table": [
+        {
+          "comparison": "Pré-eclâmpsia × eclâmpsia",
+          "distinction": "Convulsão altera manejo imediato",
+          "decision": "Estabilizar e tratar conforme diretriz."
+        },
+        {
+          "comparison": "Hipertensão gestacional × pré-eclâmpsia",
+          "distinction": "Lesão orgânica determina classificação",
+          "decision": "Pesquisar sistematicamente sinais."
+        }
+      ],
+      "pitfalls": [
+        "Não ignorar sintoma neurológico.",
+        "Não usar edema isolado como critério."
+      ],
+      "recall": "MEMORIZAR: PA + TEMPO GESTACIONAL + ÓRGÃOS + VITALIDADE FETAL → GRAVIDADE.",
+      "flags": "",
+      "source": "Tema oficial OSCE SDMII; roteiro original.",
+      "title": "Pré-eclâmpsia",
+      "group": "OSCE • Saúde da Mulher II",
+      "code": "E2",
+      "status": "Sem registro local",
+      "evidence": ""
+    },
+    {
+      "id": "om-E3",
+      "problem": "Estação OSCE: DMG, interpretação e orientação.",
+      "concept": "A estação de diabetes gestacional pode testar interpretação de rastreio, aconselhamento e plano de seguimento. A escolha de tratamento precisa considerar resultados fornecidos, idade gestacional e metas da referência usada.",
+      "pathway": [
+        "Resistência placentária aumenta necessidade de insulina.",
+        "Hiperglicemia materna expõe feto a maior estímulo insulínico.",
+        "Controle exige acompanhar padrão, não medida única.",
+        "Intervenção é escalonada conforme resposta e riscos."
+      ],
+      "investigation": "Pedir exames prévios, histórico de DM, plano alimentar, automonitorização quando disponível, sinais de complicação e avaliação do crescimento fetal.",
+      "approach": "Roteiro sugerido: identificar critérios do diagnóstico → explicar significado → orientar monitorização e medidas iniciais → indicar escalonamento quando necessário → discutir controle e seguimento.",
+      "table": [
+        {
+          "comparison": "DMG × DM prévio",
+          "distinction": "Diagnóstico/risco variam",
+          "decision": "Não classificar sem histórico."
+        },
+        {
+          "comparison": "Rastreio × controle",
+          "distinction": "Testes de diagnóstico não são as mesmas metas de seguimento",
+          "decision": "Descrever finalidade de cada número."
+        }
+      ],
+      "pitfalls": [
+        "Não inventar metas glicêmicas se o protocolo não foi informado.",
+        "Não oferecer dieta prescritiva sem contexto individual."
+      ],
+      "recall": "MEMORIZAR: DIAGNOSTICAR → EXPLICAR → MONITORAR → REAVALIAR → ESCALONAR.",
+      "flags": "",
+      "source": "Tema oficial OSCE SDMII; modelo original não oficial.",
+      "title": "Diabetes mellitus gestacional",
+      "group": "OSCE • Saúde da Mulher II",
+      "code": "E3",
+      "status": "Sem registro local",
+      "evidence": ""
+    },
+    {
+      "id": "om-E4",
+      "problem": "Estação OSCE: prematuridade e bolsa rota.",
+      "concept": "Em suspeita de parto prematuro, informações essenciais são idade gestacional, contrações e colo, integridade das membranas, infecção e vitalidade fetal. A estação pode exigir que explique por que a decisão muda com o tempo gestacional.",
+      "pathway": [
+        "Processos inflamatórios e mudanças cervicais podem antecipar parto.",
+        "RPM modifica risco de infecção e condutas.",
+        "Idade gestacional muda prioridades de maturação e suporte neonatal.",
+        "Sinais maternos/fetais de comprometimento podem impedir conduta expectante."
+      ],
+      "investigation": "Pedir IG, caracterização do líquido, avaliação fetal, contrações, colo quando apropriado, febre, sangramento e comorbidades.",
+      "approach": "Roteiro sugerido: história objetiva → avaliar gravidade → confirmar TPP/RPM de forma segura → estratificar IG → planejar intervenções/encaminhamento conforme protocolo.",
+      "table": [
+        {
+          "comparison": "TPP × falso trabalho de parto",
+          "distinction": "Modificação cervical e dinâmica distinguem",
+          "decision": "Não concluir por contração isolada."
+        },
+        {
+          "comparison": "RPM × perda urinária",
+          "distinction": "Confirmar origem do líquido",
+          "decision": "Evitar toque desnecessário."
+        }
+      ],
+      "pitfalls": [
+        "Não usar a mesma estratégia para qualquer IG.",
+        "Não ignorar sinais de infecção."
+      ],
+      "recall": "MEMORIZAR: IG → MEMBRANAS → COLO → INFECÇÃO → FETO → CONDUTA.",
+      "flags": "",
+      "source": "Tema oficial OSCE SDMII; roteiro original, não checklist oficial.",
+      "title": "Prematuridade",
+      "group": "OSCE • Saúde da Mulher II",
+      "code": "E4",
+      "status": "Sem registro local",
+      "evidence": ""
+    },
+    {
+      "id": "om-E5",
+      "problem": "Estação OSCE: interpretar sífilis e toxoplasmose na gestação.",
+      "concept": "A estação exige diferenciar sífilis de toxoplasmose e selecionar investigação/tratamento segundo exames, idade gestacional e história de infecção prévia. Há risco de erro por interpretar IgM isolada como infecção recente em qualquer contexto.",
+      "pathway": [
+        "Sífilis pode transmitir verticalmente e exige tratamento adequado ao estágio e seguimento com títulos.",
+        "Toxoplasmose pode ser adquirida na gestação e afetar o feto; tempo de infecção é central.",
+        "IgG/IgM e testes de avidez têm interpretação contextual, não automática.",
+        "Orientação preventiva e seguimento obstétrico são diferentes para cada agente."
+      ],
+      "investigation": "Pedir histórico de sorologias, tratamentos anteriores, data da coleta, IG, presença de sinais e exames complementares disponíveis.",
+      "approach": "Roteiro sugerido: identificar agente → interpretar sorologia sem extrapolar → classificar tempo/risco provável → indicar confirmações e tratamento conforme protocolo → orientar prevenção e seguimento.",
+      "table": [
+        {
+          "comparison": "Sífilis × toxoplasmose",
+          "distinction": "Patógeno, testes e tratamento diferem",
+          "decision": "Não transportar esquemas entre infecções."
+        },
+        {
+          "comparison": "IgM positiva × fase aguda certa",
+          "distinction": "IgM pode persistir ou ser falso-positiva",
+          "decision": "Usar avidez e contexto quando aplicável."
+        },
+        {
+          "comparison": "Treponêmico × títulos não treponêmicos",
+          "distinction": "Função diagnóstica e seguimento diferem",
+          "decision": "Acompanhar adequação da terapia de sífilis."
+        }
+      ],
+      "pitfalls": [
+        "Não declarar toxoplasmose aguda por único IgM.",
+        "Não negligenciar história de penicilina em sífilis prévia."
+      ],
+      "recall": "MEMORIZAR: AGENTE → IG → TESTE/AVIDEZ → HISTÓRIA → TERAPIA ESPECÍFICA.",
+      "flags": "",
+      "source": "Tema oficial OSCE SDMII; sequência de estudo original.",
+      "title": "Sífilis e toxoplasmose na gestação",
+      "group": "OSCE • Saúde da Mulher II",
+      "code": "E5",
+      "status": "Sem registro local",
+      "evidence": ""
+    }
+  ]
+}

@@ -1,0 +1,967 @@
+{
+  "schema": 1,
+  "version": "1.7.0",
+  "published": "2026-11-21",
+  "timezone": "America/Sao_Paulo",
+  "principles": [
+    "Tarefas agendadas não são automaticamente concluídas."
+  ],
+  "exams": [
+    {
+      "date": "2026-11-25",
+      "title": "P2 • Saúde da Criança II",
+      "tag": "Prova teórica",
+      "time": "09h"
+    },
+    {
+      "date": "2026-11-27",
+      "title": "P2 • Saúde da Mulher II",
+      "tag": "Prova teórica",
+      "time": "09h"
+    },
+    {
+      "date": "2026-12-02",
+      "title": "OSCE • Saúde da Criança II",
+      "tag": "Prova prática",
+      "time": "08h"
+    },
+    {
+      "date": "2026-12-04",
+      "title": "OSCE • Saúde da Mulher II",
+      "tag": "Prova prática",
+      "time": "Horário a confirmar"
+    }
+  ],
+  "events": [
+    {
+      "date": "2026-11-25",
+      "title": "P2 • Saúde da Criança II",
+      "time": "09h",
+      "kind": "prova"
+    },
+    {
+      "date": "2026-11-27",
+      "title": "P2 • Saúde da Mulher II",
+      "time": "09h",
+      "kind": "prova"
+    },
+    {
+      "date": "2026-12-02",
+      "title": "OSCE • Saúde da Criança II",
+      "time": "08h",
+      "kind": "osce"
+    },
+    {
+      "date": "2026-12-04",
+      "title": "OSCE • Saúde da Mulher II",
+      "time": "Horário a confirmar",
+      "kind": "osce"
+    }
+  ],
+  "pending": [],
+  "studyPending": [
+    {
+      "id": "sc-A1",
+      "title": "Hipertensão arterial na infância e adolescência",
+      "status": "Material de estudo",
+      "next": "Aferição adequada, classificação, avaliação e conduta."
+    },
+    {
+      "id": "sc-A2",
+      "title": "Reações alérgicas em pediatria",
+      "status": "Material de estudo",
+      "next": "Urticária, anafilaxia e atendimento inicial."
+    },
+    {
+      "id": "sc-A3",
+      "title": "Febre reumática",
+      "status": "Material de estudo",
+      "next": "Critérios de Jones, cardite, prevenção e profilaxia secundária."
+    },
+    {
+      "id": "sc-A4",
+      "title": "Meningite",
+      "status": "Material de estudo",
+      "next": "Quadro clínico, gravidade, investigação, líquor e tratamento inicial."
+    },
+    {
+      "id": "sc-A5",
+      "title": "PALS 2025 e emergências pediátricas",
+      "status": "Material de estudo",
+      "next": "Avaliação sistematizada, ventilação, suporte básico e emergência."
+    },
+    {
+      "id": "sc-A6",
+      "title": "Dispositivos respiratórios na emergência pediátrica",
+      "status": "Material de estudo",
+      "next": "Oxigenoterapia, interfaces, bolsa-válvula-máscara e vias aéreas."
+    },
+    {
+      "id": "sc-A7",
+      "title": "Manejo de crises convulsivas em pediatria",
+      "status": "Material de estudo",
+      "next": "Crise aguda, estado de mal e sequência de estabilização."
+    },
+    {
+      "id": "sc-A8",
+      "title": "Cetoacidose diabética",
+      "status": "Material de estudo",
+      "next": "Diagnóstico, hidratação, eletrólitos, insulina e complicações."
+    },
+    {
+      "id": "sc-A9",
+      "title": "Abordagem do choque pediátrico",
+      "status": "Material de estudo",
+      "next": "Hipoperfusão, classificação, estabilização e reavaliação."
+    },
+    {
+      "id": "sc-A10",
+      "title": "Parada cardiorrespiratória em pediatria",
+      "status": "Material de estudo",
+      "next": "Reconhecimento, RCP, ritmos, desfibrilação e medicamentos."
+    },
+    {
+      "id": "sm-A1",
+      "title": "Trabalho de parto prematuro e bolsa rota",
+      "status": "Material de estudo",
+      "next": "Diagnóstico, idade gestacional, conduta, infecção e prematuridade."
+    },
+    {
+      "id": "sm-A2",
+      "title": "Síndromes hipertensivas gestacionais",
+      "status": "Material de estudo",
+      "next": "Hipertensão na gestação, pré-eclâmpsia, eclâmpsia e HELLP."
+    },
+    {
+      "id": "sm-A3",
+      "title": "Diabetes mellitus da gestante",
+      "status": "Material de estudo",
+      "next": "Rastreamento, diagnóstico, metas e manejo da diabetes gestacional."
+    },
+    {
+      "id": "sm-A4",
+      "title": "Sífilis na gestação",
+      "status": "Material de estudo",
+      "next": "Sorologias, estágios, tratamento, parceiro e seguimento."
+    },
+    {
+      "id": "sm-A5",
+      "title": "Gestação gemelar",
+      "status": "Material de estudo",
+      "next": "Corionicidade, complicações e acompanhamento."
+    },
+    {
+      "id": "sm-A6",
+      "title": "Infecções gestacionais",
+      "status": "Material de estudo",
+      "next": "Citomegalovírus, toxoplasmose, rubéola e estreptococo do grupo B."
+    }
+  ],
+  "daily": {
+    "2026-11-21": [
+      {
+        "id": "pals",
+        "area": "Saúde da Criança II",
+        "title": "PALS 2025",
+        "detail": "Concluir o conteúdo pendente e executar o algoritmo de avaliação e estabilização.",
+        "priority": "Crítica",
+        "method": "Aula + algoritmo",
+        "questions": 15
+      },
+      {
+        "id": "choque",
+        "area": "Saúde da Criança II",
+        "title": "Choque pediátrico",
+        "detail": "Diferenciar tipos, reconhecer sinais de hipoperfusão e conduzir abordagem inicial.",
+        "priority": "Crítica",
+        "method": "Algoritmo + casos",
+        "questions": 13
+      },
+      {
+        "id": "meningite",
+        "area": "Saúde da Criança II",
+        "title": "Meningite",
+        "detail": "Sinais de gravidade, coleta de líquor, contraindicações e antibioticoterapia inicial.",
+        "priority": "Alta",
+        "method": "Apostila Ouro + questões",
+        "questions": 12
+      },
+      {
+        "id": "convulsoes",
+        "area": "Saúde da Criança II",
+        "title": "Crises convulsivas",
+        "detail": "Crise aguda, status epilepticus e sequência de tratamento.",
+        "priority": "Alta",
+        "method": "Casos + questões",
+        "questions": 11
+      },
+      {
+        "id": "tpp",
+        "area": "Saúde da Mulher II",
+        "title": "Trabalho de parto prematuro e bolsa rota",
+        "detail": "Diferenciar situações e revisar condutas por idade gestacional.",
+        "priority": "Alta",
+        "method": "Fluxograma + questões",
+        "questions": 10
+      }
+    ],
+    "2026-11-22": [
+      {
+        "id": "cad",
+        "area": "Saúde da Criança II",
+        "title": "Cetoacidose diabética",
+        "detail": "Diagnóstico, fluidoterapia, potássio, insulina e edema cerebral.",
+        "priority": "Crítica",
+        "method": "Casos + questões",
+        "questions": 12
+      },
+      {
+        "id": "dispositivos",
+        "area": "Saúde da Criança II",
+        "title": "Dispositivos respiratórios",
+        "detail": "Indicações e diferenças entre oxigenoterapia, VNI e via aérea avançada.",
+        "priority": "Alta",
+        "method": "Aplicação clínica",
+        "questions": 10
+      },
+      {
+        "id": "pcr",
+        "area": "Saúde da Criança II",
+        "title": "PCR pediátrica",
+        "detail": "Ritmos, compressões, desfibrilação e medicamentos conforme PALS.",
+        "priority": "Crítica",
+        "method": "Algoritmo + simulação",
+        "questions": 15
+      },
+      {
+        "id": "fr",
+        "area": "Saúde da Criança II",
+        "title": "Febre reumática",
+        "detail": "Revisar critérios de Jones, cardite e profilaxia secundária.",
+        "priority": "Média",
+        "method": "Resumo + questões",
+        "questions": 10
+      },
+      {
+        "id": "shg",
+        "area": "Saúde da Mulher II",
+        "title": "Síndromes hipertensivas gestacionais",
+        "detail": "Classificação, pré-eclâmpsia, sinais de gravidade e sulfato de magnésio.",
+        "priority": "Crítica",
+        "method": "Fluxograma + questões",
+        "questions": 12
+      }
+    ],
+    "2026-11-23": [
+      {
+        "id": "palsrev",
+        "area": "Saúde da Criança II",
+        "title": "A5 + A10 • PALS e PCR pediátrica",
+        "detail": "Voltar ao algoritmo e separar claramente suporte básico, ritmo e atendimento em PCR.",
+        "priority": "Crítica",
+        "method": "Recuperação ativa + questões",
+        "questions": 15
+      },
+      {
+        "id": "choqueconv",
+        "area": "Saúde da Criança II",
+        "title": "A9 + A7 • Choque e convulsões",
+        "detail": "Resolver casos com sinais de gravidade, estabilização e sequência terapêutica.",
+        "priority": "Crítica",
+        "method": "Casos + questões",
+        "questions": 14
+      },
+      {
+        "id": "menrev",
+        "area": "Saúde da Criança II",
+        "title": "A4 • Meningite",
+        "detail": "Fixar diagnóstico, indicações de líquor, contraindicações e tratamento.",
+        "priority": "Alta",
+        "method": "Questões + caderno de erros",
+        "questions": 12
+      },
+      {
+        "id": "alergiashas",
+        "area": "Saúde da Criança II",
+        "title": "A1 + A2 • HAS e alergia/anafilaxia",
+        "detail": "Recuperação ativa dos temas já vistos, sem presumir consolidação.",
+        "priority": "Alta",
+        "method": "Questões direcionadas",
+        "questions": 12
+      },
+      {
+        "id": "dmg",
+        "area": "Saúde da Mulher II",
+        "title": "A3 • Diabetes da gestante",
+        "detail": "Rever rastreio, diagnóstico e condutas iniciais.",
+        "priority": "Alta",
+        "method": "Apostila de Ouro + questões",
+        "questions": 10
+      }
+    ],
+    "2026-11-24": [
+      {
+        "id": "palspcr",
+        "area": "Saúde da Criança II",
+        "title": "A5 + A10 • PALS e PCR",
+        "detail": "Algoritmos completos: recitar sem consulta e corrigir os erros.",
+        "priority": "Crítica",
+        "method": "Recuperação ativa",
+        "questions": 14
+      },
+      {
+        "id": "cadchoque",
+        "area": "Saúde da Criança II",
+        "title": "A8 + A9 • CAD e choque",
+        "detail": "Raciocínio diagnóstico e condutas iniciais em casos clínicos.",
+        "priority": "Crítica",
+        "method": "Casos clínicos",
+        "questions": 12
+      },
+      {
+        "id": "menconv",
+        "area": "Saúde da Criança II",
+        "title": "A4 + A7 • Meningite e crises convulsivas",
+        "detail": "Condutas urgentes, sinais de gravidade e tratamento.",
+        "priority": "Alta",
+        "method": "Questões + erros",
+        "questions": 12
+      },
+      {
+        "id": "hasfr",
+        "area": "Saúde da Criança II",
+        "title": "A1 + A3 • HAS e febre reumática",
+        "detail": "Consolidar conteúdos estudados previamente, especialmente critérios de Jones.",
+        "priority": "Alta",
+        "method": "Questões + erros",
+        "questions": 14
+      },
+      {
+        "id": "alergdis",
+        "area": "Saúde da Criança II",
+        "title": "A2 + A6 • Anafilaxia e dispositivos",
+        "detail": "Adrenalina IM e indicações de oxigênio, VNI e via aérea avançada.",
+        "priority": "Alta",
+        "method": "Questões + revisão ativa",
+        "questions": 10
+      }
+    ],
+    "2026-11-25": [
+      {
+        "id": "p2cri",
+        "area": "Saúde da Criança II",
+        "title": "P2 Saúde da Criança II • 09h",
+        "detail": "Revisar apenas o caderno de erros e realizar a avaliação.",
+        "priority": "Crítica",
+        "method": "Prova / revisão final",
+        "questions": 0
+      },
+      {
+        "id": "tppfull",
+        "area": "Saúde da Mulher II",
+        "title": "A1 • TPP e bolsa rota",
+        "detail": "Abordagem por idade gestacional, prevenção e sinais de infecção.",
+        "priority": "Crítica",
+        "method": "Apostila de Ouro + casos",
+        "questions": 12
+      },
+      {
+        "id": "shgfull",
+        "area": "Saúde da Mulher II",
+        "title": "A2 • Síndromes hipertensivas gestacionais",
+        "detail": "Pré-eclâmpsia, eclâmpsia, HELLP e tratamento.",
+        "priority": "Crítica",
+        "method": "Algoritmo + questões",
+        "questions": 15
+      },
+      {
+        "id": "dmgfull",
+        "area": "Saúde da Mulher II",
+        "title": "A3 • Diabetes da gestante",
+        "detail": "Rastreio, metas e manejo clínico/obstétrico.",
+        "priority": "Alta",
+        "method": "Questões + erros",
+        "questions": 12
+      },
+      {
+        "id": "sifilis",
+        "area": "Saúde da Mulher II",
+        "title": "A4 • Sífilis gestacional",
+        "detail": "Estadiamento, diagnóstico, tratamento e conduta com parceiro.",
+        "priority": "Crítica",
+        "method": "Apostila de Ouro + questões",
+        "questions": 12
+      }
+    ],
+    "2026-11-26": [
+      {
+        "id": "infeccoes",
+        "area": "Saúde da Mulher II",
+        "title": "A6 • Infecções gestacionais",
+        "detail": "CMV, toxoplasmose, rubéola e estreptococo do grupo B.",
+        "priority": "Crítica",
+        "method": "Mapa comparativo + questões",
+        "questions": 15
+      },
+      {
+        "id": "gemelar",
+        "area": "Saúde da Mulher II",
+        "title": "A5 • Gestação gemelar",
+        "detail": "Corionicidade, complicações e seguimento pré-natal.",
+        "priority": "Alta",
+        "method": "Apostila de Ouro + questões",
+        "questions": 12
+      },
+      {
+        "id": "shgdmg",
+        "area": "Saúde da Mulher II",
+        "title": "A2 + A3 • SHG e DMG",
+        "detail": "Treinar casos de pré-eclâmpsia e diabetes gestacional.",
+        "priority": "Crítica",
+        "method": "Casos + recuperação ativa",
+        "questions": 15
+      },
+      {
+        "id": "tppbolsa",
+        "area": "Saúde da Mulher II",
+        "title": "A1 • TPP e bolsa rota",
+        "detail": "Indicações e contraindicações por idade gestacional.",
+        "priority": "Alta",
+        "method": "Questões + erros",
+        "questions": 12
+      },
+      {
+        "id": "siftox",
+        "area": "Saúde da Mulher II",
+        "title": "A4 + A6 • Sífilis e toxoplasmose",
+        "detail": "Diagnóstico e tratamento em casos de gestantes; rever outras infecções.",
+        "priority": "Crítica",
+        "method": "Questões cronometradas",
+        "questions": 12
+      }
+    ],
+    "2026-11-27": [
+      {
+        "id": "p2mul",
+        "area": "Saúde da Mulher II",
+        "title": "P2 Saúde da Mulher II • 09h",
+        "detail": "Revisão ultrarrápida do caderno de erros, seguida da prova.",
+        "priority": "Crítica",
+        "method": "Prova / revisão final",
+        "questions": 0
+      },
+      {
+        "id": "oscechoque",
+        "area": "OSCE Criança II",
+        "title": "OSCE • Choque pediátrico",
+        "detail": "Reconhecer hipoperfusão, estabilizar e reavaliar.",
+        "priority": "Crítica",
+        "method": "Estação 1 + 4 + 1",
+        "questions": 0
+      },
+      {
+        "id": "osceconv",
+        "area": "OSCE Criança II",
+        "title": "OSCE • Episódio convulsivo",
+        "detail": "Avaliação imediata e tratamento prioritário.",
+        "priority": "Crítica",
+        "method": "Estação 1 + 4 + 1",
+        "questions": 0
+      },
+      {
+        "id": "oscecad",
+        "area": "OSCE Criança II",
+        "title": "OSCE • Cetoacidose diabética",
+        "detail": "Reconhecer e iniciar manejo seguro em cenário simulado.",
+        "priority": "Alta",
+        "method": "Estação 1 + 4 + 1",
+        "questions": 0
+      },
+      {
+        "id": "oscesbv",
+        "area": "OSCE Criança II",
+        "title": "OSCE • Suporte básico de vida",
+        "detail": "Treinar avaliação, compressões e acionamento de ajuda.",
+        "priority": "Crítica",
+        "method": "Estação 1 + 4 + 1",
+        "questions": 0
+      }
+    ],
+    "2026-11-28": [
+      {
+        "id": "choque28",
+        "area": "OSCE Criança II",
+        "title": "Choque pediátrico",
+        "detail": "Avaliação de perfusão e conduta clínica, em voz alta.",
+        "priority": "Crítica",
+        "method": "Estação cronometrada",
+        "questions": 0
+      },
+      {
+        "id": "conv28",
+        "area": "OSCE Criança II",
+        "title": "Convulsão pediátrica",
+        "detail": "Estabilização, tempo de crise e condutas prioritárias.",
+        "priority": "Crítica",
+        "method": "Estação cronometrada",
+        "questions": 0
+      },
+      {
+        "id": "cad28",
+        "area": "OSCE Criança II",
+        "title": "Cetoacidose diabética",
+        "detail": "Interpretação clínica, medidas iniciais e monitorização.",
+        "priority": "Alta",
+        "method": "Estação cronometrada",
+        "questions": 0
+      },
+      {
+        "id": "icter28",
+        "area": "OSCE Criança II",
+        "title": "Icterícia neonatal",
+        "detail": "Avaliar RN, identificar gravidade e indicar conduta.",
+        "priority": "Alta",
+        "method": "Estação cronometrada",
+        "questions": 0
+      },
+      {
+        "id": "sbv28",
+        "area": "OSCE Criança II",
+        "title": "Suporte básico de vida",
+        "detail": "Sequência completa e verbalização para avaliador.",
+        "priority": "Crítica",
+        "method": "Estação cronometrada",
+        "questions": 0
+      }
+    ],
+    "2026-11-29": [
+      {
+        "id": "icter29",
+        "area": "OSCE Criança II",
+        "title": "Icterícia neonatal",
+        "detail": "Avaliação clínica e decisões iniciais sobre fototerapia.",
+        "priority": "Crítica",
+        "method": "Casos + estação",
+        "questions": 0
+      },
+      {
+        "id": "choque29",
+        "area": "OSCE Criança II",
+        "title": "Choque pediátrico",
+        "detail": "Reavaliação após intervenção, com justificativa.",
+        "priority": "Crítica",
+        "method": "Estação cronometrada",
+        "questions": 0
+      },
+      {
+        "id": "conv29",
+        "area": "OSCE Criança II",
+        "title": "Convulsão",
+        "detail": "Dose, sequência e segurança na abordagem da emergência.",
+        "priority": "Alta",
+        "method": "Estação cronometrada",
+        "questions": 0
+      },
+      {
+        "id": "sbv29",
+        "area": "OSCE Criança II",
+        "title": "Suporte básico de vida",
+        "detail": "Treino sem consulta e comunicação com equipe.",
+        "priority": "Crítica",
+        "method": "Estação cronometrada",
+        "questions": 0
+      },
+      {
+        "id": "cad29",
+        "area": "OSCE Criança II",
+        "title": "Cetoacidose diabética",
+        "detail": "Identificação de sinais de gravidade e plano inicial.",
+        "priority": "Alta",
+        "method": "Caso simulado",
+        "questions": 0
+      }
+    ],
+    "2026-11-30": [
+      {
+        "id": "simchoque30",
+        "area": "OSCE Criança II",
+        "title": "Circuito OSCE • Choque",
+        "detail": "Cenário completo: reconhecer, agir, reavaliar.",
+        "priority": "Crítica",
+        "method": "Simulação 1 + 4 + 1",
+        "questions": 0
+      },
+      {
+        "id": "simconv30",
+        "area": "OSCE Criança II",
+        "title": "Circuito OSCE • Convulsão",
+        "detail": "Treinar abordagem e segurança do paciente.",
+        "priority": "Crítica",
+        "method": "Simulação 1 + 4 + 1",
+        "questions": 0
+      },
+      {
+        "id": "simicter30",
+        "area": "OSCE Criança II",
+        "title": "Circuito OSCE • Icterícia neonatal",
+        "detail": "Avaliar fatores de risco e indicar próximo passo.",
+        "priority": "Alta",
+        "method": "Simulação 1 + 4 + 1",
+        "questions": 0
+      },
+      {
+        "id": "simsbv30",
+        "area": "OSCE Criança II",
+        "title": "Circuito OSCE • SBV",
+        "detail": "Fazer sequência completa sem cola.",
+        "priority": "Crítica",
+        "method": "Simulação 1 + 4 + 1",
+        "questions": 0
+      },
+      {
+        "id": "simcad30",
+        "area": "OSCE Criança II",
+        "title": "Circuito OSCE • CAD",
+        "detail": "Estabilização e decisões iniciais.",
+        "priority": "Alta",
+        "method": "Simulação 1 + 4 + 1",
+        "questions": 0
+      }
+    ],
+    "2026-12-01": [
+      {
+        "id": "choque01",
+        "area": "OSCE Criança II",
+        "title": "OSCE • Choque em 4 minutos",
+        "detail": "Reproduzir conduta e corrigir hesitações.",
+        "priority": "Crítica",
+        "method": "Estação cronometrada",
+        "questions": 0
+      },
+      {
+        "id": "conv01",
+        "area": "OSCE Criança II",
+        "title": "OSCE • Convulsão em 4 minutos",
+        "detail": "Sequência segura e sem interrupções.",
+        "priority": "Crítica",
+        "method": "Estação cronometrada",
+        "questions": 0
+      },
+      {
+        "id": "icter01",
+        "area": "OSCE Criança II",
+        "title": "OSCE • Icterícia neonatal em 4 minutos",
+        "detail": "Exame e raciocínio em voz alta.",
+        "priority": "Alta",
+        "method": "Estação cronometrada",
+        "questions": 0
+      },
+      {
+        "id": "sbv01",
+        "area": "OSCE Criança II",
+        "title": "OSCE • Suporte básico de vida",
+        "detail": "Sequência sem consulta, com reavaliação.",
+        "priority": "Crítica",
+        "method": "Estação cronometrada",
+        "questions": 0
+      },
+      {
+        "id": "cad01",
+        "area": "OSCE Criança II",
+        "title": "OSCE • CAD em 4 minutos",
+        "detail": "Reconhecimento, abordagem e devolutiva.",
+        "priority": "Alta",
+        "method": "Estação cronometrada",
+        "questions": 0
+      }
+    ],
+    "2026-12-02": [
+      {
+        "id": "oscecri",
+        "area": "OSCE Criança II",
+        "title": "OSCE Saúde da Criança II • 08h",
+        "detail": "Checklist breve e avaliação prática.",
+        "priority": "Crítica",
+        "method": "Prova prática",
+        "questions": 0
+      },
+      {
+        "id": "prenatal",
+        "area": "OSCE Mulher II",
+        "title": "OSCE • Pré-natal",
+        "detail": "História, exames, rastreio e orientações.",
+        "priority": "Alta",
+        "method": "Estação 1 + 4 + 1",
+        "questions": 0
+      },
+      {
+        "id": "preeclampsia",
+        "area": "OSCE Mulher II",
+        "title": "OSCE • Pré-eclâmpsia",
+        "detail": "Reconhecer sinais de gravidade e agir.",
+        "priority": "Crítica",
+        "method": "Estação 1 + 4 + 1",
+        "questions": 0
+      },
+      {
+        "id": "dmgosce",
+        "area": "OSCE Mulher II",
+        "title": "OSCE • Diabetes gestacional",
+        "detail": "Interpretação de resultados e manejo inicial.",
+        "priority": "Alta",
+        "method": "Estação 1 + 4 + 1",
+        "questions": 0
+      },
+      {
+        "id": "prematosce",
+        "area": "OSCE Mulher II",
+        "title": "OSCE • Prematuridade",
+        "detail": "Reconhecer TPP, explicar condutas e encaminhamento.",
+        "priority": "Crítica",
+        "method": "Estação 1 + 4 + 1",
+        "questions": 0
+      }
+    ],
+    "2026-12-03": [
+      {
+        "id": "pre03",
+        "area": "OSCE Mulher II",
+        "title": "Pré-natal em estação",
+        "detail": "Consulta direcionada, exame e comunicação.",
+        "priority": "Alta",
+        "method": "Estação cronometrada",
+        "questions": 0
+      },
+      {
+        "id": "precl03",
+        "area": "OSCE Mulher II",
+        "title": "Pré-eclâmpsia",
+        "detail": "Critérios, gravidade e conduta inicial verbalizada.",
+        "priority": "Crítica",
+        "method": "Estação cronometrada",
+        "questions": 0
+      },
+      {
+        "id": "dmg03",
+        "area": "OSCE Mulher II",
+        "title": "Diabetes gestacional",
+        "detail": "Rastreio e orientação clínica em caso simulado.",
+        "priority": "Alta",
+        "method": "Estação cronometrada",
+        "questions": 0
+      },
+      {
+        "id": "prem03",
+        "area": "OSCE Mulher II",
+        "title": "Prematuridade",
+        "detail": "TPP e bolsa rota, conduta contextualizada.",
+        "priority": "Crítica",
+        "method": "Estação cronometrada",
+        "questions": 0
+      },
+      {
+        "id": "toxsif03",
+        "area": "OSCE Mulher II",
+        "title": "Toxoplasmose e sífilis",
+        "detail": "Conduta a partir de sorologias e cenários.",
+        "priority": "Crítica",
+        "method": "Estação cronometrada",
+        "questions": 0
+      }
+    ],
+    "2026-12-04": [
+      {
+        "id": "oscemul",
+        "area": "OSCE Mulher II",
+        "title": "OSCE Saúde da Mulher II",
+        "detail": "Avaliação prática prevista; horário a confirmar.",
+        "priority": "Crítica",
+        "method": "Prova prática",
+        "questions": 0
+      },
+      {
+        "id": "retorno",
+        "area": "Saúde da Mulher II",
+        "title": "Conferir resultados e eventuais pendências",
+        "detail": "Só preparar substitutiva se houver indicação confirmada.",
+        "priority": "Média",
+        "method": "Conferência acadêmica",
+        "questions": 0
+      },
+      {
+        "id": "errosmul",
+        "area": "Saúde da Mulher II",
+        "title": "Caderno de erros da P2",
+        "detail": "Recuperação ativa dos conteúdos ainda frágeis, se necessária.",
+        "priority": "Alta",
+        "method": "Questões seletivas",
+        "questions": 8
+      },
+      {
+        "id": "revisif",
+        "area": "Saúde da Mulher II",
+        "title": "Sífilis e toxoplasmose",
+        "detail": "Revisão curta de interpretações sorológicas, se pertinente.",
+        "priority": "Média",
+        "method": "Resumo + questões",
+        "questions": 8
+      },
+      {
+        "id": "revisim",
+        "area": "Saúde da Mulher II",
+        "title": "Síndromes hipertensivas e DMG",
+        "detail": "Revisão de pontos frágeis para eventual substitutiva.",
+        "priority": "Média",
+        "method": "Questões + erros",
+        "questions": 8
+      }
+    ],
+    "2026-12-05": [
+      {
+        "id": "ret05",
+        "area": "Saúde da Mulher II",
+        "title": "Checar se haverá substitutiva",
+        "detail": "Organizar a semana com base em resultados e regras confirmadas.",
+        "priority": "Alta",
+        "method": "Revisão condicional",
+        "questions": 0
+      },
+      {
+        "id": "obs05",
+        "area": "Saúde da Mulher II",
+        "title": "SDMII • SHG e DMG",
+        "detail": "Rever caderno de erros somente se necessário.",
+        "priority": "Alta",
+        "method": "Revisão condicional",
+        "questions": 0
+      },
+      {
+        "id": "inf05",
+        "area": "Saúde da Mulher II",
+        "title": "SDMII • Sífilis e infecções gestacionais",
+        "detail": "Priorizar sorologias e condutas com erro prévio.",
+        "priority": "Alta",
+        "method": "Revisão condicional",
+        "questions": 0
+      },
+      {
+        "id": "gem05",
+        "area": "Saúde da Mulher II",
+        "title": "SDMII • Gestação gemelar",
+        "detail": "Recordar corionicidade e complicações, se pertinente.",
+        "priority": "Alta",
+        "method": "Revisão condicional",
+        "questions": 0
+      },
+      {
+        "id": "tpp05",
+        "area": "Saúde da Mulher II",
+        "title": "SDMII • TPP e bolsa rota",
+        "detail": "Fazer questões dirigidas, se houver pendência.",
+        "priority": "Média",
+        "method": "Revisão condicional",
+        "questions": 0
+      }
+    ],
+    "2026-12-06": [
+      {
+        "id": "ret06",
+        "area": "Saúde da Mulher II",
+        "title": "Ajustar plano às avaliações confirmadas",
+        "detail": "Evitar estudar prova já encerrada sem necessidade.",
+        "priority": "Alta",
+        "method": "Revisão condicional",
+        "questions": 0
+      },
+      {
+        "id": "obs06",
+        "area": "Saúde da Mulher II",
+        "title": "SHG e DMG • questões",
+        "detail": "Só pontos de erro persistente.",
+        "priority": "Alta",
+        "method": "Revisão condicional",
+        "questions": 0
+      },
+      {
+        "id": "tox06",
+        "area": "Saúde da Mulher II",
+        "title": "Infecções e sífilis",
+        "detail": "Condutas clínicas em casos selecionados.",
+        "priority": "Alta",
+        "method": "Revisão condicional",
+        "questions": 0
+      },
+      {
+        "id": "gem06",
+        "area": "Saúde da Mulher II",
+        "title": "Gestação gemelar",
+        "detail": "Correção dos erros mais frequentes.",
+        "priority": "Alta",
+        "method": "Revisão condicional",
+        "questions": 0
+      },
+      {
+        "id": "tpp06",
+        "area": "Saúde da Mulher II",
+        "title": "TPP e bolsa rota",
+        "detail": "Revisão final condicionada à avaliação.",
+        "priority": "Média",
+        "method": "Revisão condicional",
+        "questions": 0
+      }
+    ],
+    "2026-12-07": [
+      {
+        "id": "sub07",
+        "area": "Saúde da Mulher II",
+        "title": "Substitutiva SDMII • se aplicável",
+        "detail": "Confirmar oficialmente necessidade, data e horário.",
+        "priority": "Alta",
+        "method": "Revisão condicional",
+        "questions": 0
+      },
+      {
+        "id": "err07",
+        "area": "Saúde da Mulher II",
+        "title": "Caderno de erros",
+        "detail": "Apenas questões incorretas previamente identificadas.",
+        "priority": "Alta",
+        "method": "Revisão condicional",
+        "questions": 0
+      },
+      {
+        "id": "alg07",
+        "area": "Saúde da Mulher II",
+        "title": "SHG e TPP",
+        "detail": "Recordação ativa de condutas.",
+        "priority": "Alta",
+        "method": "Revisão condicional",
+        "questions": 0
+      },
+      {
+        "id": "inf07",
+        "area": "Saúde da Mulher II",
+        "title": "Sífilis e infecções",
+        "detail": "Revisar diagnóstico e manejo.",
+        "priority": "Alta",
+        "method": "Revisão condicional",
+        "questions": 0
+      },
+      {
+        "id": "chec07",
+        "area": "Saúde da Mulher II",
+        "title": "Checklist acadêmico",
+        "detail": "Conferir pendências e próximos passos.",
+        "priority": "Média",
+        "method": "Revisão condicional",
+        "questions": 0
+      }
+    ]
+  },
+  "substitutiva": {
+    "status": "A confirmar",
+    "date": null,
+    "note": ""
+  },
+  "source": "Programa de estudos"
+}

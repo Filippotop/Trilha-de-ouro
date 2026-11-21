@@ -1,0 +1,6 @@
+/* Apenas estado de auditoria. Não altera funcionalidades anteriores. */
+.gold-quality-alert{color:#704416;background:#FFF2DC;border:1px solid #F5D5A3;border-radius:14px;font:600 13px/1.6 'Nunito',sans-serif;padding:12px 15px;margin:12px 0 18px;overflow-wrap:anywhere}
+.gold-quality-alert strong{color:#8A4F08;font-weight:800}
+#gold-mode-sim:disabled{opacity:.54;cursor:not-allowed}
+.gold-workspace .gold-error{background:#FFF2DC;color:#75420b;border:1px solid #F5D5A3;padding:19px;border-radius:14px;line-height:1.7}
+@media(max-width:500px){.gold-quality-alert{font-size:12px;padding:12px}.gold-workspace .gold-choose{flex-wrap:wrap}}

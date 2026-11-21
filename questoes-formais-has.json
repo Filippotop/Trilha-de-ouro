@@ -1,0 +1,562 @@
+[
+  {
+    "id": "hp-formal-01",
+    "group": "p2-child",
+    "topic": "HAS em crianças e adolescentes",
+    "stem": "Menino de 9 anos, assintomático, tem três aferições oscilométricas elevadas em uma consulta, durante avaliação por obesidade. Qual é o passo mais adequado para confirmar que a elevação não decorreu da técnica?",
+    "options": [
+      "Classificar hipertensão permanente apenas pela média oscilométrica da consulta.",
+      "Usar a pressão de um familiar como padrão para interpretar o valor.",
+      "Iniciar imediatamente medicação intravenosa pela presença de obesidade.",
+      "Repetir com manguito apropriado, em repouso, e confirmar a elevação pela técnica auscultatória.",
+      "Desconsiderar os resultados porque aparelhos oscilométricos são sempre incorretos."
+    ],
+    "answer": 3,
+    "explanation": "A pressão oscilométrica elevada precisa de confirmação com técnica adequada, medida auscultatória e interpretação para idade, sexo e estatura quando aplicável. Uma visita não basta para rotular hipertensão persistente.",
+    "memorizar": "Aferição elevada isolada não é diagnóstico; técnica correta vem antes de classificar.",
+    "analysis": [
+      "Uma consulta com leituras automáticas não confirma hipertensão sustentada.",
+      "O valor de um familiar não substitui a referência pediátrica.",
+      "Tratamento parenteral é para situações graves específicas, não para obesidade isolada.",
+      "Correta: confirmação auscultatória e manguito adequado reduzem erro técnico.",
+      "A tecnologia oscilométrica pode rastrear; o problema é confirmar a leitura elevada."
+    ],
+    "marker": "Aparelho automático + primeira consulta",
+    "mechanism": "Leitura elevada → excluir erro de medição → confirmar por ausculta → avaliar persistência",
+    "comparison": "Triagem oscilométrica × confirmação auscultatória",
+    "trap": "Transformar rastreio em diagnóstico definitivo",
+    "formal": true
+  },
+  {
+    "id": "hp-formal-02",
+    "group": "p2-child",
+    "topic": "HAS em crianças e adolescentes",
+    "stem": "Criança de 11 anos sem doença crônica apresenta medidas persistentemente elevadas na unidade. Para classificar corretamente a pressão arterial nessa faixa etária, qual conjunto de dados é indispensável?",
+    "options": [
+      "Idade e peso, exclusivamente.",
+      "Sexo e IMC, dispensando altura.",
+      "A média das pressões dos pais.",
+      "Somente valor absoluto de 130/80 mmHg, como para todos os adolescentes.",
+      "Idade, sexo e altura, além de técnica de aferição adequada."
+    ],
+    "answer": 4,
+    "explanation": "Para menores de 13 anos, os referenciais pediátricos usam percentis vinculados a idade, sexo e estatura; a técnica correta permanece essencial.",
+    "memorizar": "Menores de 13 anos: a altura integra a interpretação percentilar.",
+    "analysis": [
+      "Peso pode influenciar risco, mas não substitui a classificação por percentis.",
+      "IMC orienta risco, não a tabela de referência pressórica.",
+      "História familiar modifica risco, não classifica a medida.",
+      "O limiar fixo de adolescente não se aplica indistintamente a toda criança de 11 anos.",
+      "Correta: as três variáveis fundamentam a classificação em crianças pequenas."
+    ],
+    "marker": "Idade inferior a 13 anos",
+    "mechanism": "Mudança de idade → mudança de referência de classificação → percentis pediátricos",
+    "comparison": "<13 anos por percentis × ≥13 anos com limiares absolutos",
+    "trap": "Aplicar ponto de corte de adulto a criança",
+    "formal": true
+  },
+  {
+    "id": "hp-formal-03",
+    "group": "p2-child",
+    "topic": "HAS em crianças e adolescentes",
+    "stem": "Adolescente de 14 anos, sem sintomas, apresenta PA de 132/84 mmHg repetida corretamente em consulta. Qual afirmação sobre a classificação inicial é a mais apropriada conforme os limiares para adolescentes a partir de 13 anos?",
+    "options": [
+      "O valor é sempre normal, se o adolescente for alto.",
+      "O valor se enquadra em pressão elevada, mas não hipertensão.",
+      "O valor é compatível com faixa de hipertensão estágio 1, dependendo de confirmação clínica.",
+      "A interpretação exige exclusivamente o percentil de altura, como aos 5 anos.",
+      "Uma leitura única estabelece hipertensão crônica sem necessidade de seguimento."
+    ],
+    "answer": 2,
+    "explanation": "A partir dos 13 anos, a classificação incorpora limiares absolutos; valores de 130 a 139 mmHg sistólicos ou 80 a 89 mmHg diastólicos se enquadram na faixa de estágio 1, sem dispensar confirmação do diagnóstico ao longo do seguimento.",
+    "memorizar": "≥13 anos: 130–139/80–89 sugere faixa de estágio 1; classificar faixa não é fechar diagnóstico.",
+    "analysis": [
+      "A estatura não redefine arbitrariamente esse limiar fixo.",
+      "Nessa idade, 132/84 excede a faixa de apenas PA elevada.",
+      "Correta: faixa de estágio 1, confirmação clínica subsequente necessária.",
+      "Essa lógica por percentil é dominante antes dos 13 anos.",
+      "Diagnóstico persistente não se conclui com uma medida isolada."
+    ],
+    "marker": "Idade 14 anos e PA 132/84",
+    "mechanism": "Idade ≥13 → limiar absoluto → classificar faixa → confirmar persistência",
+    "comparison": "Faixa pressórica da consulta × diagnóstico de hipertensão sustentada",
+    "trap": "Usar estatura para normalizar valor em adolescente",
+    "formal": true
+  },
+  {
+    "id": "hp-formal-04",
+    "group": "p2-child",
+    "topic": "HAS em crianças e adolescentes",
+    "stem": "Menina de 12 anos tem valores elevados em três consultas, mas monitorização ambulatorial de pressão arterial (MAPA) adequada mostra valores dentro da normalidade fora da unidade. Qual hipótese é mais compatível?",
+    "options": [
+      "Hipertensão mascarada.",
+      "Hipertensão do avental branco.",
+      "Hipertensão maligna obrigatória.",
+      "Choque distributivo.",
+      "Erro de interpretação: MAPA não auxilia em pediatria."
+    ],
+    "answer": 1,
+    "explanation": "Pressões elevadas no consultório e normais na monitorização ambulatorial sugerem hipertensão do avental branco. É preciso validar a qualidade do exame e avaliar o contexto.",
+    "memorizar": "Avental branco: alta no consultório, normal fora dele.",
+    "analysis": [
+      "Mascarada é o padrão inverso: consultório normal, fora elevado.",
+      "Correta: diferença entre ambiente clínico e ambulatorial.",
+      "Nada no enunciado sustenta emergência hipertensiva.",
+      "Choque é síndrome de perfusão, não explicação para este padrão.",
+      "A MAPA ajuda a esclarecer discrepâncias em crianças selecionadas."
+    ],
+    "marker": "Consultório alto + MAPA normal",
+    "mechanism": "Ambiente de aferição → elevação contextual → confirmar fora do consultório",
+    "comparison": "Avental branco × hipertensão mascarada",
+    "trap": "Inverter os padrões do consultório e da MAPA",
+    "formal": true
+  },
+  {
+    "id": "hp-formal-05",
+    "group": "p2-child",
+    "topic": "HAS em crianças e adolescentes",
+    "stem": "Adolescente com doença renal crônica apresenta valores aparentemente normais em consultas, mas MAPA de boa qualidade registra elevação persistente fora do consultório. Qual termo descreve o padrão?",
+    "options": [
+      "Hipertensão mascarada.",
+      "Hipertensão do avental branco.",
+      "Ausência de risco pressórico.",
+      "Hipotensão ortostática como única explicação.",
+      "Pressão normal obrigatória porque a consulta foi normal."
+    ],
+    "answer": 0,
+    "explanation": "Hipertensão mascarada descreve pressão no consultório aparentemente normal e elevação fora dele, detectada por MAPA. O contexto renal torna a identificação clinicamente relevante.",
+    "memorizar": "Mascarada: consultório normal, MAPA elevada.",
+    "analysis": [
+      "Correta: a monitorização revelou a alteração oculta na consulta.",
+      "Avental branco apresenta o padrão inverso.",
+      "A MAPA anormal invalida a falsa segurança de valores pontuais normais.",
+      "Não há dados de hipotensão postural.",
+      "A ausência de elevação na consulta não exclui hipertensão fora dela."
+    ],
+    "marker": "Consultório normal + MAPA elevada",
+    "mechanism": "Medidas isoladas não captam pressão cotidiana → MAPA revela hipertensão",
+    "comparison": "Mascarada × avental branco",
+    "trap": "Usar só a PA do consultório",
+    "formal": true
+  },
+  {
+    "id": "hp-formal-06",
+    "group": "p2-child",
+    "topic": "HAS em crianças e adolescentes",
+    "stem": "Adolescente de 13 anos com obesidade, acantose nigricans e pressão persistentemente elevada recebe aconselhamento inicial. Qual abordagem avalia melhor os riscos frequentemente associados, sem assumir uma causa única?",
+    "options": [
+      "Considerar a hipertensão exclusivamente psicogênica.",
+      "Concluir que hipertensão por obesidade dispensa qualquer avaliação adicional.",
+      "Solicitar apenas uma radiografia de tórax como investigação metabólica.",
+      "Suspender qualquer avaliação renal porque a acantose explica todos os achados.",
+      "Investigar fatores cardiometabólicos, hábitos, sono e possíveis causas secundárias conforme os achados."
+    ],
+    "answer": 4,
+    "explanation": "Obesidade e acantose sugerem contexto de resistência à insulina e risco cardiometabólico, mas não excluem causas secundárias nem dispensam avaliação clínica e de risco.",
+    "memorizar": "Associação metabólica não equivale a diagnóstico etiológico exclusivo.",
+    "analysis": [
+      "Não há evidência para atribuir tudo a fatores emocionais.",
+      "Obesidade não autoriza diagnóstico etiológico sem avaliação.",
+      "Radiografia isolada não rastreia o conjunto metabólico.",
+      "Acantose não elimina causas renais e outras comorbidades.",
+      "Correta: avaliar o paciente inteiro, inclusive contexto renal e sono."
+    ],
+    "marker": "Obesidade + acantose + PA elevada",
+    "mechanism": "Resistência à insulina pode coexistir com outros riscos → avaliação integrada",
+    "comparison": "Fator associado × causa exclusiva",
+    "trap": "Encerrar investigação por viés de ancoragem",
+    "formal": true
+  },
+  {
+    "id": "hp-formal-07",
+    "group": "p2-child",
+    "topic": "HAS em crianças e adolescentes",
+    "stem": "Criança de 8 anos tem hipertensão confirmada, hematúria microscópica e proteinúria na urina. Qual direção da investigação deve ser priorizada?",
+    "options": [
+      "Considerar doença renal e ampliar avaliação nefrológica conforme os achados.",
+      "Atribuir a pressão alta exclusivamente à ansiedade da aferição.",
+      "Tratar proteinúria como variação normal sem relevância.",
+      "Ignorar urina porque pressão alta exclui problema renal.",
+      "Indicar alta definitiva porque não há febre."
+    ],
+    "answer": 0,
+    "explanation": "Hipertensão associada a alterações urinárias demanda investigação de comprometimento renal, com avaliação clínica e laboratorial direcionada.",
+    "memorizar": "HAS + alteração urinária: investigar rim; não presumir hipertensão primária.",
+    "analysis": [
+      "Correta: alteração urinária pode orientar etiologia renal.",
+      "Ansiedade não explica automaticamente proteinúria persistente.",
+      "Proteinúria é achado potencialmente relevante.",
+      "Rim e pressão arterial estão funcionalmente ligados.",
+      "A ausência de febre não afasta doença renal."
+    ],
+    "marker": "Proteinúria e hematúria",
+    "mechanism": "Alteração glomerular/renal → retenção de sódio ou mecanismos pressóricos → HAS",
+    "comparison": "HAS primária × causa renal sugerida por urina alterada",
+    "trap": "Chamar proteinúria de incidental",
+    "formal": true
+  },
+  {
+    "id": "hp-formal-08",
+    "group": "p2-child",
+    "topic": "HAS em crianças e adolescentes",
+    "stem": "Menino de 6 anos sem obesidade apresenta hipertensão persistente de difícil controle e sopro abdominal. Qual hipótese merece investigação dirigida?",
+    "options": [
+      "Síndrome de baixo débito comprovada por sopro abdominal isolado.",
+      "Somente hipertensão essencial pela idade.",
+      "Avental branco inevitável, sem necessidade de avaliação complementar.",
+      "Doença renovascular, entre as causas secundárias possíveis.",
+      "Uso inadequado de manguito como diagnóstico final após várias aferições corretas."
+    ],
+    "answer": 3,
+    "explanation": "Início precoce, dificuldade de controle e sopro abdominal são pistas que reforçam a necessidade de investigar possível causa renovascular entre outros diagnósticos secundários.",
+    "memorizar": "Criança pequena + HAS difícil + sopro abdominal: pensar em etiologia secundária.",
+    "analysis": [
+      "Sopro não define síndrome hemodinâmica específica isoladamente.",
+      "Hipertensão primária não é conclusão segura pelo conjunto.",
+      "Avental branco não explica todos os achados sem testes confirmatórios.",
+      "Correta: combinação justifica avaliação dirigida renovascular.",
+      "Técnica correta repetida torna erro de manguito explicação insuficiente."
+    ],
+    "marker": "HAS precoce + sopro abdominal",
+    "mechanism": "Comprometimento perfusional renal pode ativar RAAS → elevação pressórica",
+    "comparison": "Suspeita renovascular × hipertensão primária",
+    "trap": "Ignorar red flags de causa secundária",
+    "formal": true
+  },
+  {
+    "id": "hp-formal-09",
+    "group": "p2-child",
+    "topic": "HAS em crianças e adolescentes",
+    "stem": "Adolescente hipertenso apresenta cefaleia intensa, confusão, alteração visual aguda e vômitos. Qual opção representa melhor a prioridade?",
+    "options": [
+      "Orientar retorno eletivo em seis meses.",
+      "Reconhecer possível emergência hipertensiva com lesão aguda de órgão-alvo e iniciar avaliação/estabilização imediata em ambiente apropriado.",
+      "Tratar somente a cefaleia e não reavaliar PA.",
+      "Reduzir a PA abruptamente até valores normais em minutos, sem monitorização.",
+      "Reforçar dieta, sem medidas de estabilização na apresentação atual."
+    ],
+    "answer": 1,
+    "explanation": "Sintomas neurológicos agudos com hipertensão exigem avaliação urgente de lesão de órgão-alvo. Em emergências, o controle pressórico deve ser planejado e monitorizado, evitando reduções descontroladas.",
+    "memorizar": "Sinais neurológicos + HAS: emergência até avaliação adequada; queda brusca é perigosa.",
+    "analysis": [
+      "Há sinais de alarme incompatíveis com observação por meses.",
+      "Correta: emergência potencial com manejo monitorizado.",
+      "Analgesia isolada não investiga dano de órgão-alvo.",
+      "Reduções abruptas podem comprometer perfusão cerebral e sistêmica.",
+      "Medidas comportamentais não substituem estabilização aguda."
+    ],
+    "marker": "Confusão + alteração visual + HAS",
+    "mechanism": "PA muito elevada → risco de lesão neurológica → estabilizar de modo monitorizado",
+    "comparison": "Urgência sem dano agudo × emergência com órgão-alvo",
+    "trap": "Normalizar imediatamente sem monitorização",
+    "formal": true
+  },
+  {
+    "id": "hp-formal-10",
+    "group": "p2-child",
+    "topic": "HAS em crianças e adolescentes",
+    "stem": "Adolescente hipertenso apresenta pulsos femorais enfraquecidos e pressão sistólica maior nos membros superiores do que nos inferiores. Qual hipótese é prioritária?",
+    "options": [
+      "Hipertensão do avental branco.",
+      "Cetoacidose diabética.",
+      "Coarctação da aorta.",
+      "Cardite reumática obrigatória.",
+      "Feocromocitoma confirmado sem investigação."
+    ],
+    "answer": 2,
+    "explanation": "A discrepância entre membros e pulsos femorais diminuídos reforça suspeita de coarctação da aorta e demanda avaliação cardiológica apropriada.",
+    "memorizar": "HAS em braços + pulsos femorais fracos: investigar coarctação.",
+    "analysis": [
+      "Avental branco não explica déficit femoral fixo.",
+      "CAD não produz tipicamente esse gradiente estrutural de pulsos.",
+      "Correta: padrão anatômico de obstrução aórtica.",
+      "Cardite não é conclusão obrigatória desse padrão.",
+      "Feocromocitoma não está confirmado pelo achado de pulsos."
+    ],
+    "marker": "Gradiente braços-pernas + pulsos femorais",
+    "mechanism": "Estreitamento aórtico → pressão proximal maior → perfusão distal reduzida",
+    "comparison": "Causa vascular estrutural × hipertensão primária",
+    "trap": "Atribuir alteração de pulsos à ansiedade",
+    "formal": true
+  },
+  {
+    "id": "hp-formal-11",
+    "group": "p2-child",
+    "topic": "HAS em crianças e adolescentes",
+    "stem": "Paciente de 12 anos com obesidade, roncos intensos, pausas respiratórias testemunhadas e elevação pressórica apresenta qual possível fator contribuinte a investigar?",
+    "options": [
+      "Apneia obstrutiva do sono.",
+      "Apenas refluxo gastroesofágico.",
+      "Somente deficiência isolada de ferro.",
+      "Rinite simples como causa única comprovada.",
+      "Distúrbio convulsivo obrigatório."
+    ],
+    "answer": 0,
+    "explanation": "Sintomas de obstrução respiratória noturna e hipertensão justificam investigação de apneia obstrutiva do sono, um fator associado a hipertensão pediátrica.",
+    "memorizar": "Ronco + pausas respiratórias + HAS: avaliar sono.",
+    "analysis": [
+      "Correta: episódios de obstrução podem contribuir para alterações pressóricas.",
+      "Refluxo isolado não explica esse conjunto típico de sono.",
+      "Ferro isoladamente não explica pausas respiratórias observadas.",
+      "Rinite pode coexistir, mas não confirma causa única.",
+      "Não há dados de convulsões."
+    ],
+    "marker": "Ronco e apneias testemunhadas",
+    "mechanism": "Obstrução noturna → alterações de oxigenação/ativação autonômica → pressão elevada",
+    "comparison": "Obesidade isolada × contribuição de distúrbio do sono",
+    "trap": "Ignorar relato das apneias",
+    "formal": true
+  },
+  {
+    "id": "hp-formal-12",
+    "group": "p2-child",
+    "topic": "HAS em crianças e adolescentes",
+    "stem": "Uma enfermeira mede a PA de um menino com manguito visivelmente estreito para a circunferência do braço. Qual distorção é mais provável e qual conduta deve ser tomada?",
+    "options": [
+      "Manguito pequeno sempre subestima PA, portanto basta registrar o valor.",
+      "Manguito pequeno pode superestimar PA; repetir com largura e comprimento de bolsa adequados.",
+      "O tamanho do manguito não altera aferição pediátrica.",
+      "Corrigir matematicamente o valor subtraindo 20 mmHg de forma fixa.",
+      "Trocar o braço de aferição é suficiente sem alterar manguito."
+    ],
+    "answer": 1,
+    "explanation": "Manguito desproporcionalmente pequeno tende a superestimar a pressão. A correção adequada é repetir a aferição com manguito apropriado.",
+    "memorizar": "Manguito estreito tende a falsamente elevar a PA.",
+    "analysis": [
+      "O efeito típico de manguito pequeno é o oposto.",
+      "Correta: reconhecer erro sistemático e repetir corretamente.",
+      "O dimensionamento é importante em pediatria.",
+      "Não existe correção fixa válida de 20 mmHg para todos.",
+      "Trocar o braço sem corrigir manguito não resolve o viés."
+    ],
+    "marker": "Manguito inadequado",
+    "mechanism": "Bolsa insuficiente → maior pressão medida para ocluir artéria → superestimação",
+    "comparison": "Manguito estreito × manguito apropriado",
+    "trap": "Aplicar 'desconto' numérico imaginário",
+    "formal": true
+  },
+  {
+    "id": "hp-formal-13",
+    "group": "p2-child",
+    "topic": "HAS em crianças e adolescentes",
+    "stem": "Uma menina apresenta hipertensão confirmada e está prestes a iniciar farmacoterapia. O clínico deseja pesquisar remodelamento cardíaco relacionado à pressão. Qual exame pode auxiliar especificamente na avaliação de hipertrofia ventricular esquerda?",
+    "options": [
+      "Eletroencefalograma.",
+      "Ultrassonografia abdominal isolada.",
+      "Otoscopia.",
+      "Ecocardiograma.",
+      "Radiografia simples do joelho."
+    ],
+    "answer": 3,
+    "explanation": "O ecocardiograma pode avaliar alterações estruturais cardíacas, inclusive hipertrofia ventricular esquerda, especialmente ao considerar tratamento farmacológico.",
+    "memorizar": "Ecocardiograma avalia lesão cardíaca estrutural por HAS.",
+    "analysis": [
+      "EEG avalia atividade elétrica cerebral, não massa ventricular.",
+      "Ultrassom abdominal pode investigar outras causas, não mensura hipertrofia ventricular.",
+      "Otoscopia não avalia órgão-alvo cardiovascular.",
+      "Correta: exame de estrutura e função cardíaca.",
+      "Radiografia do joelho não identifica hipertrofia cardíaca."
+    ],
+    "marker": "HAS confirmada + lesão de órgão-alvo",
+    "mechanism": "Sobrecarga pressórica crônica → remodelamento do ventrículo esquerdo",
+    "comparison": "Avaliação renal etiológica × avaliação cardíaca de órgão-alvo",
+    "trap": "Confundir exame da causa com exame do dano",
+    "formal": true
+  },
+  {
+    "id": "hp-formal-14",
+    "group": "p2-child",
+    "topic": "HAS em crianças e adolescentes",
+    "stem": "Adolescente de 15 anos com hipertensão persistente e obesidade, sem sinais de emergência, inicia tratamento não farmacológico. Qual estratégia é mais coerente com cuidado sustentado?",
+    "options": [
+      "Trocar refeições por bebidas energéticas para aumentar atenção.",
+      "Jejum prolongado diário e retirada de todos os carboidratos.",
+      "Treino físico máximo sem avaliação apesar de sintomas.",
+      "Interromper o acompanhamento assim que um valor isolado melhorar.",
+      "Redução de sódio na dieta, atividade física apropriada, alimentação equilibrada e seguimento pressórico."
+    ],
+    "answer": 4,
+    "explanation": "Intervenções sustentáveis sobre dieta, atividade física e hábitos podem melhorar pressão e risco cardiometabólico. Restrições extremas, abandono de seguimento e estimulantes inadequados não são estratégias indicadas.",
+    "memorizar": "Mudança sustentável + seguimento; não restrição extrema.",
+    "analysis": [
+      "Energéticos não são substitutos de dieta nem cuidado clínico.",
+      "Privação alimentar não é tratamento pressórico adequado.",
+      "Sobrecarga máxima não é equivalente a atividade apropriada.",
+      "Uma medida isolada não comprova controle sustentado.",
+      "Correta: conjunto de intervenções e monitorização."
+    ],
+    "marker": "HAS persistente sem emergência",
+    "mechanism": "Hábitos influenciam resistência vascular/risco metabólico → intervir e reavaliar",
+    "comparison": "Intervenção estruturada × conduta extrema",
+    "trap": "Transformar disciplina em restrição arriscada",
+    "formal": true
+  },
+  {
+    "id": "hp-formal-15",
+    "group": "p2-child",
+    "topic": "HAS em crianças e adolescentes",
+    "stem": "Menino de 7 anos tem PA repetidamente elevada, doença renal prévia e albuminúria. Qual princípio deve orientar a seleção e o acompanhamento de tratamento farmacológico, quando indicado?",
+    "options": [
+      "Escolher anti-hipertensivo sem avaliar função renal e potássio.",
+      "Suspender todos os medicamentos renais em qualquer contexto.",
+      "Individualizar terapia com avaliação renal, eletrólitos e acompanhamento, considerando agentes que atuam no sistema renina-angiotensina em casos apropriados.",
+      "Usar medicação de adulto em dose fixa sem ajuste pediátrico.",
+      "Ignorar a albuminúria porque não altera manejo."
+    ],
+    "answer": 2,
+    "explanation": "Criança com doença renal e albuminúria demanda tratamento individualizado e monitorização de função renal e eletrólitos. Inibidores do eixo renina-angiotensina podem ser úteis em contextos específicos, exigindo atenção a contraindicações.",
+    "memorizar": "HAS + nefropatia: função renal, albuminúria e eletrólitos orientam terapia.",
+    "analysis": [
+      "O monitoramento renal é essencial ao tratamento.",
+      "Suspensão indiscriminada é inadequada.",
+      "Correta: abordagem individualizada com segurança.",
+      "Dose pediátrica depende de avaliação individual.",
+      "Albuminúria tem significado clínico e terapêutico."
+    ],
+    "marker": "Doença renal + albuminúria",
+    "mechanism": "Lesão renal e PA elevada podem amplificar-se → terapia dirigida + monitorização",
+    "comparison": "Tratar PA apenas × proteger órgão-alvo renal",
+    "trap": "Ignorar potássio/função renal",
+    "formal": true
+  },
+  {
+    "id": "hp-formal-16",
+    "group": "p2-child",
+    "topic": "HAS em crianças e adolescentes",
+    "stem": "Em adolescente com hipertensão confirmada, o médico considera iniciar fármaco que bloqueia o sistema renina-angiotensina. Qual avaliação é especialmente necessária em paciente com potencial de gravidez?",
+    "options": [
+      "Nenhuma: a classe é segura em qualquer etapa gestacional.",
+      "Verificar possibilidade de gestação e orientar sobre riscos reprodutivos e alternativas seguras, conforme o cenário.",
+      "Excluir gestação somente pela ausência de náuseas.",
+      "Substituir avaliação clínica por questionamento sobre altura.",
+      "Suspender seguimento ao iniciar medicação."
+    ],
+    "answer": 1,
+    "explanation": "Fármacos que bloqueiam o sistema renina-angiotensina não devem ser usados durante a gestação devido ao risco fetal. A avaliação reprodutiva e orientação são componentes de segurança.",
+    "memorizar": "IECA/BRA: atenção à possibilidade de gestação.",
+    "analysis": [
+      "Esses fármacos apresentam risco fetal relevante.",
+      "Correta: segurança antes de prescrever e seguimento.",
+      "Ausência de sintomas não exclui gestação.",
+      "Altura não avalia contraindicação reprodutiva.",
+      "Início de tratamento exige monitorização."
+    ],
+    "marker": "Potencial de gestação + bloqueador de RAAS",
+    "mechanism": "Bloqueio do sistema renina-angiotensina fetal → riscos de dano gestacional",
+    "comparison": "Indicação pressórica × contraindicação em gravidez",
+    "trap": "Ignorar risco reprodutivo",
+    "formal": true
+  },
+  {
+    "id": "hp-formal-17",
+    "group": "p2-child",
+    "topic": "HAS em crianças e adolescentes",
+    "stem": "Criança de 8 anos apresenta PA elevada, mas a avaliação clínica revela esteroide sistêmico recente e uso de descongestionante simpaticomimético. Qual atitude evita um viés de ancoragem?",
+    "options": [
+      "Concluir que o uso farmacológico explica toda elevação e dispensar novas medidas.",
+      "Diagnosticar feocromocitoma imediatamente.",
+      "Suspender qualquer tratamento de base por conta própria.",
+      "Desconsiderar agentes simpaticomiméticos como possíveis contribuintes.",
+      "Revisar medicamentos e substâncias, aferir corretamente e investigar conforme persistência e achados."
+    ],
+    "answer": 4,
+    "explanation": "Exposições farmacológicas podem contribuir para elevação pressórica, mas não substituem a aferição adequada nem a avaliação clínica e da persistência do achado.",
+    "memorizar": "Medicamento é fator a investigar, não justificativa automática para encerrar avaliação.",
+    "analysis": [
+      "Possível associação não prova causalidade exclusiva.",
+      "Não há critérios suficientes para concluir tumor endócrino.",
+      "Interrupção indiscriminada pode ser insegura.",
+      "Simpaticomiméticos podem afetar pressão.",
+      "Correta: investigar contexto e confirmar PA."
+    ],
+    "marker": "Medicamento pressor + PA elevada",
+    "mechanism": "Exposição potencialmente pressora → influência hemodinâmica → confirmar e reavaliar",
+    "comparison": "Fator contribuinte × diagnóstico etiológico definitivo",
+    "trap": "Ancorar na prescrição recente",
+    "formal": true
+  },
+  {
+    "id": "hp-formal-18",
+    "group": "p2-child",
+    "topic": "HAS em crianças e adolescentes",
+    "stem": "Paciente pediátrico com hipertensão persistente apresenta cefaleia recorrente, porém exame neurológico normal, sem sinais de emergência. Qual afirmação é a mais apropriada?",
+    "options": [
+      "Toda cefaleia exige queda pressórica rápida por medicação intravenosa.",
+      "A presença de cefaleia isolada permite dispensar avaliação pressórica seriada.",
+      "Todo paciente com cefaleia e HAS tem edema cerebral comprovado.",
+      "Aferição, investigação de gravidade, padrão temporal e seguimento orientam conduta; cefaleia isolada não define emergência.",
+      "A cefaleia exclui causa secundária."
+    ],
+    "answer": 3,
+    "explanation": "A presença de cefaleia requer avaliação contextual, mas não constitui por si só prova de lesão aguda de órgão-alvo nem indicação universal de terapia intravenosa. Gravidade é definida pelo conjunto clínico.",
+    "memorizar": "Sintoma isolado não equivale a emergência; procure sinais objetivos de órgão-alvo.",
+    "analysis": [
+      "Tratamento parenteral não é obrigatório sem emergência.",
+      "Cefaleia não exclui necessidade de acompanhamento.",
+      "Edema cerebral não pode ser presumido.",
+      "Correta: clínica + medidas seriadas + investigação.",
+      "Sintoma não exclui outras etiologias."
+    ],
+    "marker": "Cefaleia isolada sem déficit neurológico",
+    "mechanism": "Sintoma inespecífico → avaliar gravidade antes de definir rota terapêutica",
+    "comparison": "Cefaleia isolada × sinais neurológicos agudos de órgão-alvo",
+    "trap": "Confundir sintoma comum com emergência comprovada",
+    "formal": true
+  },
+  {
+    "id": "hp-formal-19",
+    "group": "p2-child",
+    "topic": "HAS em crianças e adolescentes",
+    "stem": "Uma criança com pressão arterial normal no consultório apresenta condições de alto risco cardiovascular e doença renal. Qual recurso pode acrescentar informação sobre padrão pressórico cotidiano e noturno?",
+    "options": [
+      "MAPA, quando indicada e interpretada com referências adequadas.",
+      "Somente uma nova aferição isolada durante consulta.",
+      "Oximetria diurna como substituta da MAPA.",
+      "Radiografia de tórax como medida de PA noturna.",
+      "Eletrocardiograma isolado como monitorização da pressão."
+    ],
+    "answer": 0,
+    "explanation": "A monitorização ambulatorial pode identificar elevações mascaradas e padrões fora do consultório, inclusive durante o sono, em pacientes selecionados.",
+    "memorizar": "MAPA avalia período fora da consulta; ECG/oxímetro não medem PA contínua.",
+    "analysis": [
+      "Correta: capta padrão cotidiano e noturno.",
+      "Aferição única pode não revelar alterações mascaradas.",
+      "Oxímetro mede saturação, não PA ambulatorial.",
+      "Radiografia não monitora PA.",
+      "ECG avalia atividade elétrica, não o padrão pressórico noturno."
+    ],
+    "marker": "Risco renal e consultório normal",
+    "mechanism": "Medições fora do consultório → revelar padrão mascarado/noturno",
+    "comparison": "MAPA × aferição pontual",
+    "trap": "Inferir 24 horas a partir de um instante",
+    "formal": true
+  },
+  {
+    "id": "hp-formal-20",
+    "group": "p2-child",
+    "topic": "HAS em crianças e adolescentes",
+    "stem": "Menino de 5 anos tem hipertensão confirmada, história de ITUs febris recorrentes e crescimento insuficiente. Qual associação torna a avaliação etiológica mais importante?",
+    "options": [
+      "ITUs recorrentes não têm qualquer relação possível com dano renal.",
+      "Crescimento insuficiente exclui hipertensão secundária.",
+      "Doença parenquimatosa renal pode estar envolvida e deve ser pesquisada.",
+      "Apenas o consumo de açúcar determina o padrão.",
+      "A pressão arterial elevada é fisiológica para toda criança pequena."
+    ],
+    "answer": 2,
+    "explanation": "Idade jovem, história renal/urinária e crescimento inadequado justificam pesquisa de doença renal e outras causas secundárias.",
+    "memorizar": "Criança pequena + história urinária relevante: investigar lesão renal.",
+    "analysis": [
+      "ITU recorrente pode coexistir com alterações renais.",
+      "Alteração de crescimento pode ser sinal de doença crônica.",
+      "Correta: a história aumenta a plausibilidade de comprometimento renal.",
+      "Açúcar isoladamente não explica o cenário.",
+      "HAS sustentada não é normal em crianças pequenas."
+    ],
+    "marker": "Idade pequena + ITUs + crescimento",
+    "mechanism": "Dano renal possível → alteração regulação de sal/volume/renina → HAS",
+    "comparison": "Red flags de causa secundária × hipertensão essencial",
+    "trap": "Ignorar antecedente urinário",
+    "formal": true
+  }
+]

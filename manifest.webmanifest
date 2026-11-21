@@ -1,0 +1,16 @@
+{
+  "name": "Trilha de Ouro | Study Hub",
+  "short_name": "Trilha de Ouro",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#FDF8FA",
+  "theme_color": "#E27D9E",
+  "icons": [
+    {
+      "src": "flower-icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

@@ -1,0 +1,704 @@
+[
+  {
+    "id": "sc-A1",
+    "group": "p2-child",
+    "topic": "HAS na infância",
+    "stem": "Uma criança de 9 anos apresenta medidas repetidamente elevadas de pressão arterial. Qual variável deve ser considerada na classificação pressórica para essa faixa etária?",
+    "options": [
+      "Somente o peso atual da criança.",
+      "Idade, sexo e estatura, com aferição tecnicamente adequada.",
+      "Apenas o IMC, independentemente de idade.",
+      "Somente a pressão arterial materna.",
+      "Somente a frequência cardíaca."
+    ],
+    "answer": 1,
+    "explanation": "Na maior parte da infância, a interpretação da PA utiliza referências por idade, sexo e altura; a técnica e a confirmação das medidas são essenciais.",
+    "memorizar": "PA pediátrica não se classifica como a de todo adulto.",
+    "analysis": [
+      "Peso é fator de risco, mas não constitui a referência pressórica pediátrica.",
+      "CORRETA: idade, sexo e estatura orientam os percentis em menores de 13 anos.",
+      "IMC ajuda no risco cardiometabólico; não substitui a classificação da PA.",
+      "História familiar modifica a suspeita, sem classificar a medida.",
+      "Frequência cardíaca é variável distinta e não substitui aferição da PA."
+    ],
+    "marker": "Uma criança de 9 anos apresenta medidas repetidamente elevadas de pressão arterial. Qual variável deve ser considerada na classifi",
+    "mechanism": "Na maior parte da infância, a interpretação da PA utiliza referências por idade, sexo e altura; a técnica e a confirmação das medidas são essenciais.",
+    "comparison": "Alternativa escolhida × alternativa correta",
+    "trap": "Não usar a alternativa escolhida como substituta do marcador clínico decisivo."
+  },
+  {
+    "id": "sc-A2",
+    "group": "p2-child",
+    "topic": "Alergias e anafilaxia",
+    "stem": "Após ingerir alimento, uma criança desenvolve urticária difusa, sibilância e tontura com hipotensão. Qual é a medida farmacológica de primeira linha?",
+    "options": [
+      "Anti-histamínico oral isolado.",
+      "Corticoide intravenoso isolado.",
+      "Adrenalina intramuscular imediatamente.",
+      "Nebulização de soro fisiológico isolada.",
+      "Antibiótico de amplo espectro."
+    ],
+    "answer": 2,
+    "explanation": "O quadro é compatível com anafilaxia; adrenalina intramuscular é a intervenção de primeira linha, associada às medidas de suporte e observação.",
+    "memorizar": "Anafilaxia: adrenalina IM sem atraso.",
+    "analysis": [
+      "Anti-histamínico pode aliviar manifestações cutâneas, mas não substitui a primeira linha na anafilaxia.",
+      "Corticoide não atua com rapidez suficiente como intervenção principal da anafilaxia.",
+      "CORRETA: adrenalina IM é prioritária com suporte clínico imediato.",
+      "Nebulização isolada não trata o comprometimento sistêmico.",
+      "Sem foco infeccioso, antibiótico não corrige anafilaxia."
+    ],
+    "marker": "Após ingerir alimento, uma criança desenvolve urticária difusa, sibilância e tontura com hipotensão. Qual é a medida farmacológica",
+    "mechanism": "O quadro é compatível com anafilaxia; adrenalina intramuscular é a intervenção de primeira linha, associada às medidas de suporte e observação.",
+    "comparison": "Alternativa escolhida × alternativa correta",
+    "trap": "Não usar a alternativa escolhida como substituta do marcador clínico decisivo."
+  },
+  {
+    "id": "sc-A3",
+    "group": "p2-child",
+    "topic": "Febre reumática",
+    "stem": "Qual das alternativas representa uma manifestação maior nos critérios de Jones, quando aplicáveis à suspeita de febre reumática aguda?",
+    "options": [
+      "Cardite clínica ou subclínica.",
+      "Cefaleia isolada.",
+      "Rinite alérgica.",
+      "Tosse seca isolada.",
+      "Otalgia sem sinais inflamatórios."
+    ],
+    "answer": 0,
+    "explanation": "Cardite é manifestação maior; a aplicação dos critérios considera contexto, evidência de infecção estreptocócica prévia e critérios específicos da população.",
+    "memorizar": "Reconhecer as manifestações maiores e a evidência de estreptococo.",
+    "analysis": [
+      "CORRETA: cardite clínica ou subclínica é manifestação maior reconhecida.",
+      "Cefaleia isolada não compõe critério maior.",
+      "Rinite alérgica não indica inflamação pós-estreptocócica típica.",
+      "Tosse seca isolada não caracteriza critério de Jones.",
+      "Otalgia sem inflamação não é critério maior."
+    ],
+    "marker": "Qual das alternativas representa uma manifestação maior nos critérios de Jones, quando aplicáveis à suspeita de febre reumática ag",
+    "mechanism": "Cardite é manifestação maior; a aplicação dos critérios considera contexto, evidência de infecção estreptocócica prévia e critérios específicos da população.",
+    "comparison": "Alternativa escolhida × alternativa correta",
+    "trap": "Não usar a alternativa escolhida como substituta do marcador clínico decisivo."
+  },
+  {
+    "id": "sc-A4",
+    "group": "p2-child",
+    "topic": "Meningite",
+    "stem": "Uma criança está gravemente enferma, com forte suspeita de meningite bacteriana. A punção lombar não poderá ser realizada imediatamente. Qual atitude é mais apropriada?",
+    "options": [
+      "Aguardar o líquor por várias horas antes de iniciar tratamento.",
+      "Iniciar apenas antitérmico e reavaliar no dia seguinte.",
+      "Descartar meningite na ausência de rigidez de nuca.",
+      "Colher hemoculturas se possível sem atraso e iniciar antibioticoterapia empírica prontamente.",
+      "Liberar para casa porque a punção está indisponível."
+    ],
+    "answer": 3,
+    "explanation": "A suspeita grave exige tratamento oportuno; exames complementares não devem atrasar antibióticos. A estabilidade clínica e contraindicações à punção precisam ser avaliadas.",
+    "memorizar": "Meningite bacteriana suspeita: tratamento não espera líquor.",
+    "analysis": [
+      "Aguardar o líquor pode atrasar tratamento vital em suspeita grave.",
+      "Antitérmico isolado não trata infecção bacteriana meníngea.",
+      "Ausência de rigidez cervical não exclui meningite, sobretudo em pacientes jovens.",
+      "CORRETA: tratar sem demora; culturas se obtidas sem retardar antibiótico.",
+      "Alta sem avaliação e tratamento seria incompatível com gravidade descrita."
+    ],
+    "marker": "Uma criança está gravemente enferma, com forte suspeita de meningite bacteriana. A punção lombar não poderá ser realizada imediata",
+    "mechanism": "A suspeita grave exige tratamento oportuno; exames complementares não devem atrasar antibióticos. A estabilidade clínica e contraindicações à punção precisam ser avaliadas.",
+    "comparison": "Alternativa escolhida × alternativa correta",
+    "trap": "Não usar a alternativa escolhida como substituta do marcador clínico decisivo."
+  },
+  {
+    "id": "sc-A5",
+    "group": "p2-child",
+    "topic": "PALS 2025",
+    "stem": "Na avaliação pediátrica inicial, o Triângulo de Avaliação Pediátrica (TAP) reúne quais dimensões?",
+    "options": [
+      "Pressão arterial, glicemia e temperatura.",
+      "Ausculta cardíaca, ECG e gasometria.",
+      "Aparência, esforço respiratório e circulação para a pele.",
+      "Hemograma, eletrólitos e radiografia.",
+      "Peso, altura e perímetro cefálico."
+    ],
+    "answer": 2,
+    "explanation": "O TAP permite impressão inicial rápida antes da avaliação sistematizada com ABCDE e história direcionada.",
+    "memorizar": "TAP = aparência + trabalho respiratório + circulação para a pele.",
+    "analysis": [
+      "PA, glicemia e temperatura são dados complementares, não os três eixos do TAP.",
+      "ECG, ausculta e gasometria não compõem inspeção inicial do TAP.",
+      "CORRETA: aparência, esforço respiratório e circulação para a pele.",
+      "Exames complementares não integram a observação inicial do TAP.",
+      "Antropometria é importante em outras avaliações, não constitui TAP."
+    ],
+    "marker": "Na avaliação pediátrica inicial, o Triângulo de Avaliação Pediátrica (TAP) reúne quais dimensões",
+    "mechanism": "O TAP permite impressão inicial rápida antes da avaliação sistematizada com ABCDE e história direcionada.",
+    "comparison": "Alternativa escolhida × alternativa correta",
+    "trap": "Não usar a alternativa escolhida como substituta do marcador clínico decisivo."
+  },
+  {
+    "id": "sc-A6",
+    "group": "p2-child",
+    "topic": "Dispositivos respiratórios",
+    "stem": "Uma criança apresenta bradipneia, respirações superficiais e redução importante da ventilação, apesar do fornecimento de oxigênio. Qual problema precisa ser abordado prioritariamente?",
+    "options": [
+      "Apenas aumentar indefinidamente o fluxo de oxigênio, ignorando a ventilação.",
+      "Esperar a saturação cair a zero.",
+      "Iniciar antibiótico antes de avaliar a via aérea.",
+      "Avaliar suporte ventilatório efetivo, incluindo ventilação com bolsa-válvula-máscara quando indicada.",
+      "Retirar o monitor para diminuir ansiedade."
+    ],
+    "answer": 3,
+    "explanation": "Oxigenação e ventilação são processos distintos. Hipoventilação exige avaliação de vias aéreas e ventilação assistida quando indicada.",
+    "memorizar": "Oxigênio não substitui ventilação adequada.",
+    "analysis": [
+      "Oxigênio suplementar não corrige hipoventilação grave por si só.",
+      "Esperar dessaturação extrema atrasa suporte ventilatório.",
+      "Antibiótico não substitui estabilização respiratória imediata.",
+      "CORRETA: hipoventilação requer avaliação de ventilação assistida quando indicada.",
+      "Monitorização é componente da segurança, não fonte primária do problema."
+    ],
+    "marker": "Uma criança apresenta bradipneia, respirações superficiais e redução importante da ventilação, apesar do fornecimento de oxigênio.",
+    "mechanism": "Oxigenação e ventilação são processos distintos. Hipoventilação exige avaliação de vias aéreas e ventilação assistida quando indicada.",
+    "comparison": "Alternativa escolhida × alternativa correta",
+    "trap": "Não usar a alternativa escolhida como substituta do marcador clínico decisivo."
+  },
+  {
+    "id": "sc-A7",
+    "group": "p2-child",
+    "topic": "Crises convulsivas",
+    "stem": "Uma criança apresenta crise convulsiva generalizada que persiste por mais de cinco minutos. Após iniciar suporte e avaliação imediata, qual é a classe medicamentosa de primeira linha habitual?",
+    "options": [
+      "Anti-histamínicos.",
+      "Benzodiazepínicos.",
+      "Antibióticos.",
+      "Diuréticos.",
+      "Antiagregantes plaquetários."
+    ],
+    "answer": 1,
+    "explanation": "Crise prolongada demanda abordagem rápida, proteção da via aérea, avaliação da glicemia e benzodiazepínico de primeira linha conforme protocolo e via disponível.",
+    "memorizar": "Crise prolongada: estabilização e benzodiazepínico de primeira linha.",
+    "analysis": [
+      "Anti-histamínicos não interrompem habitualmente estado convulsivo.",
+      "CORRETA: benzodiazepínicos são primeira linha habitual para crise prolongada.",
+      "Antibióticos dependem de hipótese etiológica, não são anticonvulsivantes.",
+      "Diuréticos não interrompem atividade convulsiva.",
+      "Antiagregantes não têm indicação como controle agudo de crise."
+    ],
+    "marker": "Uma criança apresenta crise convulsiva generalizada que persiste por mais de cinco minutos. Após iniciar suporte e avaliação imedi",
+    "mechanism": "Crise prolongada demanda abordagem rápida, proteção da via aérea, avaliação da glicemia e benzodiazepínico de primeira linha conforme protocolo e via disponível.",
+    "comparison": "Alternativa escolhida × alternativa correta",
+    "trap": "Não usar a alternativa escolhida como substituta do marcador clínico decisivo."
+  },
+  {
+    "id": "sc-A8",
+    "group": "p2-child",
+    "topic": "Cetoacidose diabética",
+    "stem": "Durante o tratamento de cetoacidose diabética pediátrica, qual complicação neurológica deve ser observada ativamente?",
+    "options": [
+      "Conjuntivite alérgica.",
+      "Otite externa.",
+      "Lesão cerebral associada à CAD, sinalizada por alteração neurológica e outros sinais de alarme.",
+      "Enxaqueca crônica como diagnóstico obrigatório.",
+      "Desvio de septo nasal."
+    ],
+    "answer": 2,
+    "explanation": "Crianças com CAD requerem monitorização clínica e neurológica, além de controle de glicose, eletrólitos e hidratação conforme protocolo.",
+    "memorizar": "CAD pediátrica: vigilância neurológica e eletrolítica.",
+    "analysis": [
+      "Conjuntivite não é a complicação neurológica crítica do tratamento.",
+      "Otite externa é entidade não relacionada à vigilância neurológica da CAD.",
+      "CORRETA: deterioração neurológica exige reconhecer lesão cerebral associada à CAD.",
+      "Enxaqueca não é consequência necessária nem diagnóstico presumido.",
+      "Desvio de septo não traduz complicação cerebral metabólica."
+    ],
+    "marker": "Durante o tratamento de cetoacidose diabética pediátrica, qual complicação neurológica deve ser observada ativamente",
+    "mechanism": "Crianças com CAD requerem monitorização clínica e neurológica, além de controle de glicose, eletrólitos e hidratação conforme protocolo.",
+    "comparison": "Alternativa escolhida × alternativa correta",
+    "trap": "Não usar a alternativa escolhida como substituta do marcador clínico decisivo."
+  },
+  {
+    "id": "sc-A9",
+    "group": "p2-child",
+    "topic": "Choque pediátrico",
+    "stem": "Uma criança está taquicárdica, com extremidades frias e tempo de enchimento capilar prolongado, mas pressão arterial ainda normal. Qual interpretação é a mais adequada?",
+    "options": [
+      "A pressão normal exclui choque.",
+      "Há sinais compatíveis com choque compensado, que requer abordagem e reavaliação.",
+      "Não há necessidade de avaliar perfusão.",
+      "O quadro define exclusivamente intoxicação.",
+      "Apenas a temperatura define o estado hemodinâmico."
+    ],
+    "answer": 1,
+    "explanation": "Em pediatria, a hipotensão costuma ser tardia. Alterações de perfusão e frequência cardíaca podem precedê-la.",
+    "memorizar": "Pressão normal não exclui choque pediátrico.",
+    "analysis": [
+      "Hipotensão em criança pode ser tardia; pressão normal não exclui choque.",
+      "CORRETA: perfusão ruim e taquicardia podem indicar choque compensado.",
+      "Tempo de enchimento capilar e extremidades são dados fundamentais.",
+      "Intoxicação é etiologia possível, não diagnóstico exclusivo do padrão.",
+      "Temperatura isolada não determina estado circulatório."
+    ],
+    "marker": "Uma criança está taquicárdica, com extremidades frias e tempo de enchimento capilar prolongado, mas pressão arterial ainda normal.",
+    "mechanism": "Em pediatria, a hipotensão costuma ser tardia. Alterações de perfusão e frequência cardíaca podem precedê-la.",
+    "comparison": "Alternativa escolhida × alternativa correta",
+    "trap": "Não usar a alternativa escolhida como substituta do marcador clínico decisivo."
+  },
+  {
+    "id": "sc-A10",
+    "group": "p2-child",
+    "topic": "PCR pediátrica",
+    "stem": "Criança não responde, não respira normalmente e não apresenta pulso identificável na avaliação adequada. Qual conduta é prioritária?",
+    "options": [
+      "Aguardar o resultado de gasometria.",
+      "Oferecer água por via oral.",
+      "Realizar radiografia antes de qualquer intervenção.",
+      "Iniciar RCP de alta qualidade, acionar ajuda e seguir suporte de vida.",
+      "Aguardar melhora espontânea por cinco minutos."
+    ],
+    "answer": 3,
+    "explanation": "Na suspeita de PCR, reconhecer rapidamente, acionar o sistema de resposta e iniciar RCP de qualidade conforme protocolo vigente.",
+    "memorizar": "PCR: reconhecer, pedir ajuda e iniciar RCP sem atrasos.",
+    "analysis": [
+      "Gasometria não deve retardar compressões em PCR reconhecida.",
+      "Via oral é insegura em pessoa não responsiva.",
+      "Imagem não é prioridade antes de RCP.",
+      "CORRETA: reconhecer, pedir ajuda, iniciar compressões de qualidade.",
+      "Aguardar sem iniciar suporte reduz a oportunidade de reanimação."
+    ],
+    "marker": "Criança não responde, não respira normalmente e não apresenta pulso identificável na avaliação adequada. Qual conduta é prioritári",
+    "mechanism": "Na suspeita de PCR, reconhecer rapidamente, acionar o sistema de resposta e iniciar RCP de qualidade conforme protocolo vigente.",
+    "comparison": "Alternativa escolhida × alternativa correta",
+    "trap": "Não usar a alternativa escolhida como substituta do marcador clínico decisivo."
+  },
+  {
+    "id": "sm-A1",
+    "group": "p2-mother",
+    "topic": "TPP e bolsa rota",
+    "stem": "Gestante de 31 semanas apresenta contrações regulares dolorosas associadas a modificação cervical documentada. Qual hipótese deve ser considerada prioritariamente?",
+    "options": [
+      "Gestação ectópica íntegra.",
+      "Trabalho de parto prematuro.",
+      "Puerpério fisiológico.",
+      "Climatério.",
+      "Amenorreia hipotalâmica."
+    ],
+    "answer": 1,
+    "explanation": "Contrações uterinas regulares associadas a mudança cervical antes de 37 semanas sustentam suspeita de trabalho de parto prematuro; avaliação da idade gestacional e membranas é essencial.",
+    "memorizar": "TPP: contrações + modificação cervical antes do termo.",
+    "analysis": [
+      "Gestação ectópica não descreve trabalho de parto aos 31 semanas.",
+      "CORRETA: contração regular com mudança cervical antes de 37 semanas sugere TPP.",
+      "Puerpério ocorre após nascimento, não na gestação atual.",
+      "Climatério não tem relação com contrações e colo durante gravidez.",
+      "Amenorreia não explica quadro obstétrico agudo na 31ª semana."
+    ],
+    "marker": "Gestante de 31 semanas apresenta contrações regulares dolorosas associadas a modificação cervical documentada. Qual hipótese deve ",
+    "mechanism": "Contrações uterinas regulares associadas a mudança cervical antes de 37 semanas sustentam suspeita de trabalho de parto prematuro; avaliação da idade gestacional e membranas é essencial.",
+    "comparison": "Alternativa escolhida × alternativa correta",
+    "trap": "Não usar a alternativa escolhida como substituta do marcador clínico decisivo."
+  },
+  {
+    "id": "sm-A2",
+    "group": "p2-mother",
+    "topic": "Síndromes hipertensivas gestacionais",
+    "stem": "Gestante de 32 semanas com hipertensão importante apresenta cefaleia persistente e alterações visuais. Qual é a conduta inicial mais apropriada?",
+    "options": [
+      "Desconsiderar os sintomas por serem frequentes na gestação.",
+      "Aguardar até a consulta de rotina do mês seguinte.",
+      "Avaliação urgente de pré-eclâmpsia com sinais de gravidade e estabilização conforme protocolo.",
+      "Indicar anti-histamínico como conduta definitiva.",
+      "Suspender todas as avaliações laboratoriais."
+    ],
+    "answer": 2,
+    "explanation": "Hipertensão acompanhada de sinais neurológicos persistentes exige investigação e manejo urgentes para pré-eclâmpsia com sinais de gravidade.",
+    "memorizar": "Sintomas neurológicos na gestante hipertensa são sinais de alarme.",
+    "analysis": [
+      "Sintomas neurológicos em paciente hipertensa são sinais de alarme.",
+      "Aguardar semanas posterga avaliação urgente.",
+      "CORRETA: considerar pré-eclâmpsia com sinais de gravidade e estabilizar.",
+      "Anti-histamínico não resolve risco hipertensivo materno-fetal.",
+      "Exames são parte da avaliação de gravidade, não devem ser arbitrariamente suspensos."
+    ],
+    "marker": "Gestante de 32 semanas com hipertensão importante apresenta cefaleia persistente e alterações visuais. Qual é a conduta inicial ma",
+    "mechanism": "Hipertensão acompanhada de sinais neurológicos persistentes exige investigação e manejo urgentes para pré-eclâmpsia com sinais de gravidade.",
+    "comparison": "Alternativa escolhida × alternativa correta",
+    "trap": "Não usar a alternativa escolhida como substituta do marcador clínico decisivo."
+  },
+  {
+    "id": "sm-A3",
+    "group": "p2-mother",
+    "topic": "Diabetes mellitus gestacional",
+    "stem": "Após diagnóstico de diabetes mellitus gestacional, qual abordagem integra o manejo inicial e acompanhamento?",
+    "options": [
+      "Orientação nutricional, atividade física adequada, monitorização glicêmica e medicação quando indicada.",
+      "Suspender todo acompanhamento pré-natal.",
+      "Prescrever dieta sem carboidratos a toda gestante.",
+      "Utilizar apenas testes urinários como monitorização.",
+      "Ignorar crescimento fetal e risco obstétrico."
+    ],
+    "answer": 0,
+    "explanation": "Acompanhamento individualizado combina educação, monitorização e tratamento conforme controle glicêmico e condições materno-fetais.",
+    "memorizar": "DMG: acompanhamento e metas glicêmicas individualizadas.",
+    "analysis": [
+      "CORRETA: educação, dieta, movimento apropriado, glicemias e medicação conforme necessidade.",
+      "Interromper pré-natal elimina vigilância de complicações.",
+      "Restrição extrema de carboidratos não é recomendação universal de DMG.",
+      "Teste urinário isolado não substitui monitorização glicêmica.",
+      "Crescimento fetal e riscos obstétricos são parte do acompanhamento."
+    ],
+    "marker": "Após diagnóstico de diabetes mellitus gestacional, qual abordagem integra o manejo inicial e acompanhamento",
+    "mechanism": "Acompanhamento individualizado combina educação, monitorização e tratamento conforme controle glicêmico e condições materno-fetais.",
+    "comparison": "Alternativa escolhida × alternativa correta",
+    "trap": "Não usar a alternativa escolhida como substituta do marcador clínico decisivo."
+  },
+  {
+    "id": "sm-A4",
+    "group": "p2-mother",
+    "topic": "Sífilis na gestação",
+    "stem": "Gestante com sífilis confirmada necessita tratamento capaz de prevenir transmissão vertical. Qual fármaco é central na terapêutica recomendada?",
+    "options": [
+      "Penicilina G benzatina, com esquema conforme estágio clínico.",
+      "Doxiciclina como padrão para todas as gestantes.",
+      "Ciprofloxacino em dose única.",
+      "Aciclovir por via oral.",
+      "Fluconazol semanal."
+    ],
+    "answer": 0,
+    "explanation": "A penicilina é o tratamento recomendado na gestação, com esquema apropriado ao estágio, além de seguimento sorológico e manejo de parceria sexual.",
+    "memorizar": "Sífilis gestacional: penicilina adequada ao estágio e seguimento.",
+    "analysis": [
+      "CORRETA: penicilina G benzatina conforme estágio é central na sífilis gestacional.",
+      "Doxiciclina não é o tratamento de escolha para prevenção de sífilis congênita na gestação.",
+      "Ciprofloxacino não é tratamento padrão da sífilis.",
+      "Aciclovir atua contra herpesvírus, não Treponema pallidum.",
+      "Fluconazol é antifúngico, não antissifilítico."
+    ],
+    "marker": "Gestante com sífilis confirmada necessita tratamento capaz de prevenir transmissão vertical. Qual fármaco é central na terapêutica",
+    "mechanism": "A penicilina é o tratamento recomendado na gestação, com esquema apropriado ao estágio, além de seguimento sorológico e manejo de parceria sexual.",
+    "comparison": "Alternativa escolhida × alternativa correta",
+    "trap": "Não usar a alternativa escolhida como substituta do marcador clínico decisivo."
+  },
+  {
+    "id": "sm-A5",
+    "group": "p2-mother",
+    "topic": "Gestação gemelar",
+    "stem": "No primeiro trimestre de uma gravidez gemelar, qual informação ultrassonográfica é particularmente importante para estratificar riscos e planejar o acompanhamento?",
+    "options": [
+      "Cor dos cabelos fetais.",
+      "Tipo sanguíneo estimado pela imagem.",
+      "Corionicidade, idealmente determinada precocemente.",
+      "Circunferência abdominal materna isolada.",
+      "Preferência materna por horário de consulta."
+    ],
+    "answer": 2,
+    "explanation": "A corionicidade influencia vigilância, riscos de complicações e acompanhamento obstétrico.",
+    "memorizar": "Gemelar: identificar corionicidade precocemente.",
+    "analysis": [
+      "Cor de cabelo fetal não determina risco obstétrico em gemelar.",
+      "Ultrassom convencional não estima tipagem sanguínea por cor.",
+      "CORRETA: corionicidade precocemente identificada define riscos e vigilância.",
+      "Circunferência abdominal materna não substitui ultrassom para corionicidade.",
+      "Preferência de horário não substitui critério prognóstico."
+    ],
+    "marker": "No primeiro trimestre de uma gravidez gemelar, qual informação ultrassonográfica é particularmente importante para estratificar ri",
+    "mechanism": "A corionicidade influencia vigilância, riscos de complicações e acompanhamento obstétrico.",
+    "comparison": "Alternativa escolhida × alternativa correta",
+    "trap": "Não usar a alternativa escolhida como substituta do marcador clínico decisivo."
+  },
+  {
+    "id": "sm-A6",
+    "group": "p2-mother",
+    "topic": "Infecções gestacionais",
+    "stem": "Gestante apresenta sorologia para toxoplasmose com IgG não reagente e IgM não reagente, sem sintomas. Qual interpretação inicial é a mais provável?",
+    "options": [
+      "Infecção antiga comprovada e imunidade garantida.",
+      "Infecção aguda comprovada obrigatoriamente.",
+      "Susceptibilidade à infecção, com aconselhamento preventivo e seguimento conforme pré-natal.",
+      "Indicação universal de antibiótico imediatamente.",
+      "A toxoplasmose não precisa ser abordada em gestantes."
+    ],
+    "answer": 2,
+    "explanation": "O padrão sorológico sugere ausência de evidência de infecção prévia; prevenção e repetição conforme protocolos locais e risco são pertinentes.",
+    "memorizar": "Toxo IgG−/IgM−: suscetível, prevenir e acompanhar.",
+    "analysis": [
+      "IgG não reagente não confirma imunidade anterior.",
+      "IgM não reagente isoladamente não comprova infecção aguda.",
+      "CORRETA: soronegatividade dupla sugere suscetibilidade, com prevenção e seguimento.",
+      "Não há justificativa para antibiótico universal com sorologia negativa.",
+      "A prevenção de infecção primária na gestação é relevante."
+    ],
+    "marker": "Gestante apresenta sorologia para toxoplasmose com IgG não reagente e IgM não reagente, sem sintomas. Qual interpretação inicial é",
+    "mechanism": "O padrão sorológico sugere ausência de evidência de infecção prévia; prevenção e repetição conforme protocolos locais e risco são pertinentes.",
+    "comparison": "Alternativa escolhida × alternativa correta",
+    "trap": "Não usar a alternativa escolhida como substituta do marcador clínico decisivo."
+  },
+  {
+    "id": "oc-E1",
+    "group": "osce-child",
+    "topic": "OSCE • Choque pediátrico",
+    "stem": "Em estação de OSCE, criança com extremidades frias, taquicardia e enchimento capilar de cinco segundos apresenta PA normal. Qual informação verbalizar?",
+    "options": [
+      "Possibilidade de choque compensado com avaliação ABCDE, medidas iniciais e reavaliação.",
+      "Ausência de risco porque a PA está preservada.",
+      "Alta imediata sem reavaliar.",
+      "Indicação obrigatória de anti-histamínico.",
+      "Protocolo de investigação somente ambulatorial."
+    ],
+    "answer": 0,
+    "explanation": "A identificação de hipoperfusão precoce e a reavaliação contínua são centrais na abordagem de choque em pediatria.",
+    "memorizar": "Em choque, verbalizar perfusão e reavaliação.",
+    "analysis": [
+      "CORRETA: sinais de hipoperfusão com PA preservada não afastam choque compensado.",
+      "PA normal não exclui disfunção circulatória.",
+      "Alta imediata ignora sinais de gravidade.",
+      "Anti-histamínico não é a resposta universal ao choque indiferenciado.",
+      "Choque suspeito pede abordagem imediata, não exclusiva investigação ambulatorial."
+    ],
+    "marker": "Em estação de OSCE, criança com extremidades frias, taquicardia e enchimento capilar de cinco segundos apresenta PA normal. Qual i",
+    "mechanism": "A identificação de hipoperfusão precoce e a reavaliação contínua são centrais na abordagem de choque em pediatria.",
+    "comparison": "Alternativa escolhida × alternativa correta",
+    "trap": "Não usar a alternativa escolhida como substituta do marcador clínico decisivo."
+  },
+  {
+    "id": "oc-E2",
+    "group": "osce-child",
+    "topic": "OSCE • Convulsão",
+    "stem": "Em estação prática, criança mantém convulsão generalizada há seis minutos. Qual conjunto de ações demonstra boa priorização?",
+    "options": [
+      "Imobilizar fortemente os membros e oferecer água.",
+      "Garantir segurança, ABC, glicemia, cronometragem e tratamento da crise prolongada conforme protocolo.",
+      "Realizar exame oftalmológico antes de avaliar via aérea.",
+      "Manter objetos na boca para evitar mordedura.",
+      "Deixar paciente sozinho para diminuir estímulos."
+    ],
+    "answer": 1,
+    "explanation": "O cuidado inicial envolve proteger, avaliar e estabilizar, verificar glicemia e tratar crise prolongada com medicação apropriada.",
+    "memorizar": "Convulsão: proteger, ABC, glicemia, tempo e tratar.",
+    "analysis": [
+      "Contenção forçada e via oral na convulsão são perigosas.",
+      "CORRETA: segurança, ABC, glicemia, tempo e terapia apropriada.",
+      "Oftalmologia não precede estabilização.",
+      "Objetos na boca aumentam risco de lesão/obstrução.",
+      "Deixar paciente sozinho viola segurança clínica."
+    ],
+    "marker": "Em estação prática, criança mantém convulsão generalizada há seis minutos. Qual conjunto de ações demonstra boa priorização",
+    "mechanism": "O cuidado inicial envolve proteger, avaliar e estabilizar, verificar glicemia e tratar crise prolongada com medicação apropriada.",
+    "comparison": "Alternativa escolhida × alternativa correta",
+    "trap": "Não usar a alternativa escolhida como substituta do marcador clínico decisivo."
+  },
+  {
+    "id": "oc-E3",
+    "group": "osce-child",
+    "topic": "OSCE • Icterícia neonatal",
+    "stem": "Em estação de icterícia de recém-nascido, qual conjunto de dados é essencial para interpretar bilirrubina e indicar fototerapia?",
+    "options": [
+      "Somente a cor dos olhos dos pais.",
+      "Somente o peso de nascimento.",
+      "Idade em horas, idade gestacional, valor de bilirrubina e fatores de risco.",
+      "Somente presença de aleitamento.",
+      "Somente a temperatura da sala."
+    ],
+    "answer": 2,
+    "explanation": "Decisões de fototerapia dependem de curvas ou limiares apropriados à idade pós-natal, idade gestacional e riscos clínicos.",
+    "memorizar": "Icterícia: bilirrubina + horas de vida + IG + riscos.",
+    "analysis": [
+      "Olhos dos pais não definem limiar de fototerapia.",
+      "Peso de nascimento não substitui idade em horas e bilirrubina.",
+      "CORRETA: hora de vida, idade gestacional, valor e fatores de risco orientam limiares.",
+      "Aleitamento é dado clínico importante, mas isoladamente insuficiente.",
+      "Temperatura ambiental não determina limiar terapêutico."
+    ],
+    "marker": "Em estação de icterícia de recém-nascido, qual conjunto de dados é essencial para interpretar bilirrubina e indicar fototerapia",
+    "mechanism": "Decisões de fototerapia dependem de curvas ou limiares apropriados à idade pós-natal, idade gestacional e riscos clínicos.",
+    "comparison": "Alternativa escolhida × alternativa correta",
+    "trap": "Não usar a alternativa escolhida como substituta do marcador clínico decisivo."
+  },
+  {
+    "id": "oc-E4",
+    "group": "osce-child",
+    "topic": "OSCE • Suporte básico de vida",
+    "stem": "Em simulação, criança está irresponsiva e não respira normalmente. A avaliação de pulso não identifica pulso de forma segura no período recomendado. O que fazer?",
+    "options": [
+      "Aguardar monitor cardíaco sem compressões.",
+      "Oferecer suco para reanimar.",
+      "Encerrar a estação sem chamar ajuda.",
+      "Iniciar RCP de alta qualidade e solicitar ajuda, seguindo algoritmo pediátrico.",
+      "Solicitar apenas radiografia de tórax."
+    ],
+    "answer": 3,
+    "explanation": "No SBV pediátrico, ausência de respiração normal e pulso não identificado rapidamente exige início de RCP e ajuda.",
+    "memorizar": "SBV: reconhecer PCR e iniciar RCP.",
+    "analysis": [
+      "RCP não deve ser retardada esperando monitor.",
+      "Paciente não responsivo não deve receber líquidos por via oral.",
+      "Omissão de ajuda é incompatível com SBV.",
+      "CORRETA: compressões e acionamento de ajuda segundo algoritmo pediátrico.",
+      "Radiografia não precede suporte vital."
+    ],
+    "marker": "Em simulação, criança está irresponsiva e não respira normalmente. A avaliação de pulso não identifica pulso de forma segura no pe",
+    "mechanism": "No SBV pediátrico, ausência de respiração normal e pulso não identificado rapidamente exige início de RCP e ajuda.",
+    "comparison": "Alternativa escolhida × alternativa correta",
+    "trap": "Não usar a alternativa escolhida como substituta do marcador clínico decisivo."
+  },
+  {
+    "id": "oc-E5",
+    "group": "osce-child",
+    "topic": "OSCE • CAD pediátrica",
+    "stem": "Em estação de CAD, qual parâmetro deve ser acompanhado durante estabilização e início do tratamento?",
+    "options": [
+      "Apenas a cor da pele, sem exames.",
+      "Estado neurológico, glicemia, eletrólitos, hidratação e perfusão.",
+      "Somente o perímetro cefálico.",
+      "Somente a saturação de oxigênio, dispensando avaliação metabólica.",
+      "Apenas a frequência de evacuações."
+    ],
+    "answer": 1,
+    "explanation": "A CAD demanda monitorização metabólica e neurológica com reavaliação seriada para identificar complicações e ajustar terapia.",
+    "memorizar": "CAD: glicemia + eletrólitos + perfusão + neurologia.",
+    "analysis": [
+      "Coloração isolada não monitora distúrbio ácido-base e eletrólitos.",
+      "CORRETA: monitorização clínica, metabólica, neurológica e de perfusão.",
+      "Perímetro cefálico não é parâmetro isolado de estabilização da CAD.",
+      "SpO2 não substitui vigilância metabólica.",
+      "Evacuações não avaliam com suficiência a CAD pediátrica."
+    ],
+    "marker": "Em estação de CAD, qual parâmetro deve ser acompanhado durante estabilização e início do tratamento",
+    "mechanism": "A CAD demanda monitorização metabólica e neurológica com reavaliação seriada para identificar complicações e ajustar terapia.",
+    "comparison": "Alternativa escolhida × alternativa correta",
+    "trap": "Não usar a alternativa escolhida como substituta do marcador clínico decisivo."
+  },
+  {
+    "id": "om-E1",
+    "group": "osce-mother",
+    "topic": "OSCE • Pré-natal",
+    "stem": "Ao iniciar uma estação de pré-natal, qual conduta é mais apropriada?",
+    "options": [
+      "Ignorar idade gestacional e antecedentes.",
+      "Solicitar somente ultrassonografia no terceiro trimestre.",
+      "Avaliar idade gestacional, risco obstétrico, PA, sintomas, exames e rastreamentos apropriados.",
+      "Afirmar que exames infecciosos são desnecessários.",
+      "Orientar suspensão do acompanhamento se estiver assintomática."
+    ],
+    "answer": 2,
+    "explanation": "Consulta de pré-natal integra anamnese, exame físico, avaliação de risco e exames de rastreamento segundo idade gestacional.",
+    "memorizar": "Pré-natal: idade gestacional + risco + rastreio + orientação.",
+    "analysis": [
+      "IG e antecedentes são essenciais para estratificação do risco.",
+      "Uma ultrassonografia tardia não substitui rastreamento e seguimento apropriados.",
+      "CORRETA: avaliação completa de IG, fatores de risco, PA, sintomas e exames.",
+      "Rastreamento infeccioso integra pré-natal conforme contexto.",
+      "Ausência de sintomas não elimina necessidades de acompanhamento."
+    ],
+    "marker": "Ao iniciar uma estação de pré-natal, qual conduta é mais apropriada",
+    "mechanism": "Consulta de pré-natal integra anamnese, exame físico, avaliação de risco e exames de rastreamento segundo idade gestacional.",
+    "comparison": "Alternativa escolhida × alternativa correta",
+    "trap": "Não usar a alternativa escolhida como substituta do marcador clínico decisivo."
+  },
+  {
+    "id": "om-E2",
+    "group": "osce-mother",
+    "topic": "OSCE • Pré-eclâmpsia",
+    "stem": "Em estação, gestante com hipertensão significativa e escotomas relata cefaleia persistente. Qual é a melhor apresentação inicial do caso?",
+    "options": [
+      "Gestação de baixo risco sem necessidade de investigação.",
+      "Suspeita de síndrome hipertensiva com sinais de gravidade, avaliação urgente e estabilização.",
+      "Queixa exclusiva de rinite.",
+      "Hipoglicemia isolada demonstrada.",
+      "Infecção urinária obrigatória."
+    ],
+    "answer": 1,
+    "explanation": "Sinais neurológicos em gestante hipertensa indicam necessidade de avaliação urgente, proteção materna e fetal e conduta apropriada.",
+    "memorizar": "Pré-eclâmpsia: identificar sinais de gravidade e agir.",
+    "analysis": [
+      "Sintomas neurológicos em gestante hipertensa indicam risco e avaliação urgente.",
+      "CORRETA: suspeita de síndrome hipertensiva grave exige estabilização e avaliação.",
+      "Rinite não explica adequadamente a combinação pressão elevada + escotomas.",
+      "Hipoglicemia não foi demonstrada.",
+      "ITU não é diagnóstico obrigatório pelas informações dadas."
+    ],
+    "marker": "Em estação, gestante com hipertensão significativa e escotomas relata cefaleia persistente. Qual é a melhor apresentação inicial d",
+    "mechanism": "Sinais neurológicos em gestante hipertensa indicam necessidade de avaliação urgente, proteção materna e fetal e conduta apropriada.",
+    "comparison": "Alternativa escolhida × alternativa correta",
+    "trap": "Não usar a alternativa escolhida como substituta do marcador clínico decisivo."
+  },
+  {
+    "id": "om-E3",
+    "group": "osce-mother",
+    "topic": "OSCE • Diabetes gestacional",
+    "stem": "Em um OSCE de diabetes gestacional, qual sequência demonstra abordagem adequada da paciente já diagnosticada?",
+    "options": [
+      "Suspender consultas de pré-natal.",
+      "Ignorar registros de glicemia e sintomas.",
+      "Discutir apenas estética corporal.",
+      "Avaliar controle glicêmico, orientar plano terapêutico e acompanhar riscos materno-fetais.",
+      "Encerrar o atendimento após uma glicemia isolada sem contexto."
+    ],
+    "answer": 3,
+    "explanation": "O controle da DMG considera monitorização, tratamento individualizado e vigilância obstétrica.",
+    "memorizar": "DMG: controle, plano, acompanhamento e comunicação.",
+    "analysis": [
+      "DMG não justifica suspender acompanhamento pré-natal.",
+      "Registros glicêmicos são fundamentais ao planejamento.",
+      "Aspectos estéticos não substituem cuidado clínico.",
+      "CORRETA: controlar glicemia e riscos materno-fetais com plano individualizado.",
+      "Glicemia isolada não substitui avaliação longitudinal."
+    ],
+    "marker": "Em um OSCE de diabetes gestacional, qual sequência demonstra abordagem adequada da paciente já diagnosticada",
+    "mechanism": "O controle da DMG considera monitorização, tratamento individualizado e vigilância obstétrica.",
+    "comparison": "Alternativa escolhida × alternativa correta",
+    "trap": "Não usar a alternativa escolhida como substituta do marcador clínico decisivo."
+  },
+  {
+    "id": "om-E4",
+    "group": "osce-mother",
+    "topic": "OSCE • Prematuridade",
+    "stem": "Gestante de 30 semanas chega com contrações e saída de líquido. Qual atitude inicial é mais apropriada?",
+    "options": [
+      "Confirmar a idade gestacional, avaliar vitalidade materno-fetal e investigar TPP/ruptura de membranas.",
+      "Realizar toque vaginal digital repetidamente antes de avaliar ruptura.",
+      "Ignorar sinais de infecção.",
+      "Orientar retorno em um mês sem avaliação.",
+      "Concluir que a gestação é a termo."
+    ],
+    "answer": 0,
+    "explanation": "Gestação pré-termo com suspeita de trabalho de parto e ruptura de membranas exige avaliação clínica, obstétrica e fetal segura, evitando manipulações desnecessárias.",
+    "memorizar": "Prematuridade: IG + mãe/feto + membranas + risco infeccioso.",
+    "analysis": [
+      "CORRETA: IG, estado materno-fetal e investigação de TPP/rotura de membranas.",
+      "Toques digitais repetidos, sobretudo com suspeita de rotura, podem aumentar riscos e devem ser evitados quando não indicados.",
+      "Infecção deve ser pesquisada e pode alterar conduta.",
+      "Quadro atual requer avaliação, não retorno em um mês.",
+      "Trinta semanas configura gestação pré-termo."
+    ],
+    "marker": "Gestante de 30 semanas chega com contrações e saída de líquido. Qual atitude inicial é mais apropriada",
+    "mechanism": "Gestação pré-termo com suspeita de trabalho de parto e ruptura de membranas exige avaliação clínica, obstétrica e fetal segura, evitando manipulações desnecessárias.",
+    "comparison": "Alternativa escolhida × alternativa correta",
+    "trap": "Não usar a alternativa escolhida como substituta do marcador clínico decisivo."
+  },
+  {
+    "id": "om-E5",
+    "group": "osce-mother",
+    "topic": "OSCE • Sífilis e toxoplasmose",
+    "stem": "No atendimento pré-natal, uma gestante apresenta teste reagente para sífilis e não há tratamento adequado documentado. Qual plano inicial está mais alinhado à prevenção da transmissão vertical?",
+    "options": [
+      "Adiar qualquer intervenção até o puerpério.",
+      "Tratar apenas o parceiro.",
+      "Desconsiderar o teste pelo fato de estar assintomática.",
+      "Usar tratamento antifúngico rotineiro.",
+      "Avaliar estágio e iniciar tratamento com penicilina apropriado, além de seguimento e abordagem da parceria."
+    ],
+    "answer": 4,
+    "explanation": "A prevenção da sífilis congênita depende de diagnóstico e tratamento adequados durante a gestação, além de seguimento e cuidado das parcerias.",
+    "memorizar": "Sífilis na gestação: tratar adequadamente e acompanhar.",
+    "analysis": [
+      "Adiar tratamento aumenta risco de transmissão vertical.",
+      "Apenas parceiro tratado não substitui tratamento materno.",
+      "Sífilis pode ser assintomática; teste reagente requer avaliação/tratamento.",
+      "Antifúngico não trata sífilis.",
+      "CORRETA: avaliar estágio, penicilina adequada e seguimento materno/da parceria."
+    ],
+    "marker": "No atendimento pré-natal, uma gestante apresenta teste reagente para sífilis e não há tratamento adequado documentado. Qual plano ",
+    "mechanism": "A prevenção da sífilis congênita depende de diagnóstico e tratamento adequados durante a gestação, além de seguimento e cuidado das parcerias.",
+    "comparison": "Alternativa escolhida × alternativa correta",
+    "trap": "Não usar a alternativa escolhida como substituta do marcador clínico decisivo."
+  }
+]
