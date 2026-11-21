@@ -464,6 +464,15 @@ h1{font-size:clamp(1.75rem,3vw,2.3rem)!important}h2{font-size:clamp(1.3rem,2.1vw
 <link rel="stylesheet" href="study-progress.css">
 <link rel="stylesheet" href="study-gold.css">
 <link rel="stylesheet" href="study-rigor.css">
+<style>
+#install-app{min-height:44px;white-space:nowrap}
+#install-app[hidden]{display:none}
+#install-help{width:min(28rem,calc(100% - 2rem));max-height:calc(100% - 2rem);overflow:auto;padding:1.25rem;border:1px solid var(--line,#e4cdda);border-radius:1rem;background:var(--surface,#fff);color:var(--ink,#26324d);box-shadow:0 16px 54px #17213e30}
+#install-help::backdrop{background:#17213e88}
+#install-help h2{margin:0 0 .75rem}
+#install-help p{margin:.75rem 0;line-height:1.55}
+#install-help form{margin-top:1rem}
+</style>
 </head>
 <body>
 <div class="app">
@@ -471,7 +480,7 @@ h1{font-size:clamp(1.75rem,3vw,2.3rem)!important}h2{font-size:clamp(1.3rem,2.1vw
  <div class="brand"><span class="brand-icon" aria-hidden="true"><img src="flor-sakura.svg" alt="" width="35" height="35" style="display:block;width:35px;height:35px;border-radius:12px"></span><div><div class="brand-title">Trilha de Ouro <span style="color:#d48fac">♡</span></div><div class="brand-sub">ESTUDAR • PRATICAR • CONSOLIDAR</div></div></div>
  <nav class="nav" aria-label="Seções principais"><button type="button" data-page="hoje" class="active">✿ Hoje</button><button type="button" data-page="briefing">☷ Briefing</button><button type="button" data-page="questoes">▤ Questões</button><button type="button" data-page="erros">◫ Caderno</button><button type="button" data-page="programa">▦ Programa</button>
 <button type="button" data-page="conteudo">✿ Conteúdo</button><button type="button" data-page="duvidas">◇ Dúvidas</button></nav>
- <div class="tools"><span class="desktop-hint" id="save-status">Salvo neste navegador</span><button type="button" id="hub-save-backup" class="hub-backup-pill" title="Exportar cópia dos estudos" aria-label="Exportar cópia dos estudos">↧ Salvar cópia</button><div class="time-now" aria-label="Hora atual de Brasília"><span>◷</span><time class="clock-face" id="clock-now">--:--</time><small>Brasília</small></div><button type="button" id="hub-focus-toggle" class="hub-quick-btn" aria-pressed="false" title="Alternar visual sem decoração">◌ Foco puro</button>
+ <div class="tools"><button type="button" id="install-app" class="btn" hidden>Instalar no celular</button><span class="desktop-hint" id="save-status">Salvo neste navegador</span><button type="button" id="hub-save-backup" class="hub-backup-pill" title="Exportar cópia dos estudos" aria-label="Exportar cópia dos estudos">↧ Salvar cópia</button><div class="time-now" aria-label="Hora atual de Brasília"><span>◷</span><time class="clock-face" id="clock-now">--:--</time><small>Brasília</small></div><button type="button" id="hub-focus-toggle" class="hub-quick-btn" aria-pressed="false" title="Alternar visual sem decoração">◌ Foco puro</button>
 <button type="button" id="hub-personalize" class="hub-quick-btn" aria-haspopup="dialog" aria-controls="hub-drawer" aria-expanded="false">✿ Personalizar</button>
 <button id="dark-toggle" type="button" class="iconbtn" title="Alternar tema" aria-label="Alternar tema">☾</button></div>
 </header>
@@ -952,5 +961,56 @@ render();update();setInterval(()=>update(),15*60*1000);document.addEventListener
 <script src="study-progress.js"></script>
 <script id="gold-manifest" type="application/json">{"version":"5.1.0","topics":[{"id":"sc-A1","title":"Hipertensão arterial na infância e adolescência","group":"P2 • Saúde da Criança II"},{"id":"sc-A2","title":"Reações alérgicas em pediatria","group":"P2 • Saúde da Criança II"},{"id":"sc-A3","title":"Febre reumática","group":"P2 • Saúde da Criança II"},{"id":"sc-A4","title":"Meningite","group":"P2 • Saúde da Criança II"},{"id":"sc-A5","title":"PALS 2025 e emergências pediátricas","group":"P2 • Saúde da Criança II"},{"id":"sc-A6","title":"Dispositivos respiratórios na emergência pediátrica","group":"P2 • Saúde da Criança II"},{"id":"sc-A7","title":"Manejo de crises convulsivas em pediatria","group":"P2 • Saúde da Criança II"},{"id":"sc-A8","title":"Cetoacidose diabética","group":"P2 • Saúde da Criança II"},{"id":"sc-A9","title":"Abordagem do choque pediátrico","group":"P2 • Saúde da Criança II"},{"id":"sc-A10","title":"Parada cardiorrespiratória em pediatria","group":"P2 • Saúde da Criança II"},{"id":"sm-A1","title":"Trabalho de parto prematuro e bolsa rota","group":"P2 • Saúde da Mulher II"},{"id":"sm-A2","title":"Síndromes hipertensivas gestacionais","group":"P2 • Saúde da Mulher II"},{"id":"sm-A3","title":"Diabetes mellitus da gestante","group":"P2 • Saúde da Mulher II"},{"id":"sm-A4","title":"Sífilis na gestação","group":"P2 • Saúde da Mulher II"},{"id":"sm-A5","title":"Gestação gemelar","group":"P2 • Saúde da Mulher II"},{"id":"sm-A6","title":"Infecções gestacionais","group":"P2 • Saúde da Mulher II"},{"id":"oc-E1","title":"Choque hemodinâmico pediátrico","group":"OSCE • Saúde da Criança II"},{"id":"oc-E2","title":"Episódio convulsivo pediátrico","group":"OSCE • Saúde da Criança II"},{"id":"oc-E3","title":"Icterícia neonatal","group":"OSCE • Saúde da Criança II"},{"id":"oc-E4","title":"Suporte básico de vida em pediatria","group":"OSCE • Saúde da Criança II"},{"id":"oc-E5","title":"Cetoacidose diabética pediátrica","group":"OSCE • Saúde da Criança II"},{"id":"om-E1","title":"Pré-natal","group":"OSCE • Saúde da Mulher II"},{"id":"om-E2","title":"Pré-eclâmpsia","group":"OSCE • Saúde da Mulher II"},{"id":"om-E3","title":"Diabetes mellitus gestacional","group":"OSCE • Saúde da Mulher II"},{"id":"om-E4","title":"Prematuridade","group":"OSCE • Saúde da Mulher II"},{"id":"om-E5","title":"Sífilis e toxoplasmose na gestação","group":"OSCE • Saúde da Mulher II"}]}</script>
 <script src="study-gold.js"></script>
+<dialog id="install-help" aria-labelledby="install-title">
+  <h2 id="install-title">Instalar a Trilha de Ouro</h2>
+  <p><strong>iPhone ou iPad</strong> · Abra este site no Safari. Toque em <strong>Compartilhar</strong> e depois em <strong>Adicionar à Tela de Início</strong>. Se aparecer <strong>Abrir como App da Web</strong>, ative essa opção e toque em <strong>Adicionar</strong>.</p>
+  <p><strong>Android</strong> · Abra este site no Chrome. Toque no menu <strong>⋮</strong> e escolha <strong>Instalar app</strong> ou <strong>Adicionar à tela inicial</strong>.</p>
+  <form method="dialog"><button class="btn" autofocus>Fechar</button></form>
+</dialog>
+<script>
+(() => {
+  const button = document.getElementById('install-app');
+  const help = document.getElementById('install-help');
+  const standalone = window.matchMedia('(display-mode: standalone)');
+  let promptEvent;
+
+  function hideInstallButton() {
+    button.hidden = true;
+  }
+
+  button.hidden = standalone.matches || navigator.standalone === true;
+  window.addEventListener('beforeinstallprompt', event => {
+    event.preventDefault();
+    promptEvent = event;
+  });
+  window.addEventListener('appinstalled', () => {
+    promptEvent = undefined;
+    hideInstallButton();
+  });
+  standalone.addEventListener('change', event => {
+    button.hidden = event.matches || navigator.standalone === true;
+  });
+
+  button.addEventListener('click', async () => {
+    if (!promptEvent) {
+      help.showModal();
+      return;
+    }
+
+    const pendingPrompt = promptEvent;
+    promptEvent = undefined;
+    button.disabled = true;
+    try {
+      await pendingPrompt.prompt();
+      const {outcome} = await pendingPrompt.userChoice;
+      if (outcome === 'accepted') hideInstallButton();
+    } catch {
+      help.showModal();
+    } finally {
+      button.disabled = false;
+    }
+  });
+})();
+</script>
 </body>
 </html>
