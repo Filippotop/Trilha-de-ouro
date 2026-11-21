@@ -27,7 +27,7 @@ function allEvents(qs,source){const events=[];let attempts=0,right=0,wrong=0,bla
 }
 function getStats(topic){const source=STORE_HIST(CORE,{}).quiz||{};const qs=[topic,...(topic.id==='sc-A1'?HAS:[])];const baseline=allEvents(qs,source);
  const extra=STORE_HIST('trilha-ouro-gold-questoes-v4',{});const seen=new Set();baseline.legacyExcluded=0;
- for(const run of (Array.isArray(extra.runs)?extra.runs:[]))for(const r of (Array.isArray(run.results)?run.results:[]))if(r.topicId===topic.id&&!r.annulled){if(run.sourceVersion!=='5.0.0'){baseline.legacyExcluded++;continue;}baseline.attempts++;if(r.blank)baseline.blank++;else if(r.correct)baseline.right++;else baseline.wrong++;const at=validDate(r.at||run.submittedAt);if(at)baseline.events.push({at,correct:!!r.correct,blank:!!r.blank,id:r.id});else baseline.undated++;seen.add(r.id);}
+ for(const run of (Array.isArray(extra.runs)?extra.runs:[]))for(const r of (Array.isArray(run.results)?run.results:[]))if(r.topicId===topic.id&&!r.annulled){if(!['5.0.0','5.1.0'].includes(run.sourceVersion)){baseline.legacyExcluded++;continue;}baseline.attempts++;if(r.blank)baseline.blank++;else if(r.correct)baseline.right++;else baseline.wrong++;const at=validDate(r.at||run.submittedAt);if(at)baseline.events.push({at,correct:!!r.correct,blank:!!r.blank,id:r.id});else baseline.undated++;seen.add(r.id);}
  baseline.events.sort((a,b)=>a.at-b.at);baseline.uniqueQuestions+=seen.size;return baseline;}
 function verdict(s){const n=s.attempts,pct=n?100*s.right/n:0;
  if(n===0)return {status:'none',name:'Sem evidência',text:'Nenhuma questão respondida neste navegador.',next:'Resolver a primeira questão sem consultar o gabarito.'};
@@ -73,3 +73,4 @@ function init(){const file=$('#hub-import-backup');$('#hub-save-backup')?.addEve
 }
 init();
 })();
+
