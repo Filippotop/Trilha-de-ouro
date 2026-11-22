@@ -8,56 +8,57 @@ const root=document.getElementById('gold-workspace');if(!root)return;
 const $=(sel,container=document)=>container.querySelector(sel),$$=(sel,container=document)=>Array.from(container.querySelectorAll(sel));
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const KEY='trilha-ouro-gold-questoes-v4'; // Chave histórica preservada integralmente
-const APPROVED=new Set(["sc-A5","sc-A4","sc-A7","sc-A8","sm-A2"]);
-const UNREVIEWED='Este conjunto foi retirado da aplicação porque as questões antigas eram repetitivas e não atendiam ao nível exigido. O histórico permanece salvo. Banco em reescrita e auditoria.';
+const R1_VERSION='6.0.0';
+const APPROVED={has:id=>META.some(t=>t.id===id&&t.r1)};
+const UNREVIEWED='O banco R1 (padrão residência) deste tema ainda não foi publicado. O histórico anterior permanece salvo.';
 const PACK=JSON.parse(document.getElementById('gold-manifest').textContent);
 const META=PACK.topics;
 const GROUPS={'P2 • Saúde da Criança II':'P2 Criança II','P2 • Saúde da Mulher II':'P2 Mulher II','OSCE • Saúde da Criança II':'OSCE Criança II','OSCE • Saúde da Mulher II':'OSCE Mulher II'};
 let state={schema:1,version:'5.1.0',selected:'sc-A5',drafts:{},runs:[]};
 try{const raw=localStorage.getItem(KEY);if(raw){let saved=JSON.parse(raw);if(saved&&typeof saved==='object'){state={...state,...saved,drafts:saved.drafts&&typeof saved.drafts==='object'?saved.drafts:{},runs:Array.isArray(saved.runs)?saved.runs:[]};}}}catch(e){/* Browser may restrict storage; keep live session */}
-let currentMode='topic',currentTopic=META.some(t=>t.id===state.selected)&&APPROVED.has(state.selected)?state.selected:'sc-A5';
+let currentMode='topic',currentTopic=META.some(t=>t.id===state.selected)&&APPROVED.has(state.selected)?state.selected:(META.find(t=>t.r1)?.id||'sc-A5');
 let displayedQuestion=0;
 let showCorrections=false;
 let loaded={};
 let pending=null;
-const topicKey=t=>'t5:'+t; // Nova aplicação tem ID isolado; t: antigos são mantidos
-const modeKey=()=>currentMode==='sim'?'s5:global':topicKey(currentTopic);
+const topicKey=t=>'t6:'+t; // Nova aplicação tem ID isolado; t: antigos são mantidos
+const modeKey=()=>currentMode==='sim'?'s6:global':topicKey(currentTopic);
 const now=()=>new Date().toISOString();
 const fmtDate=timestamp=>new Intl.DateTimeFormat('pt-BR',{timeZone:'America/Sao_Paulo',day:'2-digit',month:'2-digit',year:'numeric',hour:'2-digit',minute:'2-digit'}).format(new Date(timestamp));
 function save(){state.selected=currentTopic;try{localStorage.setItem(KEY,JSON.stringify(state));window.dispatchEvent(new Event('trilha:gold-progress-updated'));window.dispatchEvent(new Event('trilha:progress-saved'));}catch(e){status('Não foi possível salvar no navegador. Exporte os dados existentes e libere espaço.',true);}}
 function status(message,isError=false){const el=$('#gold-status');if(el){el.textContent=message;el.dataset.error=isError?'true':'false';}}
 function safeFilename(id){return /^([a-z]{2}-[AE][0-9]{1,2})$/.test(id);}
 function dataMeta(id){return META.find(x=>x.id===id)||null;}
-function scriptFor(mode,topic){return mode==='sim'?'questoes/v5-simulado.js':'questoes/v5-'+topic+'.js';}
-async function load(mode,topic){
- if(mode==='sim')throw new Error('Simulado de 50 questões retirado para reescrita. O modelo anterior não atende ao protocolo. Nenhuma nota antiga será alterada.');
- if(!APPROVED.has(topic))throw new Error(UNREVIEWED);
- const id='v5-'+topic;
+function scriptFor(mode,topic,gen='r1'){return mode==='sim'?'questoes/r1-simulado.js':'questoes/'+gen+'-'+topic+'.js';}
+async function load(mode,topic,gen='r1'){
+ if(mode==='sim'&&!META.some(t=>t.r1))throw new Error('Simulado R1 ainda não publicado.');
+ if(mode!=='sim'&&gen==='r1'&&!APPROVED.has(topic))throw new Error(UNREVIEWED);
+ const id=mode==='sim'?'simulation-r1':gen+'-'+topic;
  if(loaded[id])return loaded[id];
  if(!safeFilename(topic)&&mode!=='sim')throw new Error('Tema inválido');
  const cached=window.TRILHA_GOLD_BANKS?.[id];if(cached){loaded[id]=cached;return cached;}
  if(pending?.id===id)return pending.promise;
  status('Carregando banco de questões…');
  const task=new Promise((resolve,reject)=>{
-   const script=document.createElement('script');script.src=scriptFor(mode,topic);script.async=true;
+   const script=document.createElement('script');script.src=scriptFor(mode,topic,gen);script.async=true;
    script.onload=()=>{const v=window.TRILHA_GOLD_BANKS?.[id];if(v){loaded[id]=v;resolve(v);}else reject(new Error('Banco carregado sem dados.'));};
    script.onerror=()=>reject(new Error('Não foi possível carregar o banco. Verifique a conexão.'));
    document.head.append(script);
  });
  pending={id,promise:task};try{return await task;}finally{pending=null;}
 }
-function pool(mode=currentMode,topic=currentTopic){const x=loaded[mode==='sim'?'simulation-v5':'v5-'+topic];return mode==='sim'?x:(x?.questions||[]);}
+function pool(mode=currentMode,topic=currentTopic){const x=loaded[mode==='sim'?'simulation-r1':'r1-'+topic];return mode==='sim'?(x?.questions||x):(x?.questions||[]);}
 function getDraft(){return state.drafts[modeKey()]||null;}
 function getLatestRun(){const key=modeKey();return state.runs.filter(r=>r.key===key).at(-1)||null;}
 function ensureDraft(items){const key=modeKey();let draft=state.drafts[key];if(!draft||!Array.isArray(draft.order)||draft.order.length!==items.length){draft={key,mode:currentMode,topicId:currentMode==='sim'?null:currentTopic,startedAt:now(),answers:{},index:0,order:items.map(x=>x.id)};state.drafts[key]=draft;save();}return draft;}
 function runScore(results){const valid=results.filter(r=>!r.annulled);let correct=valid.filter(r=>r.correct).length;let blanks=valid.filter(r=>r.blank).length;return {correct,wrong:valid.length-correct-blanks,blanks,annulled:results.length-valid.length,valid:valid.length,pct:valid.length?Math.round(correct/valid.length*100):0};}
-function renderModeSelectors(){const topic=$('#gold-topic');if(!topic.dataset.ready){topic.innerHTML=META.map(t=>`<option value="${esc(t.id)}">${esc(t.title)} · ${esc(GROUPS[t.group]||t.group)}${APPROVED.has(t.id)?' · NOVO BANCO CLÍNICO':' · REVISÃO PENDENTE'}</option>`).join('');topic.dataset.ready='1';topic.addEventListener('change',()=>{currentTopic=topic.value;currentMode='topic';displayedQuestion=0;showCorrections=false;save();render().catch(e=>status(e.message,true));});}
+function renderModeSelectors(){const topic=$('#gold-topic');if(!topic.dataset.ready){topic.innerHTML=META.map(t=>`<option value="${esc(t.id)}">${esc(t.title)} · ${esc(GROUPS[t.group]||t.group)}${t.r1?' · BANCO R1 RESIDÊNCIA':' · R1 EM PRODUÇÃO'}</option>`).join('');topic.dataset.ready='1';topic.addEventListener('change',()=>{currentTopic=topic.value;currentMode='topic';displayedQuestion=0;showCorrections=false;save();render().catch(e=>status(e.message,true));});}
  topic.value=currentTopic;
  $('#gold-mode-topic').classList.toggle('active',currentMode==='topic');$('#gold-mode-sim').classList.toggle('active',currentMode==='sim');
  topic.disabled=currentMode==='sim';
- $('#gold-mode-sim').disabled=true;$('#gold-mode-sim').title='Em reescrita. Simulado anterior mantido somente para revisão do histórico.';
- $('#gold-headline').textContent=currentMode==='sim'?'SIMULADO EM AUDITORIA':APPROVED.has(currentTopic)?dataMeta(currentTopic).title + ' · 30 casos clínicos':'BANCO EM AUDITORIA';
- $('#gold-subheading').textContent=currentMode==='sim'?'Banco de 50 não liberado até correção de itens repetitivos.':APPROVED.has(currentTopic)?'O gabarito fica oculto até finalizar o conjunto.':'Em revisão para substituir questões superficiais. Seu histórico está seguro.';
+ const simReady=META.some(t=>t.r1)&&!!PACK.simulation;$('#gold-mode-sim').disabled=!simReady;$('#gold-mode-sim').title=simReady?'Simulado R1 de 50 questões':'Simulado R1 em produção.';
+ $('#gold-headline').textContent=currentMode==='sim'?'SIMULADO R1 · 50 QUESTÕES':APPROVED.has(currentTopic)?dataMeta(currentTopic).title + ' · 30 casos clínicos · padrão residência':'BANCO R1 EM PRODUÇÃO';
+ $('#gold-subheading').textContent=currentMode==='sim'?'Pediatria e Ginecologia/Obstetrícia, dificuldade mista. O gabarito fica oculto até finalizar.':APPROVED.has(currentTopic)?'4 alternativas, como no Enamed. O gabarito fica oculto até finalizar o conjunto.':'Banco em produção. Seu histórico está seguro.';
 }
 function renderSummary(items,draft,submitted){const answered=items.filter(q=>Number.isInteger(draft.answers[q.id])).length;
  const count=items.length;
@@ -81,7 +82,7 @@ function renderQuestion(items,draft,submitted){const q=items[displayedQuestion];
  const after=submitted&&showCorrections?renderCorrection(q,selected):'';
  const title=`QUESTÃO ${String(displayedQuestion+1).padStart(2,'0')} / ${items.length}`;
  $('#gold-question').innerHTML=`<div class="gold-question-index">${title}</div><div class="gold-question-stem">${esc(q.stem).replace(/\n/g,'<br>')}</div><div class="gold-answers">${optionMarkup}</div><p class="gold-quiet">${note}</p>${after}`;
- if(!submitted){$$('input[name="gold-answer"]',$('#gold-question')).forEach(input=>input.addEventListener('change',()=>{draft.answers[q.id]=Number(input.value);save();renderSummary(items,draft,null);renderQuestion(items,draft,null);}));}
+ if(!submitted){$$('input[name="gold-answer"]',$('#gold-question')).forEach(input=>input.addEventListener('change',()=>{draft.answers[q.id]=Number(input.value);(draft.times=draft.times||{})[q.id]=now();save();renderSummary(items,draft,null);renderQuestion(items,draft,null);}));}
  $('#gold-previous').disabled=displayedQuestion===0;
  $('#gold-next').disabled=displayedQuestion===items.length-1;
  $('#gold-previous').onclick=()=>{displayedQuestion=Math.max(0,displayedQuestion-1);draft.index=displayedQuestion;save();renderSummary(items,draft,submitted);renderQuestion(items,draft,submitted);};
@@ -98,15 +99,17 @@ function openTheory(id){document.querySelector('[data-page="conteudo"]')?.click(
 function finalize(items,draft){const answered=items.filter(q=>Number.isInteger(draft.answers[q.id])).length;const blanks=items.length-answered;
  if(!window.confirm(`Finalizar ${items.length} questões? ${blanks} ficarão em branco, serão contabilizadas e o gabarito será liberado. O conjunto ficará salvo no histórico.`))return;
  const submittedAt=now();
- const results=items.map(q=>{const selected=Number.isInteger(draft.answers[q.id])?draft.answers[q.id]:null;return {id:q.id,topicId:q.topicId,selected,answer:q.answer,correct:selected===q.answer,blank:selected===null,at:submittedAt,annulled:false};});
+ const results=items.map(q=>{const selected=Number.isInteger(draft.answers[q.id])?draft.answers[q.id]:null;return {id:q.id,topicId:q.topicId,selected,answer:q.answer,correct:selected===q.answer,blank:selected===null,at:submittedAt,answeredAt:draft.times?.[q.id]||null,annulled:false,difficulty:q.difficulty??null,angoff:q.angoff??null,area:q.area||null,subarea:q.subarea||q.topic||null,competence:q.competence||null};});
  const run={id:`goldrun-${Date.now()}-${Math.random().toString(36).slice(2,7)}`,key:modeKey(),mode:currentMode,topicId:currentMode==='sim'?null:currentTopic,startedAt:draft.startedAt,submittedAt,sourceVersion:PACK.version,results};
- state.runs.push(run);delete state.drafts[modeKey()];save();displayedQuestion=0;showCorrections=true;status('Conjunto corrigido. O Caderno mantém erros e questões em branco.');render().catch(e=>status(e.message,true));renderErrors();
+ state.runs.push(run);delete state.drafts[modeKey()];save();recordLedger(run,items,draft);displayedQuestion=0;showCorrections=true;status('Conjunto corrigido. O Caderno mantém erros e questões em branco.');render().catch(e=>status(e.message,true));renderErrors();
 }
+function recordLedger(run,items,draft){try{const T=window.TrilhaVerdict;if(!T)return;const entries=run.results.map(r=>({uid:run.id+':'+r.id,qid:r.id,runId:run.id,mode:run.mode,topicId:r.topicId,selected:r.selected,answer:r.answer,correct:r.correct,blank:r.blank,at:r.answeredAt||r.at,submittedAt:run.submittedAt,difficulty:r.difficulty,angoff:r.angoff,area:r.area,subarea:r.subarea,competence:r.competence,annulled:false,sourceVersion:run.sourceVersion}));T.appendEntries(entries);window.dispatchEvent(new Event('trilha:ledger-updated'));window.TrilhaBackup&&window.TrilhaBackup.afterFinalize&&window.TrilhaBackup.afterFinalize();}catch(e){status('Respostas salvas no conjunto, mas o registro individual falhou: '+e.message,true);}}
 function renderFinished(items,run){const score=runScore(run.results);const draft={startedAt:run.startedAt,answers:Object.fromEntries(run.results.map(r=>[r.id,r.selected]))};
  $('#gold-stats').innerHTML=`<div><b>${score.correct}/${score.valid}</b><small>Acertos válidos</small></div><div><b>${score.pct}%</b><small>Precisão</small></div><div><b>${score.wrong}</b><small>Erros</small></div><div><b>${score.blanks}</b><small>Em branco</small></div>`;
  $('#gold-score').hidden=false;
  const advice=score.pct<60?'Prioridade: reconstruir fundamentos e refazer os mecanismos errados.':score.pct<80?'Prioridade: reforçar diferenciais e análise dos distratores.':'Prioridade: aprofundar casos clínicos e conferir retenção em novo conjunto.';
  $('#gold-outcome').textContent=advice+' Resultado de uma aplicação; não demonstra domínio definitivo.';
+ try{const T=window.TrilhaVerdict;let v=$('#gold-verdict');if(!v){v=document.createElement('div');v.id='gold-verdict';$('#gold-outcome').after(v);}v.innerHTML=T?'<h4>Veredito ponderado por dificuldade e área</h4>'+T.renderHTML(T.summarize(T.readLedger().entries)):'';}catch(_){}
  const body={...draft,index:displayedQuestion};
  renderSummary(items,body,true);renderQuestion(items,body,true);
  $('#gold-submit').disabled=true;
@@ -122,7 +125,7 @@ function renderProgress(items){const latest=getLatestRun();const draft=getDraft(
  }
 }
 async function render(){renderModeSelectors();const b=$('#gold-question');b.innerHTML='<div class="gold-loading">Carregando questões do tema selecionado…</div>';
- try{const bank=await load(currentMode,currentTopic);const items=currentMode==='sim'?bank:bank.questions;
+ try{const bank=await load(currentMode,currentTopic);const items=currentMode==='sim'?(bank.questions||bank):bank.questions;
   if(currentMode==='topic'&&items.length!==30)throw new Error('O banco não contém 30 questões.');
   if(currentMode==='sim'&&items.length!==50)throw new Error('Simulado incompleto.');
   renderProgress(items);renderShortEvolution();status('Respostas armazenadas apenas neste navegador. Exporte backup em Personalizar.');
@@ -148,7 +151,7 @@ async function loadLegacy(mode,topic){
 }
 async function reviewPast(qId,runId){const run=state.runs.find(r=>r.id===runId);const result=run?.results.find(r=>r.id===qId);if(!run||!result)return;
  const mode=run.mode==='sim'?'sim':'topic', topic=result.topicId;
- try{const legacy=!/^5\.(?:0|1)\.0$/.test(run.sourceVersion || '');const bank=legacy?await loadLegacy(mode,topic):await load(mode,topic);const items=mode==='sim'?bank:bank.questions;const q=items.find(x=>x.id===qId);if(!q)throw new Error('A questão da aplicação anterior não está disponível nesta versão.');
+ try{const gen=/^6\./.test(run.sourceVersion||'')?'r1':/^5\.(?:0|1)\.0$/.test(run.sourceVersion||'')?'v5':'legacy';const bank=gen==='legacy'?await loadLegacy(mode,topic):await load(mode,topic,gen);const items=mode==='sim'?(bank.questions||bank):bank.questions;const q=items.find(x=>x.id===qId);if(!q)throw new Error('A questão da aplicação anterior não está disponível nesta versão.');
  const box=$('#gold-error-detail');box.innerHTML=`<div class="gold-review-top"><h3>${esc(dataMeta(result.topicId)?.title||'Questão revisada')}</h3><button type="button" id="gold-close-detail" aria-label="Fechar revisão">Fechar</button></div><p class="gold-question-stem">${esc(q.stem).replace(/\n/g,'<br>')}</p>${renderCorrection(q,result.selected)}`;
  box.hidden=false;box.scrollIntoView({behavior:'smooth',block:'start'});
  $('#gold-close-detail').onclick=()=>{box.hidden=true;};$$('[data-gold-theory]',box).forEach(b=>b.onclick=()=>openTheory(b.dataset.goldTheory));

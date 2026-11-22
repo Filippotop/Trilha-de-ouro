@@ -8,7 +8,8 @@ const $=(sel,root=document)=>root.querySelector(sel);
 const escapeHtml=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const CORE='trilha-questoes-ouro-unificada-1';
 const EVOLUTION_PREF='trilha-ouro-evolution-preferences-v1';
-const KEYS=[CORE,'trilha-ouro-pendencias-concluidas-v1','trilha-ouro-library-cache-v1','trilha-ouro-briefing-cache-v1','trilha-ouro-studyhub-preferences-v1','trilha-ouro-studyhub-ledger-v1','trilha-ouro-studyhub-doodle-v1','trilha-ouro-studyhub-cover-v1','trilha-ouro-gold-questoes-v4',EVOLUTION_PREF];
+const KEYS=[CORE,'trilha-ouro-pendencias-concluidas-v1','trilha-ouro-library-cache-v1','trilha-ouro-briefing-cache-v1','trilha-ouro-studyhub-preferences-v1','trilha-ouro-studyhub-ledger-v1','trilha-ouro-studyhub-doodle-v1','trilha-ouro-studyhub-cover-v1','trilha-ouro-gold-questoes-v4','trilha-ouro-respostas-v1',EVOLUTION_PREF];
+const AUTO_PREF='trilha-ouro-auto-backup-v1';
 const BACKUP_FORMAT='trilha-ouro-portable-backup';
 const DB=JSON.parse($('#app-data').textContent);
 const TOPICS=DB.questions;
@@ -27,7 +28,7 @@ function allEvents(qs,source){const events=[];let attempts=0,right=0,wrong=0,bla
 }
 function getStats(topic){const source=STORE_HIST(CORE,{}).quiz||{};const qs=[topic,...(topic.id==='sc-A1'?HAS:[])];const baseline=allEvents(qs,source);
  const extra=STORE_HIST('trilha-ouro-gold-questoes-v4',{});const seen=new Set();baseline.legacyExcluded=0;
- for(const run of (Array.isArray(extra.runs)?extra.runs:[]))for(const r of (Array.isArray(run.results)?run.results:[]))if(r.topicId===topic.id&&!r.annulled){if(!['5.0.0','5.1.0'].includes(run.sourceVersion)){baseline.legacyExcluded++;continue;}baseline.attempts++;if(r.blank)baseline.blank++;else if(r.correct)baseline.right++;else baseline.wrong++;const at=validDate(r.at||run.submittedAt);if(at)baseline.events.push({at,correct:!!r.correct,blank:!!r.blank,id:r.id});else baseline.undated++;seen.add(r.id);}
+ for(const run of (Array.isArray(extra.runs)?extra.runs:[]))for(const r of (Array.isArray(run.results)?run.results:[]))if(r.topicId===topic.id&&!r.annulled){if(!['5.0.0','5.1.0','6.0.0'].includes(run.sourceVersion)){baseline.legacyExcluded++;continue;}baseline.attempts++;if(r.blank)baseline.blank++;else if(r.correct)baseline.right++;else baseline.wrong++;const at=validDate(r.at||run.submittedAt);if(at)baseline.events.push({at,correct:!!r.correct,blank:!!r.blank,id:r.id});else baseline.undated++;seen.add(r.id);}
  baseline.events.sort((a,b)=>a.at-b.at);baseline.uniqueQuestions+=seen.size;return baseline;}
 function verdict(s){const n=s.attempts,pct=n?100*s.right/n:0;
  if(n===0)return {status:'none',name:'Sem evidência',text:'Nenhuma questão respondida neste navegador.',next:'Resolver a primeira questão sem consultar o gabarito.'};
@@ -50,10 +51,10 @@ function renderEvolution(){const root=$('#hub-evolution-grid'),total=$('#hub-evo
  root.querySelectorAll('[data-practice-topic]').forEach(b=>b.addEventListener('click',()=>{$('[data-page="questoes"]')?.click();const choose=$('#quiz-topic-choice');if(choose){choose.value=b.dataset.practiceTopic;choose.dispatchEvent(new Event('change',{bubbles:true}));choose.scrollIntoView({behavior:'smooth',block:'center'});}}));
 }
 function labelStatus(text,problem=false){const x=$('#hub-backup-status');if(x){x.textContent=text;x.style.color=problem?'#9E1C35':'';}}
-function exportBackup(){let items={},fail=[];for(const key of KEYS){try{const val=localStorage.getItem(key);if(val!==null)items[key]=val;}catch(_){fail.push(key);}}if(fail.length){labelStatus('Alguns dados não puderam ser lidos. Nenhum arquivo incompleto foi exportado.',true);return;}
+function exportBackup(auto){let items={},fail=[];for(const key of KEYS){try{const val=localStorage.getItem(key);if(val!==null)items[key]=val;}catch(_){fail.push(key);}}if(fail.length){labelStatus('Alguns dados não puderam ser lidos. Nenhum arquivo incompleto foi exportado.',true);return;}
  const data={format:BACKUP_FORMAT,schema:1,exportedAt:new Date().toISOString(),site:'Trilha de Ouro | Study Hub',items};
  const payload=JSON.stringify(data,null,2),blob=new Blob([payload],{type:'application/json;charset=utf-8'}),url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download='trilha-de-ouro-backup-'+new Intl.DateTimeFormat('en-CA',{timeZone:'America/Sao_Paulo',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date()).replaceAll('/','-')+'.json';document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),1500);
- labelStatus('Cópia exportada. Guarde o arquivo em um local seguro. Não é sincronização automática.');
+ labelStatus(auto===true?'Cópia automática baixada após finalizar o conjunto. Guarde o arquivo; não é sincronização na nuvem.':'Cópia exportada. Guarde o arquivo em um local seguro. Não é sincronização automática.');
 }
 async function importBackup(file){if(!file)return;if(file.size>20*1024*1024){labelStatus('Arquivo grande demais (máximo 20 MB).',true);return;}let data;try{data=JSON.parse(await file.text());}catch(_){labelStatus('Arquivo inválido. Esperado JSON da Trilha de Ouro.',true);return;}
  if(data?.format!==BACKUP_FORMAT||data.schema!==1||!data.items||typeof data.items!=='object'||Array.isArray(data.items)){labelStatus('O arquivo não é um backup compatível da Trilha de Ouro.',true);return;}
@@ -64,7 +65,10 @@ async function importBackup(file){if(!file)return;if(file.size>20*1024*1024){lab
  try{keys.forEach(k=>localStorage.setItem(k,data.items[k]));}catch(e){try{keys.forEach(k=>snapshot[k]===null?localStorage.removeItem(k):localStorage.setItem(k,snapshot[k]));}catch(_){}labelStatus('Falha ao gravar, espaço do navegador pode estar cheio. Tentativa de restauração aplicada.',true);return;}
  labelStatus('Backup importado. Recarregando para restaurar os estudos.');location.reload();
 }
-function init(){const file=$('#hub-import-backup');$('#hub-save-backup')?.addEventListener('click',exportBackup);$('#hub-save-backup-panel')?.addEventListener('click',exportBackup);file?.addEventListener('change',()=>{const picked=file.files?.[0];importBackup(picked).finally(()=>{file.value='';});});
+const autoOn=()=>STORE_HIST(AUTO_PREF,{on:true}).on!==false;
+window.TrilhaBackup={afterFinalize(){if(autoOn())exportBackup(true);},exportNow:()=>exportBackup(true)};
+function mountAutoToggle(){const anchor=$('#hub-save-backup-panel')||$('#hub-save-backup');if(!anchor||$('#hub-auto-backup'))return;const lab=document.createElement('label');lab.style.cssText='display:block;margin:.5rem 0;font-size:.9rem';lab.innerHTML='<input type="checkbox" id="hub-auto-backup"> Baixar backup automaticamente ao finalizar cada conjunto de questões';anchor.after(lab);const cb=lab.querySelector('input');cb.checked=autoOn();cb.addEventListener('change',()=>{try{localStorage.setItem(AUTO_PREF,JSON.stringify({on:cb.checked}));}catch(_){}});}
+function init(){try{navigator.storage&&navigator.storage.persist&&navigator.storage.persist();}catch(_){}mountAutoToggle();const file=$('#hub-import-backup');$('#hub-save-backup')?.addEventListener('click',exportBackup);$('#hub-save-backup-panel')?.addEventListener('click',exportBackup);file?.addEventListener('change',()=>{const picked=file.files?.[0];importBackup(picked).finally(()=>{file.value='';});});
  window.addEventListener('trilha:progress-saved',()=>{renderEvolution();const info=$('#save-status');if(info&&info.textContent!=='Salvo só nesta sessão')info.textContent='Salvo automaticamente';});
  window.addEventListener('trilha:topic-changed',renderEvolution);
  window.addEventListener('trilha:gold-progress-updated',renderEvolution);
